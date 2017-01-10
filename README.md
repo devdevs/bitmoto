@@ -1,0 +1,2 @@
+# bitmoto
+BitMoto Client Scripts
