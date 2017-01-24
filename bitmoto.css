@@ -1,362 +1,55 @@
 /* Devins Custom CSS for Bitmoto */
 
-/* Ford Vehicle Pages */
-
-#bitmoto-vehicle-page {background-color:white;width:950px;margin:auto}
- 
-/* Ford Sales Events Pages */
-
-#bitmoto-sales-event {background-color:white;max-width:950px;margin:auto;min-width:750px}
-#bitmoto-sales-event #banner {width:100%;max-height:333px}
-#bitmoto-sales-event nav, #bitmoto nav {width:100%;background-color:#a32a2a;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width:420px}
-#bitmoto-sales-event nav a, #bitmoto nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px}
-#bitmoto-sales-event section {width:99%;margin:18px auto;padding:14px 0}
-#bitmoto-sales-event section p, #bitmoto-sales-event section h2 {padding: 0 2%}
-#bitmoto-sales-event section p a {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
-#bitmoto-sales-event section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
-#bitmoto-sales-event section div img {width:95%;margin:auto;padding: 0 2%}
-#bitmoto-sales-event #video {text-align:center;background-color:#f0f0f0;padding: 8px 0; width:99%; margin: auto}
-#bitmoto-sales-event #video iframe {margin:auto;display:inline-block;width:560px}
-
-#bitmoto-sales-event #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0;padding:4px 8px}
-
-#bitmoto-sales-event #cta {margin:50px 0}
-#bitmoto-sales-event #cta div {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
-#bitmoto-sales-event #cta div span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto-sales-event #cta #cta-btn {background-color:#29548c;color:white}
-#bitmoto-sales-event #cta div a {text-decoration:none}
-#bitmoto-sales-event #cta div i {font-size:22px;color:#666666}
-
-#bm-link {font-size:12px;color:#29548c;padding:6px}
-#bm-link a {text-decoration:none;color:inherit}
-
-
 /* General Custom Pages */
 
 #bitmoto {background-color:white;max-width:950px;margin: 0 auto 8px;padding:0 0 4px 0}
 #bitmoto img {max-width:100%}
-#bitmoto .highlight {width: 95%;margin: 18px auto;background-color: #f0f0f0; padding: 14px 2%;color:black}
-#bitmoto #military {border:#ccc solid 1px;padding:2% 1%;margin:14px auto;border-radius:4px;width:96%}
-#bitmoto #military h4 {width:33%;display:inline-block;background:#363c42;padding:8px 0;-webkit-margin-before:0;-webkit-margin-after:0}
-#bitmoto #bm-logo {margin:8px}
-#bitmoto #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0;padding:4px 8px}
-
-#bm-title {background: url('http://www.strunkmarketing.com/bitmoto/images/blue-text-bg.jpg') #205087;padding: 38px 0;text-align: center;color: white;font-size: 38px;font-weight: bold}
-#bm-button {background:#29548c;padding:20px;display:inline-block;color:white;font-size:28px;font-weight:bold;width:50%;text-decoration:none}
-#bm-image1 {max-width:95%;margin:auto;padding: 0 2%}
-#bm-section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bm-section div {display:inline-block;width:48%;margin:auto;vertical-align:middle}
-
-#bm-fordlinks {text-align:center;font-weight:bold;font-size:20px;margin: 16px 0 0 0}
-#bm-fordlinks a {text-decoration:none;color:white;background-color:#183145;display:inline-block;padding:10px 0;width:23%;margin:0 0.5% 0 0}
-.bm-inlinelist li {display:inline-block;margin:0 8px;color:#183145;font-weight:bold;font-size:19px}
-
-#bitmoto #services h3 {position:relative; top:38px; left: 0;background:white;padding:8px;margin:0;opacity:0.9}
-#bitmoto #services img {width:99%}
-
-/* .inventory-listing-default .inventoryList li {background: ghostwhite} */
-
-/* Subaru Custom Specials Page */
-
-.hst-newspecials img {margin:10px 0}
-
-#bitmoto .subaru nav {text-align:center;font-weight:bold;font-size:20px;background-color:none}
-#bitmoto .subaru nav a {text-decoration:none;color:white;background-color:#232323;display:inline-block;padding:10px 0;width:24%;margin:0 0.2%}
-#bitmoto .subaru .parts #services h3 {position:relative; top:38px; left: 0;background:white;padding:8px;margin:0;opacity:0.9}
-#bitmoto .subaru .parts #services img {width:99%}
-#bitmoto .subaru .parts #services div {display:inline-block; width:30%}
-#bitmoto .subaru .parts .cta {text-align:center;font-weight: bold; font-size: 24px}
-#bitmoto .subaru .parts .cta a {text-decoration:none;color:white;background-color: #232323; display:inline-block;padding:22px 0; width:35%;margin: 0 4%}
+#bitmoto .highlight {width:95%;margin:18px auto;background-color:#f0f0f0;padding:14px 2%;color:black}
 
 #bitmoto-signature {font-family:cursive;font-size:16px;color:#444;padding:4px}
 #bitmoto-signature a {font-family:roboto,arial;text-decoration:none;color:#333;font-size:12px}
 #bitmoto-signature a span {font-family:cursive;font-size:16px;color:#444;padding:4px}
 
-
-#bitmoto.ford.sales-event .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
-#bitmoto.ford.sales-event #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
-#bitmoto.ford.sales-event iframe {margin:auto}
-#bitmoto.ford.sales-event section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bitmoto.ford.sales-event section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
-#bitmoto.ford.sales-event section p {padding: 0 2%}
-#bitmoto.ford.sales-event section h2 {padding: 0 2%}
-#bitmoto.ford.sales-event section img {width:95%;margin:auto;padding:2%}
-#bitmoto.ford.sales-event #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
-#bitmoto.ford.sales-event #shop:hover {background-color:#1e88bd;}
-#bitmoto.ford.sales-event #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
-#bitmoto.ford.sales-event #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
-#bitmoto.ford.sales-event #cta1,#bitmoto.ford.sales-event #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
-#bitmoto.ford.sales-event #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.ford.sales-event #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.ford.sales-event #cta1 i {font-size:21px;color:#666666}
-#bitmoto.ford.sales-event #cta2 a {text-decoration:none}
-#bitmoto.ford.sales-event #cta2 span:hover {background-color:#1e88bd}
-
-
-#bitmoto.subaru.sales-event nav {background-color:#20609f !important}
-#bitmoto.subaru.sales-event .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
-#bitmoto.subaru.sales-event #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
-#bitmoto.subaru.sales-event iframe {margin:auto}
-#bitmoto.subaru.sales-event section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bitmoto.subaru.sales-event section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
-#bitmoto.subaru.sales-event section p {padding: 0 2%}
-#bitmoto.subaru.sales-event section h2 {padding: 0 2%}
-#bitmoto.subaru.sales-event section img {width:95%;margin:auto;padding:2%}
-#bitmoto.subaru.sales-event #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
-#bitmoto.subaru.sales-event #shop:hover {background-color:#1e88bd;}
-#bitmoto.subaru.sales-event #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
-#bitmoto.subaru.sales-event #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
-#bitmoto.subaru.sales-event #cta1,#bitmoto.subaru.sales-event #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
-#bitmoto.subaru.sales-event #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.subaru.sales-event #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.subaru.sales-event #cta2 a {text-decoration:none}
-#bitmoto.subaru.sales-event .highlight {color:black !important}
-
-
-#bitmoto.lincoln.sales-event nav {background-color:#000 !important}
-#bitmoto.lincoln.sales-event .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
-#bitmoto.lincoln.sales-event #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
-#bitmoto.lincoln.sales-event iframe {margin:auto}
-#bitmoto.lincoln.sales-event section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bitmoto.lincoln.sales-event section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
-#bitmoto.lincoln.sales-event section p {padding: 0 2%}
-#bitmoto.lincoln.sales-event section h2 {padding: 0 2%}
-#bitmoto.lincoln.sales-event section img {width:95%;margin:auto;padding:2%}
-#bitmoto.lincoln.sales-event #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#222;margin:auto;text-align:center;font-size:22px;font-weight:bold}
-#bitmoto.lincoln.sales-event #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
-#bitmoto.lincoln.sales-event #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
-#bitmoto.lincoln.sales-event #cta1,#bitmoto.lincoln.sales-event #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
-#bitmoto.lincoln.sales-event #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.lincoln.sales-event #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.lincoln.sales-event #cta2 a {text-decoration:none}
-#bitmoto.lincoln.sales-event #cta2 span:hover {background-color:#1e88bd}
-
-
-#bitmoto.lexus.sales-event nav {background-color:#000 !important}
-#bitmoto.lexus.sales-event .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
-#bitmoto.lexus.sales-event #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
-#bitmoto.lexus.sales-event iframe {margin:auto}
-#bitmoto.lexus.sales-event section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bitmoto.lexus.sales-event section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
-#bitmoto.lexus.sales-event section p {padding: 0 2%}
-#bitmoto.lexus.sales-event section h2 {padding: 0 2%}
-#bitmoto.lexus.sales-event section img {width:95%;margin:auto;padding:2%}
-#bitmoto.lexus.sales-event #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#444;margin:auto;text-align:center;font-size:22px;font-weight:bold}
-#bitmoto.lexus.sales-event #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
-#bitmoto.lexus.sales-event #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
-#bitmoto.lexus.sales-event #cta1,#bitmoto.lexus.sales-event #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
-#bitmoto.lexus.sales-event #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.lexus.sales-event #cta2 a {text-decoration:none}
-#bitmoto.lexus.sales-event #cta2 span {background-color:#333}
-
-
-
-#bitmoto.ford.service #services img {width:99%;margin:auto;height:157px}
-#bitmoto.ford.service #hours table {width:90%;margin: 12px auto 0;padding:14px 9px}
-
-
-
-#bitmoto.ford.sub-service h2 {text-align:center;color:white;background:#205087;padding:12px 0;margin:12px auto}
-#bitmoto.ford.sub-service p {padding:2%;text-align:left}
-#bitmoto.ford.sub-service section {padding:2%;width:98%;margin:16px auto;border-top:1px lightgray solid}
-#bitmoto.ford.sub-service section div {display:inline-block;width:48%;margin:auto;vertical-align:middle;text-align:center}
-#bitmoto.ford.sub-service section div ul {text-align:left;line-height:1}
-#bitmoto.ford.sub-service .cta {text-align:center;font-weight:bold;font-size:24px;margin:18px auto}
-#bitmoto.ford.sub-service .cta a {text-decoration:none;color:white;background-color:#2d96cd;display:inline-block;padding:22px 0;width:35%;margin:0 4%}
-#bitmoto.ford.sub-service address {text-align:center;font-size:1.1em;color:#333}
-#bitmoto.ford.sub-service address b {font-size:1.2em}
-#bitmoto.ford.sub-service #hours {border-top: 1px #333 solid; margin: 28px 0}
-#bitmoto.ford.sub-service #hours table {width:90%;margin: 12px auto 0;padding:14px 9px}
-
-
-
-#bitmoto.ford.vehicle nav {width:100%;background-color:#a32a2a;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width:420px}
-#bitmoto.ford.vehicle nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px}
-#bitmoto.ford.vehicle section {padding:2%;width:98%;margin:16px auto;border-top:1px lightgray solid}
-#bitmoto.ford.vehicle section div {display:inline-block;width:48%;margin:auto;vertical-align:middle;text-align:center}
-#bitmoto.ford.vehicle h3 {text-align:center;padding:12px 0;margin:12px auto}
-#bitmoto.ford.vehicle p {padding:2%;text-align:left}
-#bitmoto.ford.vehicle section img {width:95%;margin:auto;padding:2%}
-#bitmoto.ford.vehicle section ul {text-align:left}
-#bitmoto.ford.vehicle #intro, #bitmoto.ford.vehicle #conclusion {text-align:center;background:#f0f0f0;padding:12px 0;margin:12px auto;width:98%}
-#bitmoto.ford.vehicle #vid {text-align:center;background-color:#f0f0f0;padding: 8px 0}
-#bitmoto.ford.vehicle #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0;padding:2%}
-#bitmoto.ford.vehicle #details {border-top:1px solid #f0f0f0;margin:8px auto;text-align:center;display:inline-block;width:99%}
-#bitmoto.ford.vehicle #details a {text-decoration:none;color:white;display:inline-block;padding:18px 0;background-color:#2d96cd;width:95%;margin:auto}
-#bitmoto.ford.vehicle #details .one {padding:8px 0;display:inline-block;width:35%;margin:auto;vertical-align:bottom;color:#888888}
-#bitmoto.ford.vehicle #details .one b {font-size:44px;color:#222222}
-#bitmoto.ford.vehicle #details .two {padding:8px 0;display:inline-block;width:30%;margin:auto;font-size:24px}
-#bitmoto.ford.vehicle iframe {margin:auto;display:inline-block;width:560px}
-#bitmoto.ford.vehicle #cta {margin:32px 0}
-#bitmoto.ford.vehicle #cta1, #bitmoto.ford.vehicle #cta2 {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
-#bitmoto.ford.vehicle #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.ford.vehicle #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.ford.vehicle #cta1 i {font-size:22px;color:#666666}
-#bitmoto.ford.vehicle #cta2 a {text-decoration:none}
-#bitmoto.ford.vehicle #cta2 span:hover {background-color: #1e88bd}
-#bitmoto.ford.vehicle .blurb {background:f0f0f0;width:95%;border-radius:5px;margin:auto}
-
-#bitmoto.lincoln.parts nav {text-align:center;font-weight:bold;font-size:20px;background-color:none}
-#bitmoto.lincoln.parts nav a {text-decoration:none;color:white;background-color:#232323;display:inline-block;padding:10px 0;width:24%;margin:0 0.2%}
-#bitmoto.lincoln.parts #services h3 {position:relative; top:38px; left: 0;background:white;padding:8px;margin:0;opacity:0.9}
-#bitmoto.lincoln.parts #services img {width:99%}
-#bitmoto.lincoln.parts #services div {display:inline-block; width:30%}
-#bitmoto.lincoln.parts .cta {text-align:center;font-weight: bold; font-size: 24px}
-#bitmoto.lincoln.parts .cta a {text-decoration:none;color:white;background-color: #232323; display:inline-block;padding:22px 0; width:35%;margin: 0 4%}
-#bitmoto.lincoln.parts #banner {text-align:left;margin: 12px auto; width:95%; height:500px}
-#bitmoto.lincoln.parts #banner div {position:relative;bottom:117px;background:white;padding:15px;opacity:0.9}
-#bitmoto.lincoln.parts #banner a {font-size:16px; color:white;background:#277da2;text-decoration:none;padding:8px}
-#bitmoto.lincoln.parts #banner img {margin:auto;width:100%}
-
-#bitmoto.rebate.ford header h2 {text-align:center;background:#2a3d5e;color:white;padding:9px 0;font-size:38px;margin:14px 0}
-
-#bitmoto.about.ford h2:nth-of-type(1) {background:#205087;padding:38px 0;text-align:center;color:white;font-size:38px;font-weight:bold}
-#bitmoto.about.ford h3:nth-of-type(1) {width:99%;margin:18px auto;background-color:#f0f0f0;padding:14px 0;text-align:center}
-#bitmoto.about.ford table {width:90%;margin:12px auto 0;padding:14px 9px}
-#bitmoto.about.ford nav {width:100%;background-color:#a32a2a;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width:420px}
-#bitmoto.about.ford nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px}
-#bitmoto.about.ford section:nth-of-type(1) {max-width:98%;margin:auto;text-align:center;border-bottom:1px lightgray solid;padding:0 0 22px 0}
-#bitmoto.about.ford #cta {margin:22px 0}
-#bitmoto.about.ford #cta div {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
-#bitmoto.about.ford #cta div a {text-decoration:none}
-#bitmoto.about.ford #cta div i {font-size:22px;color:#666666}
-#bitmoto.about.ford #cta div:nth-of-type(1) span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.about.ford #cta div:nth-of-type(2) span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-
-
-#bitmoto.subaru.finance nav {background-color:#20609f}
-#bitmoto.subaru.finance .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin:8px auto}
-#bitmoto.subaru.finance #vid, #bitmoto.ford.sales-event iframe {text-align:center;margin:auto}
-#bitmoto.subaru.finance section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bitmoto.subaru.finance section div {display:inline-block;width:48%; margin: auto;vertical-align:middle;text-align:center}
-#bitmoto.subaru.finance section p {padding: 0 2%;text-align:left}
-#bitmoto.subaru.finance section h2 {padding: 0 2%;text-align:left}
-#bitmoto.subaru.finance section img {max-width:95%;margin:auto;padding:2%}
-#bitmoto.subaru.finance #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
-#bitmoto.subaru.finance #shop:hover {background-color:#1e88bd;}
-#bitmoto.subaru.finance #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
-#bitmoto.subaru.finance #cta {margin:42px 0;border-top:1px solid lightgray;padding:26px 0 0 0}
-#bitmoto.subaru.finance #cta1, #cta2 {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
-#bitmoto.subaru.finance #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.subaru.finance #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.subaru.finance #cta1 i {font-size:22px;color:#666666}
-#bitmoto.subaru.finance #cta2 a {text-decoration:none}
-#bitmoto.subaru.finance #cta2 span:hover {background-color:#1e88bd}
-#bitmoto.subaru.finance #hours {width:90%;margin: 12px auto 0;padding:14px 9px}
-#bitmoto.subaru.finance .highlight {color:black !important;}
-
-
-#bitmoto.ford.finance nav {background-color:#a32a2a}
-#bitmoto.ford.finance .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin:8px auto}
-#bitmoto.ford.finance #vid, #bitmoto.ford.sales-event iframe {text-align:center;margin:auto}
-#bitmoto.ford.finance section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bitmoto.ford.finance section div {display:inline-block;width:48%; margin: auto;vertical-align:middle;text-align:center}
-#bitmoto.ford.finance section p {padding: 0 2%;text-align:left}
-#bitmoto.ford.finance section h2 {padding: 0 2%;text-align:left}
-#bitmoto.ford.finance section img {max-width:95%;margin:auto;padding:2%}
-#bitmoto.ford.finance #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
-#bitmoto.ford.finance #shop:hover {background-color:#1e88bd;}
-#bitmoto.ford.finance #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
-#bitmoto.ford.finance #cta {margin:42px 0;border-top:1px solid lightgray;padding:26px 0 0 0}
-#bitmoto.ford.finance #cta1,#bitmoto.ford.finance #cta2 {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
-#bitmoto.ford.finance #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.ford.finance #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.ford.finance #cta1 i {font-size:22px;color:#666666}
-#bitmoto.ford.finance #cta2 a {text-decoration:none}
-#bitmoto.ford.finance #cta2 span:hover {background-color:#1e88bd}
-#bitmoto.ford.finance #hours {width:90%;margin: 12px auto 0;padding:14px 9px}
-#bitmoto.ford.finance .highlight {color:black !important;}
-#bitmoto.ford.finance address {text-align:center;margin:24px}
-
-
-#bitmoto.lincoln.finance nav {background-color:#232323;width:98%;margin:auto}
-#bitmoto.lincoln.finance .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin:8px auto}
-#bitmoto.lincoln.finance #vid, #bitmoto.ford.sales-event iframe {text-align:center;margin:auto}
-#bitmoto.lincoln.finance section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bitmoto.lincoln.finance section div {display:inline-block;width:48%; margin: auto;vertical-align:middle;text-align:center}
-#bitmoto.lincoln.finance section p {padding: 0 2%;text-align:left}
-#bitmoto.lincoln.finance section h2 {padding: 0 2%;text-align:left}
-#bitmoto.lincoln.finance section img {max-width:95%;margin:auto;padding:2%}
-#bitmoto.lincoln.finance #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
-#bitmoto.lincoln.finance #cta {margin:42px 0;border-top:1px solid lightgray;padding:26px 0 0 0}
-#bitmoto.lincoln.finance #cta1, #cta2 {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
-#bitmoto.lincoln.finance #cta2 span {display:inline-block;background-color:#232323;color:white;padding:4%;border-radius:8px}
-#bitmoto.lincoln.finance #cta1 span {display:inline-block;color:#111;padding:4%;border-radius:8px}
-#bitmoto.lincoln.finance #cta2 a {text-decoration:none}
-#bitmoto.lincoln.finance #cta2 span:hover {background-color:#444}
-#bitmoto.lincoln.finance #hours {width:90%;margin: 12px auto 0;padding:14px 9px}
-#bitmoto.lincoln.finance .highlight {color:black !important;}
-
-#bitmoto.lincoln.vehicle nav {width:100%;background-color:black;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width:420px}
-#bitmoto.lincoln.vehicle nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px}
-#bitmoto.lincoln.vehicle section {padding:2%;width:98%;margin:16px auto;border-top:1px lightgray solid}
-#bitmoto.lincoln.vehicle section div {display:inline-block;width:48%;margin:auto;vertical-align:middle;text-align:center}
-#bitmoto.lincoln.vehicle h3 {text-align:center;padding:12px 0;margin:12px auto}
-#bitmoto.lincoln.vehicle p {padding:2%;text-align:left}
-#bitmoto.lincoln.vehicle section img {width:95%;margin:auto;padding:2%}
-#bitmoto.lincoln.vehicle section ul {text-align:left}
-#bitmoto.lincoln.vehicle #intro, #bitmoto.ford.vehicle #conclusion {text-align:center;background:#f0f0f0;padding:12px 0;margin:12px auto;width:98%}
-#bitmoto.lincoln.vehicle #vid {text-align:center;background-color:#f0f0f0;padding: 8px 0}
-#bitmoto.lincoln.vehicle #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0;padding:2%}
-#bitmoto.lincoln.vehicle #details {border-top:1px solid #f0f0f0;margin:8px auto;text-align:center;display:inline-block;width:99%}
-#bitmoto.lincoln.vehicle #details a {text-decoration:none;color:white;display:inline-block;padding:18px 0;background-color:#2d96cd;width:95%;margin:auto}
-#bitmoto.lincoln.vehicle #details .one {padding:8px 0;display:inline-block;width:35%;margin:auto;vertical-align:bottom;color:#888888}
-#bitmoto.lincoln.vehicle #details .one b {font-size:44px;color:#222222}
-#bitmoto.lincoln.vehicle #details .two {padding:8px 0;display:inline-block;width:30%;margin:auto;font-size:24px}
-#bitmoto.lincoln.vehicle iframe {margin:auto;display:inline-block;width:560px}
-#bitmoto.lincoln.vehicle #cta {margin:32px 0}
-#bitmoto.lincoln.vehicle #cta1, #bitmoto.ford.vehicle #cta2 {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
-#bitmoto.lincoln.vehicle #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.lincoln.vehicle #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.lincoln.vehicle #cta1 i {font-size:22px;color:#666666}
-#bitmoto.lincoln.vehicle #cta2 a {text-decoration:none}
-#bitmoto.lincoln.vehicle #cta2 span:hover {background-color: #1e88bd}
-#bitmoto.lincoln.vehicle .blurb {background:f0f0f0;width:95%;border-radius:5px;margin:auto}
-
+#bitmoto.fiat nav {width:100%;background-color:#941711;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
+#bitmoto.fiat nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
+#bitmoto.fiat.sales-event .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
+#bitmoto.fiat.sales-event #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
+#bitmoto.fiat.sales-event iframe {margin:auto}
+#bitmoto.fiat.sales-event section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
+#bitmoto.fiat.sales-event section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
+#bitmoto.fiat.sales-event section p {padding: 0 2%}
+#bitmoto.fiat.sales-event section h2 {padding: 0 2%}
+#bitmoto.fiat.sales-event section img {width:95%;margin:auto;padding:2%}
+#bitmoto.fiat.sales-event #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
+#bitmoto.fiat.sales-event #shop:hover {background-color:#1e88bd;}
+#bitmoto.fiat.sales-event #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
+#bitmoto.fiat.sales-event #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
+#bitmoto.fiat.sales-event #cta1,#bitmoto.ford.sales-event #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
+#bitmoto.fiat.sales-event #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
+#bitmoto.fiat.sales-event #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
+#bitmoto.fiat.sales-event #cta2 a {text-decoration:none}
+#bitmoto.fiat.sales-event #cta2 span:hover {background-color:#1e88bd}
 
 
 /* Mobile Responsiveness */
 
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (max-width: 610px) {
+
+}
+
 @media screen and (max-width: 480px) {
 
-#bitmoto nav {min-width: 320px;font-size:16px}
-#bitmoto nav a {width:49%}
-#bitmoto nav a:nth-of-type(1) {border-width:0 1px 0 0;border-style:solid;border-color:white}
-#bitmoto nav a:nth-of-type(2) {border-width:0 0 0 0;border-style:solid;border-color:white}
-#bitmoto nav a:nth-of-type(3) {border-width:1px 1px 0 0;border-style:solid;border-color:white}
-#bitmoto nav a:nth-of-type(4) {border-width:1px 0 0 0;border-style:solid;border-color:white}
-#bitmoto.ford.sales-event section h2 {font-size:24px}
-#bitmoto.ford.sales-event section div {display:inline-block;width:98%;margin:auto;vertical-align:middle}
-#bitmoto.ford.sales-event #cta1, #bitmoto.ford.sales-event #cta2 {font-weight:bold;font-size:28px;display:inline-block;width:98%;text-align:center}
-
-#bitmoto.ford.finance #cta1,#bitmoto.ford.finance #cta2 {font-size:26px;width:99%}
-#bitmoto.ford.finance section div {width:99%}
-
-#bitmoto.ford.service #services img {height:initial;max-height:80px}
-#bitmoto.ford.service #services h3 {padding:6px;font-size:0.9em;top:30px}
-#bm-fordlinks {font-size:18px}
-#bm-fordlinks a {width:48%}
 }
 
 @media screen and (max-width: 360px) {
-#bitmoto.ford.vehicle #details .two {width:99%;float:right;}
-#bitmoto.ford.vehicle #details .one b {font-size:32px;}
-#bitmoto.ford.vehicle nav a {min-width:85px;width:49%;}
-#bitmoto.ford.vehicle section div, #bitmoto.ford.vehicle #cta1, #bitmoto.ford.vehicle #cta2 {width:99%;}
-
-#bitmoto.ford.vehicle #vehicle {background-image:none !important; background-color:aliceblue;width: 99% !important; max-width:360px !important; height:auto !important; text-align: center;padding: 2px;}
-
-#bitmoto.ford.vehicle #vehicle div {position:relative !important; font-size:18px !important;width: 100% !important; left: 0 !important; right:0 !important; margin:8px auto}
-#bitmoto.ford.vehicle #vehicle div:nth-of-type(2) {background:#2d96cd;color:ghostwhite;padding: 9px 0;}
-#bitmoto.ford.vehicle nav {min-width:340px !important;}
-#bitmoto.ford.vehicle nav a {padding:20px !important; height:90%;}
 
 }
 
+@media screen and (max-width: 320px) {
 
+}
 
-/* Haldeman Auto Group */
-
-.vlp-v2 label.facetmulti-label {color: floralwhite !important}
-
-#bm-haldeman-auto-group {background:white;padding:2%;margin:18px auto 0;border-radius:5px;font-size:15px;color:#444}
