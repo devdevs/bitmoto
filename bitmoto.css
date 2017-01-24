@@ -4,12 +4,13 @@
 
 #bitmoto {background-color:white;max-width:950px;margin: 0 auto 8px;padding:0 0 4px 0}
 #bitmoto img {max-width:100%}
-#bitmoto .highlight {width:95%;margin:18px auto;background-color:#f0f0f0;padding:14px 2%;color:black}
+#bitmoto .highlight {width:95%;margin:18px auto;background-color:#f0f0f0;padding:14px 2%;color:#333;}
 
 #bitmoto-signature {font-family:cursive;font-size:16px;color:#444;padding:4px}
 #bitmoto-signature a {font-family:roboto,arial;text-decoration:none;color:#333;font-size:12px}
 #bitmoto-signature a span {font-family:cursive;font-size:16px;color:#444;padding:4px}
 
+#bitmoto.fiat {color:#333;}
 #bitmoto.fiat nav {width:100%;background-color:#941711;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
 #bitmoto.fiat nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
 #bitmoto.fiat.sales-event .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
@@ -17,8 +18,7 @@
 #bitmoto.fiat.sales-event iframe {margin:auto}
 #bitmoto.fiat.sales-event section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
 #bitmoto.fiat.sales-event section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
-#bitmoto.fiat.sales-event section p {padding: 0 2%}
-#bitmoto.fiat.sales-event section h2 {padding: 0 2%}
+#bitmoto.fiat.sales-event section p, #bitmoto.fiat.sales-event section h2, #bitmoto.fiat.sales-event section h3 {padding: 0 2%}
 #bitmoto.fiat.sales-event section img {width:95%;margin:auto;padding:2%}
 #bitmoto.fiat.sales-event #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
 #bitmoto.fiat.sales-event #shop:hover {background-color:#1e88bd;}
