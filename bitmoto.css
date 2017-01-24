@@ -24,7 +24,7 @@
 #bitmoto.fiat.sales-event #shop:hover {background-color:#1e88bd;}
 #bitmoto.fiat.sales-event #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
 #bitmoto.fiat.sales-event #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
-#bitmoto.fiat.sales-event #cta1,#bitmoto.ford.sales-event #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
+#bitmoto.fiat.sales-event #cta1,#bitmoto.fiat.sales-event #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
 #bitmoto.fiat.sales-event #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
 #bitmoto.fiat.sales-event #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
 #bitmoto.fiat.sales-event #cta2 a {text-decoration:none}
