@@ -4,7 +4,7 @@
 
 #bitmoto {background-color:white;max-width:950px;margin: 0 auto 8px;padding:0 0 4px 0}
 #bitmoto img {max-width:100%}
-#bitmoto .highlight {width:95%;margin:18px auto;background-color:#f0f0f0;padding:14px 2%;color:#333;}
+#bitmoto .highlight {width:95%;margin:18px auto;background-color:#f0f0f0;padding:14px 2%;color:#333;text-transform: none;font-weight: normal;}
 
 #bitmoto-signature {font-family:cursive;font-size:16px;color:#444;padding:4px}
 #bitmoto-signature a {font-family:roboto,arial;text-decoration:none;color:#333;font-size:12px}
@@ -31,6 +31,7 @@
 #bitmoto.fiat.sales-event #cta2 span:hover {background-color:#1e88bd}
 
 #bitmoto.chevrolet {color:#333;}
+#bitmoto.chevrolet h1 {font-size:28px;line-height:34px;margin:8px;padding:1%;}
 #bitmoto.chevrolet nav {width:100%;background-color:#222;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
 #bitmoto.chevrolet nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
 #bitmoto.chevrolet.sale .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
