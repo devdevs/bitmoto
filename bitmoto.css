@@ -41,7 +41,7 @@
 #bitmoto.chevrolet.sale section p, #bitmoto.fiat.sales-event section h2, #bitmoto.fiat.sales-event section h3 {padding: 0 2%}
 #bitmoto.chevrolet.sale section img {width:95%;margin:auto;padding:2%}
 #bitmoto.chevrolet.sale #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
-#bitmoto.chevrolet.sale #shop:hover {background-color:#1e88bd;}
+#bitmoto.chevrolet.sale #shop:hover {background-color:#262626;-webkit-box-shadow: 0 2px 5px #666;box-shadow: 0 2px 5px #666;border-radius:5px;}
 #bitmoto.chevrolet.sale #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
 #bitmoto.chevrolet.sale #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
 #bitmoto.chevrolet.sale #cta1,#bitmoto.fiat.sales-event #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
