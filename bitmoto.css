@@ -51,6 +51,27 @@
 #bitmoto.chevrolet.sale #cta2 a {text-decoration:none}
 #bitmoto.chevrolet.sale #cta2 span:hover {background-color:#1e88bd}
 
+#bitmoto.kia {color:#333;}
+#bitmoto.kia h1 {font-size:28px;line-height:34px;margin:8px;padding:1%;}
+#bitmoto.kia nav {width:100%;background-color:#C62233;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
+#bitmoto.kia nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
+#bitmoto.kia.sale .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
+#bitmoto.kia.sale #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
+#bitmoto.kia.sale iframe {margin:auto}
+#bitmoto.kia.sale section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
+#bitmoto.kia.sale section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
+#bitmoto.kia.sale section p, #bitmoto.kia.sale section h2, #bitmoto.kia.sale section h3 {padding: 0 2%}
+#bitmoto.kia.sale section img {width:95%;margin:auto;padding:2%}
+#bitmoto.kia.sale #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#C62233;-webkit-box-shadow: 0 2px 5px #666;box-shadow: 0 2px 5px #666;border-radius:5px;;margin:auto;text-align:center;font-size:22px;font-weight:bold}
+#bitmoto.kia.sale #shop:hover {background-color:white;color:#C62233;border:#C62233 solid 1px; border-radius:4px;}
+#bitmoto.kia.sale #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
+#bitmoto.kia.sale #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
+#bitmoto.kia.sale #cta1,#bitmoto.kia.sale #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
+#bitmoto.kia.sale #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
+#bitmoto.kia.sale #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
+#bitmoto.kia.sale #cta2 a {text-decoration:none}
+#bitmoto.kia.sale #cta2 span:hover {background-color:#1e88bd}
+
 /* Mobile Responsiveness */
 
 @media screen and (max-width: 780px) {
