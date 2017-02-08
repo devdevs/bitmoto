@@ -30,14 +30,33 @@
 #bitmoto.fiat.sales-event #cta2 a {text-decoration:none}
 #bitmoto.fiat.sales-event #cta2 span:hover {background-color:#1e88bd}
 
+#bitmoto.chevrolet {color:#333;}
+#bitmoto.chevrolet nav {width:100%;background-color:#222;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
+#bitmoto.chevrolet nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
+#bitmoto.chevrolet.sale .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
+#bitmoto.chevrolet.sale #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
+#bitmoto.chevrolet.sale iframe {margin:auto}
+#bitmoto.chevrolet.sale section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
+#bitmoto.chevrolet.sale section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
+#bitmoto.chevrolet.sale section p, #bitmoto.fiat.sales-event section h2, #bitmoto.fiat.sales-event section h3 {padding: 0 2%}
+#bitmoto.chevrolet.sale section img {width:95%;margin:auto;padding:2%}
+#bitmoto.chevrolet.sale #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
+#bitmoto.chevrolet.sale #shop:hover {background-color:#1e88bd;}
+#bitmoto.chevrolet.sale #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
+#bitmoto.chevrolet.sale #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
+#bitmoto.chevrolet.sale #cta1,#bitmoto.fiat.sales-event #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
+#bitmoto.chevrolet.sale #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
+#bitmoto.chevrolet.sale #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
+#bitmoto.chevrolet.sale #cta2 a {text-decoration:none}
+#bitmoto.chevrolet.sale #cta2 span:hover {background-color:#1e88bd}
 
 /* Mobile Responsiveness */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
 
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 640px) {
 
 }
 
