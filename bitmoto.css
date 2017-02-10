@@ -103,10 +103,16 @@
 }
 
 @media screen and (max-width: 480px) {
+  #bitmoto {width:98%; padding:1px; margin:0}
+  #iframe {width:98% !important;}
+  #bitmoto.kia.sale #cta1, #bitmoto.kia.sale #cta2 {width: 99%;}
 
 }
 
 @media screen and (max-width: 360px) {
+  #bitmoto nav, #bitmoto #nav {min-width:320px; font-size: 18px;}
+  #bitmoto nav a, #bitmoto #nav a {width:49%;}
+  #bitmoto section div {width:99%;}
 
 }
 
