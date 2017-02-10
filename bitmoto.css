@@ -83,13 +83,13 @@
 #bitmoto.kia.vehicle section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
 #bitmoto.kia.vehicle section p, #bitmoto.kia.vehicle section h2, #bitmoto.kia.vehicle section h3 {padding: 0 2%}
 #bitmoto.kia.vehicle section img {width:95%;margin:auto;padding:2%}
-#bitmoto.ford.vehicle #cta {margin:32px 0}
-#bitmoto.ford.vehicle #cta1, #bitmoto.ford.vehicle #cta2 {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
-#bitmoto.ford.vehicle #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.ford.vehicle #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.ford.vehicle #cta1 i {font-size:22px;color:#666666}
-#bitmoto.ford.vehicle #cta2 a {text-decoration:none}
-#bitmoto.ford.vehicle #cta2 span:hover {background-color: #1e88bd}
+#bitmoto.kia.vehicle #cta {margin:32px 0}
+#bitmoto.kia.vehicle #cta1, #bitmoto.kia.vehicle #cta2 {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
+#bitmoto.kia.vehicle #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
+#bitmoto.kia.vehicle #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
+#bitmoto.kia.vehicle #cta1 i {font-size:22px;color:#666666}
+#bitmoto.kia.vehicle #cta2 a {text-decoration:none}
+#bitmoto.kia.vehicle #cta2 span:hover {background-color: #1e88bd}
 
 
 /* Mobile Responsiveness */
