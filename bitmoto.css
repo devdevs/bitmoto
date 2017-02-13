@@ -105,12 +105,14 @@
 @media screen and (max-width: 480px) {
   #bitmoto {width:98%; padding:1px; margin:0}
   #bitmoto iframe {width:99% !important;}
-  #bitmoto.sale #cta1, #bitmoto.sale #cta2 {width: 99% !important;}
+  #bitmoto #cta1, #bitmoto #cta2 {width: 99% !important;}
   #bitmoto nav, #bitmoto #nav {min-width:320px !important; font-size: 18px;}
   #bitmoto #vehicle {background-image: none !important;max-width:100% !important;}
-  #bitmoto #vehicle div {position:relative !important; width:99% !important; top:0 !important;right:0 !important; left:0;}
-  #bitmoto #details .one {width:99%;}
-  #bitmoto #details .two {width:49%;}
+  #bitmoto #vehicle div {position:relative !important; width:99% !important; top:0 !important;right:0 !important; left:0;
+    margin:28px 0; text-align:left !important;}
+  #bitmoto #details .one {width:99% !important;}
+  #bitmoto #details .one strong {font-size:22px;}
+  #bitmoto #details .two {width:49% !important;}
 
 }
 
