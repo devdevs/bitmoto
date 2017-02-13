@@ -20,10 +20,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5PSBRB3');
   
-  if (window.location.href.indexOf("vehicle-details") != -1) {
-    var element = document.getElementsByClassName('hash-st_request_a_quote');
-    element.onclick = function() {ga('send', 'event', 'form', 'details');}
-  }
+  //if (window.location.href.indexOf("vehicle-details") != -1) {
+    document.getElementsByClassName('hash-st_request_a_quote').onclick = function() { ga('send', 'event', 'form', 'details'); }
+  //}
 
 }
 
