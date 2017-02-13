@@ -107,8 +107,8 @@
   #bitmoto iframe {width:99% !important;}
   #bitmoto.sale #cta1, #bitmoto.sale #cta2 {width: 99%;}
   #bitmoto nav, #bitmoto #nav {min-width:320px !important; font-size: 18px;}
-  #bitmoto #vehicle {background-image: none;max-width:100%;}
-  #bitmoto #vehicle {position:relative; width:99%; top:0;right:0; left:0;}
+  #bitmoto #vehicle {background-image: none !important;max-width:100% !important;}
+  #bitmoto #vehicle {position:relative !important; width:99% !important; top:0;right:0; left:0;}
   #bitmoto #details .one {width:99%;}
   #bitmoto #details .two {width:49%;}
 
