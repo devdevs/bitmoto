@@ -21,7 +21,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5PSBRB3');
   
   //if (window.location.href.indexOf("vehicle-details") != -1) {
-    document.getElementsByClassName('submit-button').addEventListener("click", function() {
+    document.getElementsByClassName('submit-button').addEventListener('click', function() {
       ga('send', 'event', 'form', 'details');
     }, false);
   //}
