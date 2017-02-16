@@ -72,7 +72,3 @@ document.getElementById('BitMoto-FordFusionDAS').innerHTML = '270';
 //document.getElementById('BitMoto-SalesImage').src = 'http://www.strunkmarketing.com/bitmoto/ford/images/sales/current.jpg';
 document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '3/31/17';
 }
-
-if(document.getElementById('branding-bottom') !== null)  {
-document.getElementById('branding-bottom').innerHTML = '2/28/17';
-}
