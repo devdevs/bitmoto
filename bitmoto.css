@@ -91,6 +91,9 @@
 #bitmoto.kia.vehicle #cta2 a {text-decoration:none}
 #bitmoto.kia.vehicle #cta2 span:hover {background-color: #1e88bd}
 
+#bitmoto.ford.sale nav {width:100%;background-color:#a32a2a;text-align: center;font-weight: bold;border-top: 3px #999 solid;font-size: 20px;min-width: 420px;}
+#bitmoto.ford.sale nav a {color: white;text-decoration: none;padding: 10px 0;display: inline-block;width: 23%;min-width: 99px;}
+#bitmoto.ford.sale section {width: 99%;margin: 18px auto;border-top: 1px lightgray solid;padding: 14px 0;}
 
 /* Mobile Responsiveness */
 
