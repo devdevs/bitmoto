@@ -2,6 +2,20 @@
 
 /* General Custom Pages */
 
+#bitmoto.sale .intro {background: #f0f0f0;width: 95%;border-radius: 4px;padding: 2%;margin: 9px auto 2px;color:#555;}
+#bitmoto.sale section div {display: inline-block;width: 48%;margin: auto;vertical-align: middle;}
+#bitmoto.sale section div img {width:99%;}
+#bitmoto.sale #shop {text-decoration: none;color: white;display: block;padding: 18px 0;margin: auto;text-align: center;font-size: 22px;font-weight: bold;}
+#bitmoto.sale #vid {text-align: center;margin: auto;border-top: 1px lightgray solid;padding: 18px 0 0 0;}
+#bitmoto.sale #cta {margin: 32px 0;border-top: 1px solid lightgray;padding: 18px 0 8px;}
+#bitmoto.sale #cta1 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
+#bitmoto.sale #cta2 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
+#bitmoto.sale #cta a {display: inline-block;color: white;padding: 4%;border-radius: 8px;}
+#bitmoto #disclaimer {color: gray;font-size: 10px;margin: 18px 0;border-top: 1px solid #f0f0f0;}
+#bitmoto iframe {margin:auto;}
+
+
+
 #bitmoto {background-color:white;max-width:950px;margin: 0 auto 8px;padding:0 0 4px 0}
 #bitmoto img {max-width:100%}
 #bitmoto .highlight {width:95%;margin:18px auto;background-color:#f0f0f0;padding:14px 2%;color:#333;text-transform: none;font-weight: normal;}
@@ -15,7 +29,6 @@
 #bitmoto.fiat nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
 #bitmoto.fiat.sales-event .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
 #bitmoto.fiat.sales-event #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
-#bitmoto.fiat.sales-event iframe {margin:auto}
 #bitmoto.fiat.sales-event section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
 #bitmoto.fiat.sales-event section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
 #bitmoto.fiat.sales-event section p, #bitmoto.fiat.sales-event section h2, #bitmoto.fiat.sales-event section h3 {padding: 0 2%}
@@ -35,8 +48,6 @@
 #bitmoto.chevrolet nav {width:100%;background-color:#222;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
 #bitmoto.chevrolet nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
 #bitmoto.chevrolet.sale .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
-#bitmoto.chevrolet.sale #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
-#bitmoto.chevrolet.sale iframe {margin:auto}
 #bitmoto.chevrolet.sale section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
 #bitmoto.chevrolet.sale section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
 #bitmoto.chevrolet.sale section p, #bitmoto.chevrolet.sale section h2, #bitmoto.chevrolet.sale section h3 {padding: 0 2%}
@@ -45,7 +56,6 @@
 #bitmoto.chevrolet.sale .shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#262626;-webkit-box-shadow: 0 2px 5px #666;box-shadow: 0 2px 5px #666;border-radius:5px;;margin:auto;text-align:center;font-size:22px;font-weight:bold;width:95%;}
 #bitmoto.chevrolet.sale #shop:hover {background-color:#e8c15f;}
 #bitmoto.chevrolet.sale .shop:hover {background-color:#e8c15f;}
-#bitmoto.chevrolet.sale #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
 #bitmoto.chevrolet.sale #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
 #bitmoto.chevrolet.sale #cta1,#bitmoto.chevrolet.sale #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
 #bitmoto.chevrolet.sale #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
@@ -56,11 +66,9 @@
 #bitmoto.kia {color:#333;}
 #bitmoto.kia h1 {font-size:28px;line-height:34px;margin:8px;padding:1%;}
 #bitmoto.kia #disclaimer {color:gray;font-size:10px;margin:18px 0;border-top:1px solid #f0f0f0}
-#bitmoto.kia iframe {margin:auto}
 #bitmoto.kia #nav {width:100%;background-color:#C62233;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
 #bitmoto.kia #nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
 #bitmoto.kia.sale .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
-#bitmoto.kia.sale #vid {text-align:center;margin:auto;border-top:1px lightgray solid;padding:18px 0 0 0}
 #bitmoto.kia.sale section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
 #bitmoto.kia.sale section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
 #bitmoto.kia.sale section p, #bitmoto.kia.sale section h2, #bitmoto.kia.sale section h3 {padding: 0 2%}
