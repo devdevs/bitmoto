@@ -20,11 +20,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5PSBRB3');
   
-  //if (window.location.href.indexOf("vehicle-details") != -1) {
-  document.getElementsByClassName('submit-button').addEventListener('click', function() {
-    ga('send', 'event', 'form', 'details');
-  });
-  //}
+
+document.getElementsByClassName('form-button').onclick = function() { ga(send, event, button, click) };
+
+  
 
 }
 
