@@ -139,7 +139,7 @@
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 415px) {
   #bitmoto nav, #bitmoto #nav {max-width:100% !important; font-size: 17px;}
   #bitmoto nav a, #bitmoto #nav a {width:49% !important;}
   #bitmoto section div {width:99% !important;}
