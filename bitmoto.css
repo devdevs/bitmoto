@@ -66,12 +66,12 @@
 #bitmoto.chevrolet.sale .shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#262626;-webkit-box-shadow: 0 2px 5px #666;box-shadow: 0 2px 5px #666;border-radius:5px;;margin:auto;text-align:center;font-size:22px;font-weight:bold;width:95%;}
 #bitmoto.chevrolet.sale #shop:hover {background-color:#e8c15f;}
 #bitmoto.chevrolet.sale .shop:hover {background-color:#e8c15f;}
-#bitmoto.chevrolet.sale #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
-#bitmoto.chevrolet.sale #cta1,#bitmoto.chevrolet.sale #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
-#bitmoto.chevrolet.sale #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
-#bitmoto.chevrolet.sale #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
-#bitmoto.chevrolet.sale #cta2 a {text-decoration:none}
-#bitmoto.chevrolet.sale #cta2 span:hover {background-color:#1e88bd}
+#bitmoto.chevrolet #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
+#bitmoto.chevrolet #cta1,#bitmoto.chevrolet.sale #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
+#bitmoto.chevrolet #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
+#bitmoto.chevrolet #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
+#bitmoto.chevrolet #cta2 a {text-decoration:none}
+#bitmoto.chevrolet #cta2 span:hover {background-color:#1e88bd}
 
 
 /* Kia */
