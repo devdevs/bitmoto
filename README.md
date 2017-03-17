@@ -1,4 +1,3 @@
-# bitmoto
 BitMoto Client Scripts
 
 Copy and Paste the Following Script on any website.
