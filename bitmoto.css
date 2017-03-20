@@ -16,7 +16,6 @@
 /* Sales Pages */
 
 #bitmoto.sale section div {display: inline-block;width: 46%;margin: auto;vertical-align: middle; padding:1%;}
-#bitmoto.sale section div img {width:99%;}
 #bitmoto.sale #shop {text-decoration: none;color: white;display: block;padding: 18px 0;margin: auto;text-align: center;font-size: 22px;font-weight: bold;}
 #bitmoto.sale #vid {text-align: center;margin: auto;border-top: 1px lightgray solid;padding: 18px 0 0 0;}
 #bitmoto.sale #cta {margin: 32px 0;border-top: 1px solid lightgray;padding: 18px 0 8px;}
@@ -24,7 +23,6 @@
 #bitmoto.sale #cta2 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
 #bitmoto.sale #cta a {display: inline-block;color: white;padding: 4%;border-radius: 8px; text-decoration:none;}
 #bitmoto.sale section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bitmoto.sale section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
 #bitmoto.sale section p, #bitmoto.vehicle section h2, #bitmoto.vehicle section h3 {padding: 0 2%}
 #bitmoto.sale section img {width:95%;margin:auto;padding:2%}
 
