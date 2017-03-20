@@ -25,6 +25,15 @@
 #bitmoto iframe {margin:auto;}
 
 
+/* Vehicle Pages */
+
+#bitmoto.vehicle #details {border-top: 1px solid #f0f0f0;margin: 8px auto;text-align: center;display: inline-block;width: 99%;}
+#bitmoto.vehicle #details .one {padding: 8px 0;display: inline-block;width: 35%;margin: auto;vertical-align: bottom;color: #888888;}
+#bitmoto.vehicle #details .two {padding: 8px 0;display: inline-block;width: 30%;margin: auto;font-size: 24px;}
+#bitmoto.vehicle #details a {text-decoration:none;color:white;display:inline-block;padding:18px 0;width:95%;margin:auto}
+#bitmoto.vehicle #details .one b {font-size:44px;color:#222222}
+
+
 /* Ford Pages */
 
 #bitmoto.ford #cta a {background: #29548c;}
@@ -56,7 +65,7 @@
 /* Chevrolet */
 
 #bitmoto.chevrolet h1 {font-size:28px;line-height:34px;margin:8px;padding:1%;}
-#bitmoto.chevrolet nav {width:100%;background-color:#222;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
+#bitmoto.chevrolet nav, #bitmoto #nav {width:100%;background-color:#222;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
 #bitmoto.chevrolet nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
 #bitmoto.chevrolet.sale section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
 #bitmoto.chevrolet.sale section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
@@ -92,12 +101,7 @@
 #bitmoto.kia.sale #cta2 a {text-decoration:none}
 #bitmoto.kia.sale #cta2 span:hover {background-color:#1e88bd}
 
-#bitmoto.kia.vehicle #details {border-top: 1px solid #f0f0f0;margin: 8px auto;text-align: center;display: inline-block;width: 99%;}
-#bitmoto.kia.vehicle #details .one {padding: 8px 0;display: inline-block;width: 35%;margin: auto;vertical-align: bottom;color: #888888;}
-#bitmoto.kia.vehicle #details .two {padding: 8px 0;display: inline-block;width: 30%;margin: auto;font-size: 24px;}
-#bitmoto.kia.vehicle #details a {text-decoration:none;color:white;display:inline-block;padding:18px 0;background-color:#C62233;width:95%;margin:auto}
-#bitmoto.kia.vehicle #details .one b {font-size:44px;color:#222222}
-#bitmoto.kia.vehicle .intro {background:#f0f0f0;width:95%;border-radius:4px;padding:2%;margin: 9px auto 2px}
+#bitmoto.kia.vehicle #details a {background-color:#C62233;}
 #bitmoto.kia.vehicle section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
 #bitmoto.kia.vehicle section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
 #bitmoto.kia.vehicle section p, #bitmoto.kia.vehicle section h2, #bitmoto.kia.vehicle section h3 {padding: 0 2%}
@@ -109,6 +113,7 @@
 #bitmoto.kia.vehicle #cta1 i {font-size:22px;color:#666666}
 #bitmoto.kia.vehicle #cta2 a {text-decoration:none}
 #bitmoto.kia.vehicle #cta2 span:hover {background-color: #1e88bd}
+
 
 /* Mobile Responsiveness */
 
