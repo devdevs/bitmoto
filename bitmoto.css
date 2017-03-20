@@ -32,6 +32,10 @@
 #bitmoto.vehicle #details .two {padding: 8px 0;display: inline-block;width: 30%;margin: auto;font-size: 24px;}
 #bitmoto.vehicle #details a {text-decoration:none;color:white;display:inline-block;padding:18px 0;width:95%;margin:auto}
 #bitmoto.vehicle #details .one b {font-size:44px;color:#222222}
+#bitmoto.vehicle section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
+#bitmoto.vehicle section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
+#bitmoto.vehicle section p, #bitmoto.kia.vehicle section h2, #bitmoto.kia.vehicle section h3 {padding: 0 2%}
+#bitmoto.vehicle section img {width:95%;margin:auto;padding:2%}
 
 
 /* Ford Pages */
@@ -102,10 +106,6 @@
 #bitmoto.kia.sale #cta2 span:hover {background-color:#1e88bd}
 
 #bitmoto.kia.vehicle #details a {background-color:#C62233;}
-#bitmoto.kia.vehicle section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
-#bitmoto.kia.vehicle section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
-#bitmoto.kia.vehicle section p, #bitmoto.kia.vehicle section h2, #bitmoto.kia.vehicle section h3 {padding: 0 2%}
-#bitmoto.kia.vehicle section img {width:95%;margin:auto;padding:2%}
 #bitmoto.kia.vehicle #cta {margin:32px 0}
 #bitmoto.kia.vehicle #cta1, #bitmoto.kia.vehicle #cta2 {font-weight:bold;font-size:35px;display:inline-block;width:49%;text-align:center}
 #bitmoto.kia.vehicle #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
