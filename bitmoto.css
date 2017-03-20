@@ -85,6 +85,9 @@
 #bitmoto.chevrolet #cta2 a {text-decoration:none}
 #bitmoto.chevrolet #cta2 span:hover {background-color:#1e88bd}
 
+#bitmoto.chevrolet.vehicle #details a {background:#d4a748;}
+#bitmoto.chevrolet.vehicle #details a:hover {background:#dbb26b;}
+
 
 /* Kia */
 
