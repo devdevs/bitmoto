@@ -9,7 +9,8 @@
 #bitmoto-signature a {font-family:roboto,arial;text-decoration:none;color:#333;font-size:12px}
 #bitmoto-signature a span {font-family:cursive;font-size:16px;color:#444;padding:4px}
 #bitmoto .intro {background: #f0f0f0;width: 95%;border-radius: 4px;padding: 2%;margin: 9px auto 2px;color:#555;}
-#bitmoto #disclaimer {color: gray;font-size: 10px;margin: 18px 0;border-top: 1px solid #f0f0f0;}
+#biitmoto #vid {text-align: center;margin: auto;border-top: 1px lightgray solid;padding: 18px 0 0 0;}
+#bitmoto #disclaimer {color: gray;font-size: 10px;margin: 18px 0;border-top: 1px solid #f0f0f0; padding:2%}
 #bitmoto iframe {margin:auto;}
 
 
@@ -17,7 +18,6 @@
 
 #bitmoto.sale section div {display: inline-block;width: 46%;margin: auto;vertical-align: middle; padding:1%;}
 #bitmoto.sale #shop {text-decoration: none;color: white;display: block;padding: 18px 0;margin: auto;text-align: center;font-size: 22px;font-weight: bold;}
-#bitmoto.sale #vid {text-align: center;margin: auto;border-top: 1px lightgray solid;padding: 18px 0 0 0;}
 #bitmoto.sale #cta {margin: 32px 0;border-top: 1px solid lightgray;padding: 18px 0 8px;}
 #bitmoto.sale #cta1 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
 #bitmoto.sale #cta2 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
