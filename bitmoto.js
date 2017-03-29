@@ -102,6 +102,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 
 
+// Carman Lincoln New Castle
+if(document.domain == "www.carmanlincoln.com"){
+
+var cssId = 'myCss';  // you could encode the css path itself to generate id..
+if (!document.getElementById(cssId))
+{
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.id   = cssId;
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'https://storage.googleapis.com/bitmoto/bitmoto.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
+  
+}
+
+
 
 
 if(document.URL.indexOf("ford-fusion.htm") >= 0){ 
