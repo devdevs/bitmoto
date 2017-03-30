@@ -69,6 +69,20 @@
 #bitmoto.fiat.sales-event #cta2 a {text-decoration:none}
 #bitmoto.fiat.sales-event #cta2 span:hover {background-color:#1e88bd}
 
+#bitmoto.fiat nav a {color:white;text-decoration:none;padding:10px 0;display:inline-block;width:23%;min-width:99px;}
+#bitmoto.fiat.sales section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
+#bitmoto.fiat.sales section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
+#bitmoto.fiat.sales section p, #bitmoto.fiat.sales-event section h2, #bitmoto.fiat.sales-event section h3 {padding: 0 2%}
+#bitmoto.fiat.sales section img {width:95%;margin:auto;padding:2%}
+#bitmoto.fiat.sales #shop {text-decoration:none;color:white;display:block;padding:18px 0;background-color:#2d96cd;margin:auto;text-align:center;font-size:22px;font-weight:bold}
+#bitmoto.fiat.sales #shop:hover {background-color:#1e88bd;}
+#bitmoto.fiat.sales #cta {margin:32px 0;border-top:1px solid lightgray;padding:18px 0 8px}
+#bitmoto.fiat.sales #cta1,#bitmoto.fiat.sales #cta2 {font-weight:bold;font-size:34px;display:inline-block;width:48%;text-align:center}
+#bitmoto.fiat.sales #cta2 span {display:inline-block;background-color:#29548c;color:white;padding:4%;border-radius:8px}
+#bitmoto.fiat.sales #cta1 span {display:inline-block;color:#29548c;padding:4%;border-radius:8px}
+#bitmoto.fiat.sales #cta2 a {text-decoration:none}
+#bitmoto.fiat.sales #cta2 span:hover {background-color:#1e88bd}
+
 
 /* Chevrolet */
 
