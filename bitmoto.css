@@ -49,6 +49,8 @@
 #bitmoto.service .service-row h3 {position:relative; top:38px; left: 0;background:white;padding:8px;margin:0;opacity:0.9;}
 #bitmoto.service .service-row img {width:99%; margin:auto; max-height:160px;}
 #bitmoto.service #hours {width:90%;margin:auto;}
+#bitmoto.service #service-cta {text-align:center;font-weight: bold; font-size: 24px;}
+#bitmoto.service #service-cta a {text-decoration:none;color:white;background-color: #000; display:inline-block;padding:22px 0; width:35%;margin: 0 4%;}
 
 
 /* Ford Pages */
@@ -59,6 +61,8 @@
 #bitmoto.ford.sale nav {width:100%;background-color:#a32a2a;text-align: center;font-weight: bold;border-top: 3px #999 solid;font-size: 20px;min-width: 420px;}
 #bitmoto.ford.sale nav a {color: white;text-decoration: none;padding: 10px 0;display: inline-block;width: 23%;min-width: 99px;}
 #bitmoto.ford.sale section {width: 99%;margin: 18px auto;border-top: 1px lightgray solid;padding: 14px 0;}
+
+#bitmoto.ford.service #service-cta a {background-color: #232323;}
 
 
 /* Fiat Sales Pages */
