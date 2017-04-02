@@ -45,9 +45,9 @@
 /* Service Pages */
 
 #bitmoto.service #services {text-align:center;}
-#bitmoto.service .service-row div {display:inline-block; width:30%;color:black;}
+#bitmoto.service .service-row div {display:inline-block; width:30%; color:#000;}
 #bitmoto.service .service-row h3 {position:relative; top:38px; left: 0;background:white;padding:8px;margin:0;opacity:0.9;}
-#bitmoto.service .service-row img {width:99%; margin:auto;}
+#bitmoto.service .service-row img {width:99%; margin:auto; max-height:160px;}
 #bitmoto.service #hours {width:90%;margin:auto;}
 
 
