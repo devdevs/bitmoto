@@ -51,6 +51,7 @@
 #bitmoto.service #hours {width:90%;margin:auto;}
 #bitmoto.service #service-cta {text-align:center;font-weight: bold; font-size: 24px;}
 #bitmoto.service #service-cta a {text-decoration:none;color:white;background-color: #000; display:inline-block;padding:22px 0; width:35%;margin: 0 4%;}
+#bitmoto.service p, #bitmoto.service h2 {padding:1%;}
 
 
 /* Ford Pages */
