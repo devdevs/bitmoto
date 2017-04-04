@@ -131,3 +131,34 @@ document.getElementById('BitMoto-FordFusionDAS').innerHTML = '270';
 //document.getElementById('BitMoto-SalesImage').src = 'http://www.strunkmarketing.com/bitmoto/ford/images/sales/current.jpg';
 document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '3/31/17';
 }
+
+
+
+// START Event Tracking for GA and FB
+
+if(document.querySelector('form.ddc-form-default > button.ui-button-submit') !== null)  {
+var devEl = document.querySelector('form.ddc-form-default > button.ui-button-submit');
+devEl.addEventListener("click", function() {ga('send', 'event', 'bitmoto-form', 'bitmoto-submit'); fbq('track', 'Lead'); } );
+}
+
+if(document.querySelector('div.inventory-detail-pricing > ul.has-eprice > span.ePrice') !== null)  {
+var devEl = document.querySelector('div.inventory-detail-pricing > ul.has-eprice > span.ePrice');
+devEl.addEventListener("click", function() {ga('send', 'event', 'bitmoto-form', 'bitmoto-submit'); fbq('track', 'ePrice'); } );
+}
+
+if(document.querySelector('div.ddc-span4 > div.inventory-detail-pricing') !== null)  {
+var devEl = document.querySelector('div.ddc-span4 > div.inventory-detail-pricing');
+devEl.addEventListener("click", function() {ga('send', 'event', 'bitmoto-form', 'bitmoto-submit'); fbq('track', 'Lead'); } );
+}
+
+if(document.querySelector('li.cstm-test-drive') !== null)  {
+var devEl = document.querySelector('li.cstm-test-drive');
+devEl.addEventListener("click", function() {ga('send', 'event', 'bitmoto-form', 'bitmoto-submit'); fbq('track', 'TestDrive'); } );
+}
+
+if(document.querySelector('li.cstm-credit-app') !== null)  {
+var devEl = document.querySelector('li.cstm-credit-app');
+devEl.addEventListener("click", function() {ga('send', 'event', 'bitmoto-form', 'bitmoto-submit'); fbq('track', 'CreditApp'); } );
+}
+
+// END Event Tracking for GA and FB
