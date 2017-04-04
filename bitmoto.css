@@ -42,10 +42,10 @@
 #bitmoto.vehicle section img {width:95%;margin:auto;padding:2%}
 
 
-/* Service Pages */
+/* Service & Parts Pages */
 
 #bitmoto.service #services {text-align:center;}
-#bitmoto.service .service-row div {display:inline-block; width:30%; color:#000;}
+#bitmoto.service .service-row div {display:inline-block; width:30%; color:#000; max-width:300px;}
 #bitmoto.service .service-row h3 {position:relative; top:38px; left: 0;background:white;padding:8px;margin:0;opacity:0.9;}
 #bitmoto.service .service-row img {width:99%; margin:auto; max-height:160px;}
 #bitmoto.service #hours {width:90%;margin:auto;}
@@ -173,6 +173,8 @@
   #bitmoto #details .two {width:49% !important;}
   #bitmoto #vehicle div:nth-of-type(3) {font-size:22px !important;}
   #bitmoto #vehicle div:nth-of-type(3) strong {font-size:34px !important;}
+  #bitmoto.service #service-cta a {margin: 8px auto; width:80%;}
+  #bitmoto.service #hours {width:98%;margin:auto;}
 
 }
 
