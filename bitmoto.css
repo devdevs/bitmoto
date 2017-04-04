@@ -53,6 +53,7 @@
 #bitmoto.service #service-cta a {text-decoration:none;color:white;background-color: #000; display:inline-block;padding:22px 0; width:35%;margin: 0 4%;}
 #bitmoto.service p, #bitmoto.service h2 {padding:1%;}
 #bitmoto.service #services a {text-decoration:none;}
+#bitmoto.service .service-row a {text-decoration:none;}
 
 
 /* Ford Pages */
