@@ -27,6 +27,8 @@
 #bitmoto.sale section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
 #bitmoto.sale section p, #bitmoto.sale section h2, #bitmoto.sale section h3 {padding: 0 2%}
 #bitmoto.sale section img {width:95%;margin:auto;padding:2%}
+#bitmoto.sale .lease strong {font-size: 36px;}
+#bitmoto.sale .lease span {font-size:24px;}
 
 
 /* Vehicle Pages */
