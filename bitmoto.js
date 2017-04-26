@@ -123,14 +123,51 @@ if (!document.getElementById(cssId))
 
 
 
-if(document.URL.indexOf("ford-fusion.htm") >= 0){ 
-document.getElementById('BitMoto-FordFusionLease').innerHTML = '270';
-document.getElementById('BitMoto-FordFusionDAS').innerHTML = '270';
-//document.getElementById('BitMoto-FordFusionAPR').innerHTML = '72';
-//document.getElementById('BitMoto-FordFusionMSRP').innerHTML = '22,120';
-//document.getElementById('BitMoto-SalesImage').src = 'http://www.strunkmarketing.com/bitmoto/ford/images/sales/current.jpg';
-document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '3/31/17';
+// START - Ford Vehicles
+
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '252'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '274'; }
+	if(document.querySelector('#BitMoto-FordEscapeMonths') !== null)  { document.getElementById('BitMoto-FordEscapeMonths').innerHTML = '60'; }
+	
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '257'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '257'; }
+	if(document.querySelector('#BitMoto-FordFusionMonths') !== null)  { document.getElementById('BitMoto-FordFusionMonths').innerHTML = '72'; }
+	
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '200'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '200'; }
+	if(document.querySelector('#BitMoto-FordFocusMonths') !== null)  { document.getElementById('BitMoto-FordFocusMonths').innerHTML = '72'; }
+	
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '277'; }
+	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '1,999'; }
+	if(document.querySelector('#BitMoto-FordF150Months') !== null)  { document.getElementById('BitMoto-FordF150Months').innerHTML = '60'; }
+	
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '329'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '329'; }
+	if(document.querySelector('#BitMoto-FordExplorerMonths') !== null)  { document.getElementById('BitMoto-FordExplorerMonths').innerHTML = '60'; }
+	
+	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '369'; }
+	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '369'; }
+	if(document.querySelector('#BitMoto-FordEdgeMonths') !== null)  { document.getElementById('BitMoto-FordEdgeMonths').innerHTML = '60'; }
+	
+
+// ------------- All Ford Vehicles ------------
+
+if(document.getElementById('BitMoto-FordDisclaimerDate') !== null)  {
+document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '5/17/17';
 }
+
+if(document.getElementById('BitMoto-FordCurrentSaleSmallBanner') !== null)  {
+//https://storage.googleapis.com/bitmoto/dealers/ford/ford/WellBeatAnyPrice.jpg
+document.getElementById('BitMoto-FordCurrentSaleSmallBanner').src = 'https://storage.googleapis.com/bitmoto/dealers/ford/ford/sales/2017/perfect-match-april-500.jpg';
+}
+
+if(document.getElementById('BitMoto-FordCurrentSaleURL') !== null)  {
+// Use # if no available sales page
+document.getElementById('BitMoto-FordCurrentSaleURL').href = '/perfect-match.htm';
+}
+
+// END - Ford Vehicles
+
 
 
 
