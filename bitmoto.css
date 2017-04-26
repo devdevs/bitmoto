@@ -42,6 +42,10 @@
 #bitmoto.vehicle section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
 #bitmoto.vehicle section p, #bitmoto.vehicle section h2, #bitmoto.vehicle section h3 {padding: 0 2%}
 #bitmoto.vehicle section img {width:95%;margin:auto;padding:2%}
+#bitmoto.vehicle #cta {margin: 32px 0;border-top: 1px solid lightgray;padding: 18px 0 8px;}
+#bitmoto.vehicle #cta1 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
+#bitmoto.vehicle #cta2 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
+#bitmoto.vehicle #cta a {display: inline-block;color: white;padding: 4%;border-radius: 8px; text-decoration:none;}
 
 
 /* Service & Parts Pages */
