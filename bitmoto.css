@@ -179,11 +179,11 @@
   #bitmoto nav, #bitmoto #nav {min-width:320px !important; font-size: 18px;}
   #bitmoto #vehicle {background-image: none !important;max-width:100% !important;}
   #bitmoto #vehicle div {position:relative !important; width:99% !important; top:0 !important;right:0 !important; left:5% !important;
-    margin:28px 0; text-align:left !important;}
+    margin:28px 0; text-align:center !important;}
   #bitmoto #details .one {width:99% !important;}
   #bitmoto #details .one strong {font-size:22px;}
   #bitmoto #details .two {width:49% !important;}
-  #bitmoto #vehicle div:nth-of-type(2) { background:#2eacf0; color:white; left:0 !important; text-align:center !important;}
+  #bitmoto #vehicle div:nth-of-type(2) { background:#2eacf0; color:white; left:0 !important;}
   #bitmoto #vehicle div:nth-of-type(3) {font-size:22px !important;}
   #bitmoto #vehicle div:nth-of-type(3) strong {font-size:34px !important;}
   #bitmoto.service #service-cta a {margin: 8px auto; width:80%;}
