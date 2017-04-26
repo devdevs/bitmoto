@@ -45,7 +45,7 @@
 #bitmoto.vehicle #cta {margin: 32px 0;border-top: 1px solid lightgray;padding: 18px 0 8px;}
 #bitmoto.vehicle #cta1 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
 #bitmoto.vehicle #cta2 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
-#bitmoto.vehicle #cta a {display: inline-block;color: white;padding: 4%;border-radius: 8px; text-decoration:none;}
+#bitmoto.vehicle #cta a {display: inline-block;color: white;padding: 4%;border-radius: 8px; text-decoration:none; width:98%;}
 
 
 /* Service & Parts Pages */
