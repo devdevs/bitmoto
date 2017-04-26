@@ -66,6 +66,7 @@
 
 #bitmoto.ford #cta a {background: #29548c;}
 #bitmoto.ford #shop {background: #2d96cd;}
+#bitmoto.ford.vehicle #details .two a {background:#2d96cd;}
 
 #bitmoto.ford nav {background-color:#a32a2a;}
 #bitmoto.ford nav a {color: white;}
@@ -182,7 +183,8 @@
     margin:28px 0; text-align:center !important;}
   #bitmoto #details .one {width:99% !important;}
   #bitmoto #details .one strong {font-size:22px;}
-  #bitmoto #details .two {width:99% !important; margin:2px auto; background:#333;}
+  #bitmoto #details .two {width:99%;}
+  #bitmoto.vehicle #details .two a {width:99%;}
   #bitmoto #vehicle div:nth-of-type(2) {background:#2eacf0; color:white; left:0 !important; padding:9px 0;}
   #bitmoto #vehicle div:nth-of-type(3) {font-size:22px !important;}
   #bitmoto #vehicle div:nth-of-type(3) strong {font-size:34px !important;}
