@@ -131,17 +131,17 @@
 
 /* Chrysler */
 
-#bitmoto.chrysler #shop {background:#333;}
+#bitmoto.chrysler #shop, #bitmoto.chrysler #cta2 {background:#333;}
 
 
 /* Hyundai */
 
-#bitmoto.hyundai #shop {background:#094481;}
+#bitmoto.hyundai #shop, #bitmoto.hyundai #cta2 {background:#094481;}
 
 
 /* Mazda */
 
-#bitmoto.mazda #shop {background:#094481;}
+#bitmoto.mazda #shop, #bitmoto.mazda #cta2 {background:#094481;}
 
 
 /* Kia */
