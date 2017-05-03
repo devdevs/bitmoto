@@ -1,6 +1,6 @@
 // Devs JS for Bitmoto Clients
 
-// Outten | Carman | Coccia
+// Outten | Carman | Coccia | Pacifico
 
 
 // Chevrolet Vehicle Pages
