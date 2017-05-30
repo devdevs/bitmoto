@@ -249,3 +249,61 @@ devEl.addEventListener("click", function() {ga('send', 'event', 'bitmoto-form', 
 }
 
 // END Event Tracking for GA and FB
+
+// START Event Tracking for GA and FB
+
+// Directions Page Submission
+if(document.querySelector('div.directions-form > form > fieldset > .ui-button-submit') !== null)  {
+var devEl = document.querySelector('div.directions-form > form > fieldset > .ui-button-submit');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Directions', 'Submit', 'BitMoto'); fbq('track', 'Directions'); } );
+}
+
+// VDP - Check Availability (1st click)
+if(document.querySelector('div.inventory-detail-pricing > ul > li > span.ePrice > a') !== null)  {
+var devEl = document.querySelector('div.inventory-detail-pricing > ul > li > span.ePrice > a');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto VDP Lead', 'Click', 'BitMoto'); fbq('track', 'Lead'); } );
+}
+
+// VDP - Schedule Test Drive
+if(document.querySelector('div.links-list a[href*="schedule-form"]') !== null)  {
+var devEl = document.querySelector('div.links-list a[href*="schedule-form"]');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto VDP Schedule Test Drive', 'Click', 'BitMoto'); fbq('track', 'Lead'); } );
+}
+
+// VDP - Request More Info
+if(document.querySelector('div.links-list a[href*="lead-form"]') !== null)  {
+var devEl = document.querySelector('div.links-list a[href*="lead-form"]');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto VDP Request More Info', 'Click', 'BitMoto'); fbq('track', 'Lead'); } );
+}
+
+// SRP - Lead Button
+if(document.querySelector('div.pricing-area a[data-href*="eprice-form"]') !== null)  {
+var devEl = document.querySelector('div.pricing-area a[data-href*="eprice-form"]');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto SRP Lead', 'Click', 'BitMoto'); fbq('track', 'Lead'); } );
+}
+
+// Contact Forms
+if(document.querySelector('div.contact-form form button.ui-button-submit') !== null)  {
+var devEl = document.querySelector('div.contact-form form button.ui-button-submit');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Contact Form', 'Submit', 'BitMoto'); fbq('track', 'Lead'); } );
+}
+
+// Parts Leads
+if(document.querySelector('div.parts-lead form button.ui-button-submit') !== null)  {
+var devEl = document.querySelector('div.parts-lead form button.ui-button-submit');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Parts Request', 'Submit', 'BitMoto'); fbq('track', 'Lead'); } );
+}
+
+// Manufacturer Coupons
+if(document.querySelector('a.print-coupon') !== null)  {
+var devEl = document.querySelector('a.print-coupon');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
+}
+
+// BitMoto Coupons
+if(document.querySelector('a[href*="print"]') !== null)  {
+var devEl = document.querySelector('a[href*="print"]');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
+}
+
+// END Event Tracking for GA and FB
