@@ -205,17 +205,25 @@ if(document.domain == "www.cocciaford.com"){
 // START - Pacifico Ford Philadelphia
 if(document.domain == "www.pacifico.com"){
 
-	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '239'; }
-	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '239'; }
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '165'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2825'; }
 	
-	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '244'; }
-	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '244'; }
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '185'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2715'; }
 	
-	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '188'; }
-	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '188'; }
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '137'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2250'; }
 	
-	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '277'; }
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '267'; }
 	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '1999'; }
+
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '198'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3660'; }
+
+	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '253'; }
+	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3155'; }
+
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  { document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*Stock #: M06627. MSRP $38,915. Lease for $267/mo w/ $1,999 DAS. *Stock #: P25655. MSRP $32,600. Lease for $198/mo w/ $3,660 DAS. *Stock #: E60699. MSRP $35,500. Lease for $253/mo w/ $3,155 DAS. *Stock #: S14958. MSRP $26,145. Lease for $165/mo w/ $2,825 DAS. *Stock #: D362944. MSRP $26,610. Lease for $185/mo w/ $2,715 DAS. *Stock #: B240668. MSRP $20,145. Lease for $137/mo w/ $2,250 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes $500 Owner Loyalty Rebate. Security deposit waived. **Includes $500 Owner Loyalty Rebate. Must qualify through FMCC. Expires 6/30/2017. See dealer for details.'; }
 
 }
 // END - Pacifico Ford Philadelphia
