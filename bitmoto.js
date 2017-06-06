@@ -164,17 +164,17 @@ if (!document.getElementById(cssId))
 // ------------- All Ford Vehicles ------------
 
 if(document.getElementById('BitMoto-FordDisclaimerDate') !== null)  {
-document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '5/31/17';
+document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '6/30/17';
 }
 
 if(document.getElementById('BitMoto-FordCurrentSaleSmallBanner') !== null)  {
 //https://storage.googleapis.com/bitmoto/dealers/ford/ford/WellBeatAnyPrice.jpg
-document.getElementById('BitMoto-FordCurrentSaleSmallBanner').src = 'https://storage.googleapis.com/bitmoto/dealers/ford/ford/sales/2017/memorial-day-sale.jpg';
+document.getElementById('BitMoto-FordCurrentSaleSmallBanner').src = 'https://storage.googleapis.com/bitmoto/dealers/ford/ford/WellBeatAnyPrice.jpg';
 }
 
 if(document.getElementById('BitMoto-FordCurrentSaleURL') !== null)  {
 // Use # if no available sales page
-document.getElementById('BitMoto-FordCurrentSaleURL').href = '/memorial-day.htm';
+document.getElementById('BitMoto-FordCurrentSaleURL').href = '#';
 }
 
 // END - Ford Vehicles
@@ -185,7 +185,7 @@ document.getElementById('BitMoto-FordCurrentSaleURL').href = '/memorial-day.htm'
 
 // START - Coccia Ford Wilkes-Barre
 if(document.domain == "www.cocciaford.com"){
-
+/*
 	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '199'; }
 	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '199'; }
 	
@@ -197,7 +197,7 @@ if(document.domain == "www.cocciaford.com"){
 	
 	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '299'; }
 	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '299'; }
-
+*/
 }
 // END - Coccia Ford Wilkes-Barre
 
