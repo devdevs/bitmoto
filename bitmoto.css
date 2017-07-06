@@ -185,12 +185,16 @@
 }
 
 @media screen and (max-width: 780px) {
-#bitmoto.vehicle #vehicle #bitBlock2 {left:48% !important;}
+  #bitmoto.vehicle #vehicle #bitBlock2 {left:48% !important;}
 }
 
 @media screen and (max-width: 640px) {
-#bitmoto.vehicle #vehicle div { }
-#bitmoto.vehicle #vehicle #bitBlock3 {right:1% !important;}
+  #bitmoto.vehicle #vehicle div { }
+  #bitmoto.vehicle #vehicle #bitBlock3 {right:1% !important;}
+}
+
+@media screen and (max-width: 560px) {
+  #bitmoto section div {width:99% !important;}
 }
 
 @media screen and (max-width: 480px) {
@@ -216,8 +220,6 @@
 @media screen and (max-width: 415px) {
   #bitmoto nav, #bitmoto #nav {max-width:100% !important; font-size: 17px;}
   #bitmoto nav a, #bitmoto #nav a {width:49% !important;}
-  #bitmoto section div {width:99% !important;}
-
 }
 
 @media screen and (max-width: 360px) {
