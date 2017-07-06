@@ -219,7 +219,7 @@ if(document.domain == "www.cocciaford.com"){
 
 
 // START - Pacifico Ford Philadelphia
-if(document.domain == "www.pacifico.com"){
+if(document.domain == "www.pacificoford.com"){
 
 	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '171'; }
 	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '3125'; }
