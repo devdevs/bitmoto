@@ -203,7 +203,7 @@
     margin:28px 0; text-align:center !important;}
   #bitmoto #details .one {width:99% !important;}
   #bitmoto #details .one strong {font-size:22px;}
-  #bitmoto #details .two {width:99%;}
+  #bitmoto.vehicle #details .two {width:48%;}
   #bitmoto.vehicle #details .two a {width:99%;}
   #bitmoto #vehicle div:nth-of-type(2) {background:#2eacf0; color:white; left:0 !important; padding:9px 0;}
   #bitmoto #vehicle div:nth-of-type(3) {font-size:22px !important;}
