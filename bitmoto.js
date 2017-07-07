@@ -179,12 +179,12 @@ document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '7/31/17';
 
 if(document.getElementById('BitMoto-FordCurrentSaleSmallBanner') !== null)  {
 //https://storage.googleapis.com/bitmoto/dealers/ford/ford/WellBeatAnyPrice.jpg
-document.getElementById('BitMoto-FordCurrentSaleSmallBanner').src = 'https://storage.googleapis.com/bitmoto/dealers/ford/ford/WellBeatAnyPrice.jpg';
+document.getElementById('BitMoto-FordCurrentSaleSmallBanner').src = 'https://storage.googleapis.com/bitmoto/dealers/ford/ford/sales/2017/ford-summer-sale-skinny.jpg';
 }
 
 if(document.getElementById('BitMoto-FordCurrentSaleURL') !== null)  {
 // Use # if no available sales page
-document.getElementById('BitMoto-FordCurrentSaleURL').href = '#';
+document.getElementById('BitMoto-FordCurrentSaleURL').href = '/summer-sale.htm';
 }
 
 // END - Ford Vehicles
