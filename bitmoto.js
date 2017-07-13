@@ -263,6 +263,19 @@ if(document.domain == "www.pacificoford.com"){
 // END - Pacifico Ford Philadelphia
 
 
+// START - Carman Ford New Castle
+if(document.domain == "www.carman-ford.com"){
+
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '189'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '3035'; }
+
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '269'; }
+	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3096'; }
+
+}
+// END - Carman Ford New Castle
+
+
 // -------- END ------------ INDIVIDUAL FORD DEALER VEHICLES ------------------
 
 
