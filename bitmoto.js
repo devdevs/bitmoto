@@ -196,23 +196,46 @@ document.getElementById('BitMoto-FordCurrentSaleURL').href = '/summer-sale.htm';
 // START - Coccia Ford Wilkes-Barre
 if(document.domain == "www.cocciaford.com"){
 
-	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '149'; }
-	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2500'; }
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '199'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2798'; }
+	if(document.querySelector('#BitMoto-FordEscapeMonths') !== null)  { document.getElementById('BitMoto-FordEscapeMonths').innerHTML = '72'; }
 	
 	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '189'; }
-	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2500'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '3035'; }
 	
-	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '119'; }
-	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2500'; }
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '139'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2655'; }
 	
-	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '239'; }
-	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '2500'; }
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '269'; }
+	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3096'; }
 	/*
 	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '239'; }
 	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '2500'; }
 	*/
-	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '249'; }
-	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '2500'; }	
+	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '265'; }
+	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3160'; }	
+	if(document.querySelector('#BitMoto-FordEdgeMonths') !== null)  { document.getElementById('BitMoto-FordEdgeMonths').innerHTML = '60'; }
+
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
+		if(document.URL.indexOf("ford-fusion.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD SE 200A. Lease for $189/mo w/ $3,035 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 7/31/2017. See dealer for complete details.';
+		}
+		if(document.URL.indexOf("ford-focus.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '4DR SE 200A w/AUTO. Lease for $139/mo w/ $2,655 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 7/31/2017. See dealer for complete details.';
+		}
+		if(document.URL.indexOf("ford-escape.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD S 100A. Lease for $199/mo w/ $2,798 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 7/31/2017. See dealer for complete details.';
+		}
+		if(document.URL.indexOf("ford-explorer.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+		}
+		if(document.URL.indexOf("ford-f150.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '101A +861 w/ 2.7L EcoBoost. Lease for $269/mo w/ $3,096 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 7/31/2017. See dealer for complete details. Not everyone will qualify for financing. See dealer for complete details.';
+		}
+		if(document.URL.indexOf("ford-edge.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+		}
+	}
 
 }
 // END - Coccia Ford Wilkes-Barre
