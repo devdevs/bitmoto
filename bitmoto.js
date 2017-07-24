@@ -278,6 +278,27 @@ if(document.domain == "www.carman-ford.com"){
 	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '265'; }
 	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3160'; }
 
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
+		if(document.URL.indexOf("ford-fusion.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+		}
+		if(document.URL.indexOf("ford-focus.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+		}
+		if(document.URL.indexOf("ford-escape.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+		}
+		if(document.URL.indexOf("ford-explorer.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+		}
+		if(document.URL.indexOf("ford-f150.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+		}
+		if(document.URL.indexOf("ford-edge.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+		}
+	}
+	
 }
 // END - Carman Ford New Castle
 
