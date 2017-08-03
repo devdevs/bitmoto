@@ -204,19 +204,19 @@ if(document.domain == "www.cocciaford.com"){
 
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD SE 200A. Lease for $189/mo w/ $3,035 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 7/31/2017. See dealer for complete details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD SE 200A. Lease for $189/mo w/ $3,035 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '4DR SE 200A w/AUTO. Lease for $139/mo w/ $2,655 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 7/31/2017. See dealer for complete details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '4DR SE 200A w/AUTO. Lease for $139/mo w/ $2,655 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD S 100A. Lease for $199/mo w/ $2,798 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 7/31/2017. See dealer for complete details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD S 100A. Lease for $199/mo w/ $2,798 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '101A +861 w/ 2.7L EcoBoost. Lease for $269/mo w/ $3,096 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 7/31/2017. See dealer for complete details. Not everyone will qualify for financing. See dealer for complete details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '101A +861 w/ 2.7L EcoBoost. Lease for $269/mo w/ $3,096 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details. Not everyone will qualify for financing. See dealer for complete details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
