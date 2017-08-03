@@ -400,4 +400,7 @@ var devEl = document.querySelector('a[href*="print"]');
 devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
 }
 
+// Coccia Lincoln Facebook Black Label Page
+
+
 // END Event Tracking for GA and FB
