@@ -213,7 +213,7 @@ if(document.domain == "www.cocciaford.com"){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD S 100A. Lease for $199/mo w/ $2,798 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD Base 100A. Lease for $225/mo w/ $3,415 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. Must qualify through FMCC. Expires 8/31/2017 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '101A +861 w/ 2.7L EcoBoost. Lease for $269/mo w/ $3,096 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details. Not everyone will qualify for financing. See dealer for complete details.';
