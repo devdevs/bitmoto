@@ -63,7 +63,7 @@ $.getJSON(url, function(data) {
     });
 });
 
-// END - DEALER SPECIFIC VEHICLE PRICING
+// END - DEALER SPECIFIC INFORMATION
 
 
 // START - MANUFACTURER LEVEL VEHICLE PRICING (will use manufacturer values if dealer-specific values are blank)
