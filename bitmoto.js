@@ -286,25 +286,31 @@ if(document.domain == "www.carman-ford.com"){
 
 	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '265'; }
 	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3160'; }
+	
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '199'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2798'; }
+	
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '225'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3415'; }
 
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD SE 200A. Lease for $189/mo w/ $3,035 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. Must qualify through FMCC. Expires 8/31/2017 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '4DR SE 200A w/AUTO. Lease for $139/mo w/ $2,449 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. **Total savings includes PEP discounts, and Average Dealer Discount (off net MSRP). Must qualify through FMCC. Expires 8/31/2017. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD S 100A. Lease for $199/mo w/ $2,798 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived.  **Not everyone will qualify for financing. $1,000 Trade Assist Cash. Must qualify through FMCC. Expires 8/31/2017 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD Base 100A. Lease for $225/mo w/ $3,415 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. Must qualify through FMCC. Expires 8/31/2017 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '101A +861 w/ 2.7L EcoBoost. Lease for $269/mo w/ $3,096 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. Must qualify through FMCC. Expires 8/31/2017. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'AWD SEL 200A. Lease for $265/mo w/ $3,160 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. Must qualify through FMCC. Expires 8/31/2017. See dealer for details.';
 		}
 	}
 	
