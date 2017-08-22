@@ -274,7 +274,7 @@ if(document.domain == "www.pacificoford.com"){
 
 // START - Carman Ford New Castle
 if(document.domain == "www.carman-ford.com"){
-
+/*
 	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '189'; }
 	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '3035'; }
 
@@ -292,7 +292,7 @@ if(document.domain == "www.carman-ford.com"){
 	
 	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '225'; }
 	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3415'; }
-
+*/
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD SE 200A. Lease for $189/mo w/ $3,035 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. Must qualify through FMCC. Expires 8/31/2017 See dealer for details.';
