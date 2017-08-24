@@ -216,7 +216,7 @@ if(document.domain == "www.cocciaford.com"){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD Base 100A. Lease for $225/mo w/ $3,415 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. Must qualify through FMCC. Expires 8/31/2017 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '101A +861 w/ 2.7L EcoBoost. Lease for $269/mo w/ $3,096 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details. Not everyone will qualify for financing. See dealer for complete details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: M03574. MSRP $43,290. Lease for $221/mo w/ $3,639 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must finance through FMCC. Expires 9/5/2017. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
@@ -230,42 +230,43 @@ if(document.domain == "www.cocciaford.com"){
 // START - Pacifico Ford Philadelphia
 if(document.domain == "www.pacificoford.com"){
 
-	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '180'; }
-	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2798'; }
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '160'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2999'; }
 	
-	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '191'; }
-	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2723'; }
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '178'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2709'; }
 	
-	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '133'; }
-	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2665'; }
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '118'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2649'; }
 	
-	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '216'; }
-	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3095'; }
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '221'; }
+	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3639'; }
 
-	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '217'; }
-	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3415'; }
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '191'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3395'; }
 
-	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '257'; }
-	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3160'; }
+	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '241'; }
+	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3215'; }
 
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
+
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: D362944. MSRP $26,610. Lease for $191/mo w/ $2,723 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 8/31/2017. See dealer for details. ';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: D362944. MSRP $26,610. Lease for $178/mo w/ $2,709 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 9/5/2017. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: B240668. MSRP $20,145. Lease for $133/mo w/ $2,665 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 8/31/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: B240668. MSRP $20,145. Lease for $118/mo w/ $2,649 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 9/5/2017. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: S62731. MSRP $26,145. Lease for $180/mo w/ $2,798 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 8/31/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: S83398. MSRP $26,145. Lease for $160/mo w/ $2,999 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 9/5/2017. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: P18790. MSRP $33,415. Lease for $217/mo w/ $3,415 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 8/31/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: P18790. MSRP $33,415. Lease for $191/mo w/ $3,395 DAS. 24 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 9/5/2017. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: M03574. MSRP $43,290. Lease for $16/mo w/ $3,095 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must finance through FMCC. Expires 8/31/2017. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: E20439. MSRP $34,875. Lease for $257/mo w/ $3,160 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 8/31/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: E20439. MSRP $34,875. Lease for $241/mo w/ $3,215 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must qualify through FMCC. Expires 9/5/2017. See dealer for details.';
 		}
 	}
 }
