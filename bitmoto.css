@@ -195,6 +195,7 @@
 
 @media screen and (max-width: 560px) {
   #bitmoto section div {width:99% !important;}
+  #bitmoto.vehicle #vehicle {height:auto !important;}
 }
 
 @media screen and (max-width: 480px) {
