@@ -217,7 +217,7 @@ if(document.domain == "www.cocciaford.com"){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford F150 Supercab 4x4. MSRP $41,775. Taxes tags, and doc feeds extra. Security deposit waived. All factory rebates applied. Lease payments based on 24 month lease with 21,000 allowable miles. $645 bank fee, and $2500 down payment (cash or trade) due at signing. Sale ends 9/5/2017.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Edge AWD. MSRP $32,035. Taxes, tags, and doc fees extra. Security deposit waived. All factory rebates applied. Lease payments based on 24 month lease with 21,000 allowable miles. $645 bank fee, and $2500 down payment (cash or trade) due at signing. Sale ends 9/5/2017';
 		}
 	}
 
