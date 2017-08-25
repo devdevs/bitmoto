@@ -184,7 +184,6 @@ if(document.domain == "www.cocciaford.com"){
 
 	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '199'; }
 	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2500'; }
-	if(document.querySelector('#BitMoto-FordEscapeMonths') !== null)  { document.getElementById('BitMoto-FordEscapeMonths').innerHTML = '72'; }
 	
 	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '169'; }
 	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2500'; }
@@ -200,23 +199,22 @@ if(document.domain == "www.cocciaford.com"){
 	
 	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '239'; }
 	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '2500'; }	
-	if(document.querySelector('#BitMoto-FordEdgeMonths') !== null)  { document.getElementById('BitMoto-FordEdgeMonths').innerHTML = '60'; }
 
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD SE 200A. Lease for $189/mo w/ $3,035 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Fusion. MSRP $23,485. Taxes tags, and doc feeds extra. Security deposit waived. All factory rebates applied. Lease payments based on 24 month lease with 21,000 allowable miles. $645 bank fee, and $2500 down payment (cash or trade) due at signing. Sale ends 9/5/2017.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '4DR SE 200A w/AUTO. Lease for $139/mo w/ $2,655 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Focus. MSRP $18,745. Taxes tags, and doc feeds extra. Security deposit waived. All factory rebates applied. Lease payments based on 24 month lease with 21,000 allowable miles. $645 bank fee, and $2500 down payment (cash or trade) due at signing. Sale ends 9/5/2017.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD S 100A. Lease for $199/mo w/ $2,798 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Expires 8/31/2017. See dealer for complete details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Escape SE AWD. MSRP $27,895. Taxes tags, and doc feeds extra. Security deposit waived. All factory rebates applied. Lease payments based on 24 month lease with 21,000 allowable miles. $645 bank fee, and $2500 down payment (cash or trade) due at signing. Sale ends 9/5/2017.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'FWD Base 100A. Lease for $225/mo w/ $3,415 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. Must qualify through FMCC. Expires 8/31/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Explorer AWD. MSRP $35,250. Taxes tags, and doc feeds extra. Security deposit waived. All factory rebates applied. Lease payments based on 24 month lease with 21,000 allowable miles. $645 bank fee, and $2500 down payment (cash or trade) due at signing. Sale ends 9/5/2017.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'Stock #: M03574. MSRP $43,290. Lease for $221/mo w/ $3,639 DAS. 36 month lease with 10,500 miles/year. Taxes & Fees Extra. Includes all available rebates. Security deposit waived. **Not everyone will qualify for financing. Must finance through FMCC. Expires 9/5/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford F150 Supercab 4x4. MSRP $41,775. Taxes tags, and doc feeds extra. Security deposit waived. All factory rebates applied. Lease payments based on 24 month lease with 21,000 allowable miles. $645 bank fee, and $2500 down payment (cash or trade) due at signing. Sale ends 9/5/2017.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '';
