@@ -113,9 +113,6 @@ if (!document.getElementById(cssId))
 // Gilboy Ford Whitehall
 if(document.domain == "www.gilboyford.com"){
 
-  ga('create', 'UA-105686635-1', 'auto', 'BitMoTracker');
-  ga('BitMoTracker.send', 'pageview');
-
 }
 
 
