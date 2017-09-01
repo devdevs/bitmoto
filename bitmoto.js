@@ -185,6 +185,52 @@ document.getElementById('BitMoto-FordCurrentSaleURL').href = '/summer-sale.htm';
 
 // -------- START ------------ INDIVIDUAL FORD DEALER VEHICLES ------------------
 
+// START - Gilboy Ford Whitehall
+if(document.domain == "www.gilboyford.com"){
+/*
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '199'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2500'; }
+	
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '169'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2500'; }
+	
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '109'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2500'; }
+	
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '249'; }
+	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '2500'; }
+	
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '289'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '2500'; }
+	
+	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '239'; }
+	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '2500'; }	
+*/
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
+		if(document.URL.indexOf("ford-fusion.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Fusion SE. FWD SE 200A. MSRP $25710. Lease for $185/mo with $2709 DAS. 36 month lease with 10,500 miles/year. Taxes and fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. See dealer for complete details. Expires 9/5/2017.';
+		}
+		if(document.URL.indexOf("ford-focus.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Focus SE. 4DR SE 200A w AUTO. MSRP $20,145. Lease for $125/mo with $2649 DAS. 36 month lease with 10,500 miles/year. Taxes and fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. See dealer for complete details. Expires 9/5/2017.';
+		}
+		if(document.URL.indexOf("ford-escape.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Escape SE. FWD SE 200A. MSRP $26,145. Lease for $179/mo with $2999 DAS.  36 month lease with 10,500 miles/year. Taxes and fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. See dealer for complete details. Expires 9/5/2017.';
+		}
+		if(document.URL.indexOf("ford-explorer.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Explorer FWD Base 100A. MSRP $32,605. Lease for $205/mo with $3395 DAS. 24 month lease with 10,500 miles/year. Taxes and fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. See dealer for complete details. Expires 9/5/2017.';
+		}
+		if(document.URL.indexOf("ford-f150.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford F150 4x4 SuperCab XL Sport. 101A +861 w 2.7L EcoBoost. Lease for $239/mo with $3639 DAS. 36 month lease with 10,500 miles/year. Taxes and fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. See dealer for complete details. Expires 9/5/2017.';
+		}
+		if(document.URL.indexOf("ford-edge.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Ford Edge AWD SEL 200A. MSRP $32,605. Lease for $249/mo with $3215 DAS. 36 month lease with 10,500 miles/year. Taxes and fees extra. Security deposit waived. **Not everyone will qualify for financing. Includes $1,000 Trade Assist Cash. See dealer for complete details. Expires 9/5/2017.';
+		}
+	}
+
+}
+// END - Gilboy Ford Whitehall
+
+
 // START - Coccia Ford Wilkes-Barre
 if(document.domain == "www.cocciaford.com"){
 
