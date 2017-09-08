@@ -102,7 +102,7 @@ if(document.domain == "www.gilboyford.com"){
 	if(document.querySelector('#BitMoto-FordFusionMSRP') !== null)  { document.getElementById('BitMoto-FordFusionMSRP').innerHTML = '22,120'; }
 	if(document.querySelector('#BitMoto-FordFusionCash') !== null)  { document.getElementById('BitMoto-FordFusionCash').innerHTML = '1,500'; }
 
-if(document.URL.indexOf("ford-focus.htm") >= 0) && document.querySelector('.Line3') !== null ) {
+if(document.URL.indexOf("ford-focus.htm") >= 0 && document.querySelector('.Line3') !== null ) {
 	document.getElementsByClassName("Line3").style.display = "none";
 }
 	
