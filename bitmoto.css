@@ -74,6 +74,15 @@
 
 #bitmoto.ford.service #service-cta a {background-color: #232323;}
 
+/* Ford Rebate Pages */
+
+#bitmoto.rebate .offer {text-align:center;background:#2a3d5e;color:white;padding:9px 0;font-size:38px;margin: 14px 0;}
+#bitmoto.rebate #FirstResponder {border:#ccc solid 1px;padding:2% 1%;margin:0 auto 28px;border-radius:4px;width:96%;}
+#bitmoto.rebate #FirstResponder h2 {color:steelblue;}
+#bitmoto.rebate #FirstResponder h4 {width:31%;display:inline-block;padding:1%;background:#005596;-webkit-margin-before:0;-webkit-margin-after:0;}
+#bitmoto.rebate #FirstResponder .bottom p {width:31%;display:inline-block;background:#005596;padding:1%;min-height:140px;vertical-align: top;box-sizing: initial;text-align:left;}
+#bitmoto.rebate #FirstResponder h4:nth-of-type(2), #bitmoto.rebate #FirstResponder .bottom p:nth-of-type(2)  {background:#02a1e6;}
+
 
 /* Fiat Sales Pages */
 
@@ -216,6 +225,11 @@
   #bitmoto.service #service-cta a {margin: 8px auto; width:80%;}
   #bitmoto.service #hours {width:98%;margin:auto;}
   #bitmoto.vehicle #vehicle #bitBlock2 {left:2px !important;}
+}
+
+@media screen and (max-width: 420px) {
+#bitmoto.rebate #FirstResponder h4 {width:97%;}
+#bitmoto.rebate #FirstResponder .bottom p {width:97%;min-height:120px;margin:1px auto;}
 }
 
 @media screen and (max-width: 415px) {
