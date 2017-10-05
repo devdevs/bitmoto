@@ -1,0 +1,8 @@
+
+/* BitMoto - Dev CSS */
+
+
+h1.ddc-page-title {
+  max-width: 950px;
+  margin: .75em auto;
+  }
