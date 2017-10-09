@@ -138,17 +138,17 @@ if(document.URL.indexOf('ford-focus.htm') >= 0 && document.querySelector('.Line3
 // ------------- All Ford Vehicles ------------
 
 if(document.getElementById('BitMoto-FordDisclaimerDate') !== null)  {
-document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '10/2/17';
+document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '10/31/17';
 }
 
 if(document.getElementById('BitMoto-FordCurrentSaleSmallBanner') !== null)  {
 //https://storage.googleapis.com/bitmoto/dealers/ford/ford/WellBeatAnyPrice.jpg
-document.getElementById('BitMoto-FordCurrentSaleSmallBanner').src = 'https://storage.googleapis.com/bitmoto/dealers/ford/ford/sales/2017/best-fall-ever-skinny-banner.jpg';
+document.getElementById('BitMoto-FordCurrentSaleSmallBanner').src = 'https://storage.googleapis.com/bitmoto/dealers/ford/ford/WellBeatAnyPrice.jpg';
 }
 
 if(document.getElementById('BitMoto-FordCurrentSaleURL') !== null)  {
 // Use # if no available sales page
-document.getElementById('BitMoto-FordCurrentSaleURL').href = '/fall-sale.htm';
+document.getElementById('BitMoto-FordCurrentSaleURL').href = '#';
 }
 
 // END - Ford Vehicles
