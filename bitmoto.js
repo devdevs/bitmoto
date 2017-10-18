@@ -217,10 +217,10 @@ if(document.domain == "www.cocciaford.com"){
 	
 	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '249'; }
 	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '2500'; }
-	
-	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '289'; }
-	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '2500'; }
-	
+*/
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '299'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '4799'; }
+/*
 	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '239'; }
 	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '2500'; }	
 */
@@ -235,7 +235,7 @@ if(document.domain == "www.cocciaford.com"){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $186/mo w/ $2,999 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Must qualify through FMCC. Expires 10/2/2017. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $229/mo w/ $3,499 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Must qualify through FMCC. Expires 10/2/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY Explorer XLT 4WD 202A. MSRP $43,145. Lease for $299/mo w/ $4,799 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Must qualify through FMCC. Expires 10/31/2017';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY F150 4x4 SuperCab XL Sport. 101A +861 w/ 2.7L EcoBoost. MSRP $41,090. Lease for $260/mo w/ $3,660 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. Must qualify through FMCC. Expires 10/2/2017. See dealer for details.';
