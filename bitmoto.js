@@ -1,6 +1,6 @@
 // Devs JS for Bitmoto Clients
 
-// Outten | Carman | Coccia | Pacifico | Gilboy
+// Outten | Carman | Coccia | Pacifico | Gilboy | Sloan
 
 
 // Outten Chevy Allentown
