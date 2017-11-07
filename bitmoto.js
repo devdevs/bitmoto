@@ -113,7 +113,7 @@ if(document.domain == "www.gilboyford.com"){
 	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3569'; }
 	if(document.querySelector('#BitMoto-FordF150Months') !== null)  { document.getElementById('BitMoto-FordF150Months').innerHTML = '72'; }
 	if(document.querySelector('#BitMoto-FordF150MSRP') !== null)  { document.getElementById('BitMoto-FordF150MSRP').innerHTML = '27,380'; }
-	if(document.querySelector('#BitMoto-FordF150Rate') !== null)  { document.getElementById('BitMoto-FordF150Rate').innerHTML = '1.9'; }
+	if(document.querySelector('#BitMoto-FordF150Rate') !== null)  { document.getElementById('BitMoto-FordF150Rate').innerHTML = '0'; }
 	if(document.querySelector('#BitMoto-FordF150Cash') !== null)  { document.getElementById('BitMoto-FordF150Cash').innerHTML = '1000'; }
 	
 	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '215'; }
