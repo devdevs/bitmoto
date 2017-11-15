@@ -95,12 +95,12 @@ if(document.domain == "www.gilboyford.com"){
 	if(document.querySelector('#BitMoto-FordEscapeRate') !== null)  { document.getElementById('BitMoto-FordEscapeRate').innerHTML = '0'; }
 	if(document.querySelector('#BitMoto-FordEscapeCash') !== null)  { document.getElementById('BitMoto-FordEscapeCash').innerHTML = '1500'; }
 	
-	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '165'; }
-	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '3620'; }
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '136'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '3560'; }
 	if(document.querySelector('#BitMoto-FordFusionRate') !== null)  { document.getElementById('BitMoto-FordFusionRate').innerHTML = '0'; }
 	if(document.querySelector('#BitMoto-FordFusionMonths') !== null)  { document.getElementById('BitMoto-FordFusionMonths').innerHTML = '72'; }
 	if(document.querySelector('#BitMoto-FordFusionMSRP') !== null)  { document.getElementById('BitMoto-FordFusionMSRP').innerHTML = '22,120'; }
-	if(document.querySelector('#BitMoto-FordFusionCash') !== null)  { document.getElementById('BitMoto-FordFusionCash').innerHTML = '1000'; }
+	if(document.querySelector('#BitMoto-FordFusionCash') !== null)  { document.getElementById('BitMoto-FordFusionCash').innerHTML = '17500'; }
 	
 	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '139'; }
 	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2589'; }
@@ -209,8 +209,8 @@ if(document.domain == "www.gilboyford.com"){
 	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '3724'; }
 	if(document.querySelector('#BitMoto-FordEscapeBuyFor') !== null)  { document.getElementById('BitMoto-FordEscapeBuyFor').innerHTML = '20,400'; }
 	
-	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '144'; }
-	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '3606'; }
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '114'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '3539'; }
 	if(document.querySelector('#BitMoto-FordFusionBuyFor') !== null)  { document.getElementById('BitMoto-FordFusionBuyFor').innerHTML = '20,850'; }
 	
 	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '125'; }
@@ -233,7 +233,7 @@ if(document.domain == "www.gilboyford.com"){
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 		
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Fusion SE. Stock #  172050. MSRP $24,720. Lease for $144/mo w/ $3,606 DAS. 24 month lease with 10,500 miles/year. Includes $500 Military Appreciation Bonus Cash. **Not everyone will qualify for financing. Includes all available rebates plus $500 Military Appreciation Cash. Must qualify through FMCC. Taxes & fees extra. Security deposit waived. Expires 11/30/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 Fusion SE. Stock #  172050. MSRP $24,720. Lease for $114/mo w/ $3,539 DAS. 24 month lease with 10,500 miles/year. Includes $500 Military Appreciation Bonus Cash. **Not everyone will qualify for financing. Includes all available rebates plus $500 Military Appreciation Cash. Must qualify through FMCC. Taxes & fees extra. Security deposit waived. Expires 11/30/2017 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '2017 MY Focus SE. MSRP $20,145. Stock # 17548. Lease for $125/mo w/ $2,575 DAS. 36 month lease with 10,500 miles/year. Includes $500 Military Appreciation Bonus Cash. **Not everyone will qualify for financing. Includes all available rebates plus $500 Military Appreciation Cash. Must qualify through FMCC. Taxes & fees extra. Security deposit waived. Expires 11/30/2017. See dealer for details.';
