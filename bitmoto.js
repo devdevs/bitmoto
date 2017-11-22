@@ -303,6 +303,7 @@ if(document.domain == "www.cocciaford.com"){
 // END - Coccia Ford Wilkes-Barre
 
 
+/*
 // START - Pacifico Ford Philadelphia
 if(document.domain == "www.pacificoford.com"){
 
@@ -347,6 +348,7 @@ if(document.domain == "www.pacificoford.com"){
 	}
 }
 // END - Pacifico Ford Philadelphia
+*/
 
 
 // START - Carman Ford New Castle
