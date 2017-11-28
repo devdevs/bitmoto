@@ -5,25 +5,6 @@
 
 // Carman Ford New Castle
 if(document.domain == "www.carman-ford.com"){
-	
-function resizeIFrameToFitContent( iFrame ) {
-
-    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
-}
-
-window.addEventListener('DOMContentLoaded', function(e) {
-
-    //var iFrame = document.querySelector( 'iframe' );
-    //resizeIFrameToFitContent( iFrame );
-
-    // or, to resize all iframes:
-    var iframes = document.querySelectorAll("iframe");
-    for( var i = 0; i < iframes.length; i++) {
-        resizeIFrameToFitContent( iframes[i] );
-    }
-} );
-
 
 }
 
