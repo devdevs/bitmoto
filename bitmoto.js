@@ -503,6 +503,44 @@ if(document.domain == "www.dunphyford.com"){
 
 
 
+
+// -------- START ---------- INDIVIDUAL SUBARU DEALER VEHICLES ----------------
+
+// START - Miller Subaru Lumberton
+if(document.domain == "www.millersubaru.com"){
+
+	if(document.querySelector('#BitMoto-SubaruOutbackLease') !== null)  { document.getElementById('BitMoto-SubaruOutbackLease').innerHTML = '227'; }
+	if(document.querySelector('#BitMoto-SubaruOutbackDAS') !== null)  { document.getElementById('BitMoto-SubaruOutbackDAS').innerHTML = '1,749'; }
+	if(document.querySelector('#BitMoto-SubaruOutbackRate') !== null)  { document.getElementById('BitMoto-SubaruOutbackRate').innerHTML = '0'; }
+	if(document.querySelector('#BitMoto-SubaruOutbackMonths') !== null)  { document.getElementById('BitMoto-SubaruOutbackMonths').innerHTML = '48'; }
+	if(document.querySelector('#BitMoto-SubaruOutbackMSRP') !== null)  { document.getElementById('BitMoto-SubaruOutbackMSRP').innerHTML = '25,645'; }
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  { document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*VIN: H3415302. Model Code: HDB-01. MSRP $27,266. PS, PB, auto, 4dr, 4cyl, air, splash guards, all weather floor mats, tonneau cover, mirror compass. Total due at signing: $1,150 cash or trade equity down. 36 month closed end lease. 10,000 miles per year. 15¢ per mile over. LEV $18,537, TOP $8,172. $0 security deposit. Tax, tags and $289 doc fee additional. Offer expires 6/30/17. Special financing available on select vehicles. For qualified buyers only. Special financing rates cannot be combined with any other incentive. See dealer for complete details.'; }
+	
+	if(document.querySelector('#BitMoto-SubaruImprezaLease') !== null)  { document.getElementById('BitMoto-SubaruImprezaLease').innerHTML = '179'; }
+	if(document.querySelector('#BitMoto-SubaruImprezaDAS') !== null)  { document.getElementById('BitMoto-SubaruImprezaDAS').innerHTML = '1,899'; }
+	if(document.querySelector('#BitMoto-SubaruImprezaRate') !== null)  { document.getElementById('BitMoto-SubaruImprezaRate').innerHTML = '0.9'; }
+	if(document.querySelector('#BitMoto-SubaruImprezaMonths') !== null)  { document.getElementById('BitMoto-SubaruImprezaMonths').innerHTML = '39'; }
+	if(document.querySelector('#BitMoto-SubaruImprezaMSRP') !== null)  { document.getElementById('BitMoto-SubaruImprezaMSRP').innerHTML = '18,395'; }
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  { document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'MSRP $19,215 (incl. $820 freight charge). Net cap cost of $17,550 (incl. $595 acq. fee). Total monthly payments $6,444. Lease end purchase option is $11,529. Must take delivery from retailer stock by May 31, 2017. Other leases available on other models. Cannot be combined with any other incentives. Special lease rates extended to well-qualified buyers. Subject to credit approval, vehicle insurance approval & vehicle availability. Not all buyers may qualify. Payments may be higher in some states. Net cap cost & monthly payment excludes tax, license, title, registration, retailer fees, options, insurance & the like. Retailer participation may affect final cost. At lease end, lessee responsible for vehicle maintenance/repairs not covered by warranty, excessive wear/tear, 15 cents/mile over 12,000 miles/year and $300 disposition fee. Lessee pays personal property and ad valorem taxes (where applies) & insurance. Offer not available in Hawaii. See participating retailer for details.'; }
+	
+	if(document.querySelector('#BitMoto-SubaruForesterLease') !== null)  { document.getElementById('BitMoto-SubaruForesterLease').innerHTML = '227'; }
+	if(document.querySelector('#BitMoto-SubaruForesterDAS') !== null)  { document.getElementById('BitMoto-SubaruForesterDAS').innerHTML = '1,729'; }
+	if(document.querySelector('#BitMoto-SubaruForesterRate') !== null)  { document.getElementById('BitMoto-SubaruForesterRate').innerHTML = '0'; }
+	if(document.querySelector('#BitMoto-SubaruForesterMonths') !== null)  { document.getElementById('BitMoto-SubaruForesterMonths').innerHTML = '48'; }
+	if(document.querySelector('#BitMoto-SubaruForesterMSRP') !== null)  { document.getElementById('BitMoto-SubaruForesterMSRP').innerHTML = '22,595'; }
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  { document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*VIN: HG574268. Model Code: HFA-01. MSRP $24,134. 4dr, 4cyl, 6 speed, PS, PB, ABS, air. Due at signing: $1,000 cash or trade equity down. 36 month closed end lease. 10,000 miles per year. 15¢ per mile over. LEV $15,687. TOP $8,172. $0 security deposit. Tax, tags and $289 doc fee additional. Offer expires 6/30/17. Special financing available on select vehicles. For qualified buyers only. Special financing rates cannot be combined with any other incentive. See dealer for complete details.'; }
+
+	if(document.querySelector('#BitMoto-SubaruLegacyLease') !== null)  { document.getElementById('BitMoto-SubaruLegacyLease').innerHTML = '227'; }
+	if(document.querySelector('#BitMoto-SubaruLegacyDAS') !== null)  { document.getElementById('BitMoto-SubaruLegacyDAS').innerHTML = ''; }
+	if(document.querySelector('#BitMoto-SubaruLegacyRate') !== null)  { document.getElementById('BitMoto-SubaruLegacyRate').innerHTML = '0'; }
+	if(document.querySelector('#BitMoto-SubaruLegacyMonths') !== null)  { document.getElementById('BitMoto-SubaruLegacyMonths').innerHTML = '48'; }
+	if(document.querySelector('#BitMoto-SubaruLegacyMSRP') !== null)  { document.getElementById('BitMoto-SubaruLegacyMSRP').innerHTML = '21,995'; }
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  { document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*VIN: H3042753. Model Code: HAB-02. MSRP $23,859. PS, PB, auto, 4dr, 4cyl, air. Total due at signing: $1,000 cash or trade equity down. 36 month closed end lease. 10,000 miles per year. 15¢ per mile over. LEV $14,534 TOP $8,172. $0 security deposit. Tax, tags and $289 doc fee additional. Offer expires 6/30/17. Special financing available on select vehicles. For qualified buyers only. Special financing rates cannot be combined with any other incentive. See dealer for complete details.'; }
+
+}
+// END - Miller Subaru Lumberton
+
+
 // Chevrolet Vehicle Pages
 // All Vehicles
 if(document.getElementById('BitMoto-ChevroletDisclaimerDate') !== null)  {
