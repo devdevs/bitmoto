@@ -1,6 +1,6 @@
 // Devs JS for Bitmoto Clients
 
-// Outten | Carman | Coccia | Pacifico | Gilboy | Sloan | Dunphy
+// Outten | Carman | Coccia | Pacifico | Gilboy | Sloan | Dunphy | Miller
 
 
 // Carman Ford New Castle
@@ -301,6 +301,59 @@ if(document.domain == "www.cocciaford.com"){
 
 }
 // END - Coccia Ford Wilkes-Barre
+
+
+// START - Miller Ford Lumberton
+if(document.domain == "www.millerford.com"){
+
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '124'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '3700'; }
+	
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '124'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '3700'; }
+	
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '94'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2750'; }
+	
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '228'; }
+	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3548'; }
+	
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '194'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '4250'; }
+	/*
+	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '234'; }
+	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3268'; }
+	*/
+	if(document.URL.indexOf("facebook-explorer.htm") >= 0) {
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '309'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '2000'; }
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  { document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*Stock #HGC98795. Lease for $309/mo with $2000 down payment required. 39 month lease with 10,500 miles/year. Taxes, tags, $289 doc fee, and first month payment due at signing. Security deposit waived. See dealer for details. Expires 6/30/2017';}
+	}
+	
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
+	
+		if(document.URL.indexOf("ford-fusion.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: HR391258  MSRP $25,010. 4dr, 4cyl, auto, PW, PL, PB, PS, air. Total due at signing: $3,500 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $11,004. TOP: $5,724. $0 security deposit. Includes $3,750 RCL Customer Cash. Tax and tags additional. Offer expires 11/30/17.';
+		}
+		if(document.URL.indexOf("ford-focus.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: HL311666. MSRP $20,640. 5dr, 4cyl, auto, PW, PL, PB, PS, air, alloy wheels, Sync. Total due at signing: $3,000 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV $8,668. TOP $4,644. $0 security deposit. Includes $4,125 RCL Customer Cash. Offer expires 11/30/17.';
+		}
+		if(document.URL.indexOf("ford-escape.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: HUE25528. MSRP $24,660. SUV, 4cyl, auto, PW, PL, PB, PS, air. Total due at signing: $3,500 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $11,097. TOP: $5,724. $0 security deposit. Includes $4,000 RCL Customer Cash. Tax and tags additional. Offer expires 11/30/17.';
+		}
+		if(document.URL.indexOf("ford-explorer.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: HGD76278  MSRP $35,325. SUV V6, auto, PW, PL, PB, PS, air. Total due at signing: $4,250 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $17,309. TOP: $8,244. $0 security deposit. Includes $4,250 RCL Customer Cash. Tax and tags additional. Offer expires 11/30/17.';
+		}
+		if(document.URL.indexOf("ford-f150.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: HFC76746  MSRP $48,770. 4dr, PU, V8, auto, PW, PL, PB, PS, air. Total due at signing: $4,250 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $27,798. TOP: $8,964. $0 security deposit. Includes $2625 RCL Customer Cash. $1500 Bonus Customer Cash.  $300 EcoBoost Bonus Customer Cash. $750 F150 RCL Renewal. Tax and tags additional. Offer expires 11/30/17.';
+		}
+		if(document.URL.indexOf("ford-edge.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $255/mo w/ $3,254 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and $289 documentation fee due at signing. Expires 11/30/2017. See dealer for details.';
+		}
+	}
+
+}
+// END - Miller Ford Lumberton
 
 
 /*
