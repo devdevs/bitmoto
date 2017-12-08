@@ -1,7 +1,7 @@
 // Devs JS for Bitmoto Clients
 
 // Outten | Carman | Coccia | Pacifico | Gilboy | Sloan | Dunphy | Miller
-
+//finke
 
 // Carman Ford New Castle
 if(document.domain == "www.carman-ford.com"){
