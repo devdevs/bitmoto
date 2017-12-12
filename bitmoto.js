@@ -1,7 +1,7 @@
 // Devs JS for Bitmoto Clients
 
 // Outten | Carman | Coccia | Pacifico | Gilboy | Sloan | Dunphy | Miller
-// Haldeman
+// Haldeman | Premier
 
 // Carman Ford New Castle
 if(document.domain == "www.carman-ford.com"){
@@ -80,6 +80,13 @@ if (!document.getElementById(cssId))
 
 // Gilboy Ford Whitehall
 if(document.domain == "www.gilboyford.com"){
+
+}
+
+// Premier Lincoln Brooklyn
+if(document.domain == "www.premierlincolnbrooklyn.com"){
+
+ga('create', 'UA-108569800-1', 'auto');
 
 }
 
