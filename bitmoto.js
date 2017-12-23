@@ -561,7 +561,7 @@ if(document.URL.indexOf("ford-escape.htm") >= 0){
 document.getElementById('BitMoto-FordEscapeLease').innerHTML = '179';
 document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2679';
 document.getElementById('BitMoto-FordEscapeCash').innerHTML = '1,500';
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>FWD SE 200A. MSRP $26145. Lease for $143/mo w/ $3,720 DAS. 24 month lease with 10,500 miles/year. Taxes & fees extra.  Includes $500 Military Rebate.Security deposit waived.  <sup>2<sup>FWD SE 200A. Not everyone will qualify for financing. Includes $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>FWD SE 200A. Includes all available rebates plus $500 Military Rebate plus average dealer discount. Expires 12/31/2017 See dealer for details.';
+document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>FWD SE 200A. MSRP $26145. Lease for $109/mo w/ $3,667 DAS. 24 month lease with 10,500 miles/year. Taxes & fees extra. Includes $500 Military Rebate.Security deposit waived. <sup>2</sup>FWD SE 200A. Not everyone will qualify for financing. Includes $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>FWD SE 200A. Includes all available rebates plus $500 Military Rebate plus average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 12/31/2017 See dealer for details.';
 }
 
 if(document.querySelector('#BitMoto-FordFusionLease') !== null)  {document.getElementById('BitMoto-FordFusionLease').innerHTML = '179';}
@@ -570,35 +570,35 @@ if(document.querySelector('#BitMoto-FordFusionCash') !== null)  {document.getEle
 if(document.querySelector('#BitMoto-FordFusionSavings') !== null)  {document.getElementById('BitMoto-FordFusionSavings').innerHTML = '6,431';}
 if(document.querySelector('#BitMoto-FordFusionYear') !== null)  {document.getElementById('BitMoto-FordFusionYear').innerHTML = '2017';}
 if(document.URL.indexOf("ford-fusion.htm") >= 0){ 
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>FWD SE 200A. MSRP $25710. Lease for $143/mo w/ $3,620 DAS. 24 month lease with 10,500 miles/year. Taxes & fees extra.  Includes $500 Military Rebate. Security deposit waived. <sup>2</sup>Not everyone will qualify for financing. Includes all available rebates and $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>FWD SE. Total savings includes all available rebates plus $500 Military Rebate and 2.0L/2.7L Engine Cash. Expires 12/31/2017 See dealer for details.';
+document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>FWD SE 200A. MSRP $25710. Lease for $109/mo w/ $3,547 DAS. 24 month lease with 10,500 miles/year. Taxes & fees extra. Includes $500 Military Rebate. Security deposit waived. <sup>2</sup>Not everyone will qualify for financing. Includes all available rebates and $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>FWD SE. Total savings includes all available rebates plus $500 Military Rebate and 2.0L/2.7L Engine Cash. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 12/31/2017 See dealer for details.';
 }
 
 if(document.URL.indexOf("ford-focus.htm") >= 0){ 
 document.getElementById('BitMoto-FordFocusLease').innerHTML = '139';
 document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2449';
 document.getElementById('BitMoto-FordFocusCash').innerHTML = '2,000';
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>4DR SE 200A w/AUTO. MSRP $20,145. Lease for $121/mo w/ $2,585 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra.  Includes $500 Military Rebate. Security deposit waived. <sup>2</sup>4DR SE 200A w/AUTO. Not everyone will qualify for financing. Includes $500 Military Rebate. Must qualify through FMCC.  <sup>3</sup>4DR SE 200A w/AUTO. Total savings includes all available rebates including Military Rebate and average dealer discount. Expires 12/31/2017. See dealer for details.';
+document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>4DR SE 200A w/AUTO. MSRP $20,145. Lease for $99/mo w/ $2,564 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Includes $500 Military Rebate. Security deposit waived. 24DR SE 200A w/AUTO. Not everyone will qualify for financing. Includes $500 Military Rebate. Must qualify through FMCC. <sup>2</sup>4DR SE 200A w/AUTO. Total savings includes all available rebates including Military Rebate and average dealer discount. Expires 12/31/2017. See dealer for details.';
 }
 
 if(document.URL.indexOf("ford-explorer.htm") >= 0){ 
 document.getElementById('BitMoto-FordExplorerLease').innerHTML = '229';
 document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3352';
 //document.getElementById('BitMoto-FordExplorerCash').innerHTML = '1,000';
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>FWD Base 100A. MSRP $32605. Lease for $188/mo w/ $3,479 DAS. 24 month lease with 10,500 miles/year. Taxes & fees extra.  Includes $500 Military Rebate. Security deposit waived. <sup>2</sup>FWD Base 100A. Not everyone will qualify for financing. Includes $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>FWD Base 100A. Total savings includes all available rebates including $500 Military Rebate plus average dealer discount. Expires 12/31/2017 See dealer for details.';
+document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>FWD Base 100A. MSRP $32605. Lease for $164/mo w/ $3,448 DAS. 24 month lease with 10,500 miles/year. Taxes & fees extra. Includes $500 Military Rebate. Security deposit waived. <sup>2</sup>FWD Base 100A. Not everyone will qualify for financing. Includes $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>FWD Base 100A. Total savings includes all available rebates including $500 Military Rebate plus average dealer discount. Expires 12/31/2017 See dealer for details.';
 }
 
 if(document.querySelector('#BitMoto-FordF150Lease') !== null)  {document.getElementById('BitMoto-FordF150Lease').innerHTML = '249';}
 if(document.querySelector('#BitMoto-FordF150DAS') !== null)  {document.getElementById('BitMoto-FordF150DAS').innerHTML = '2959';}
 if(document.querySelector('#BitMoto-FordF150Savings') !== null)  {document.getElementById('BitMoto-FordF150Savings').innerHTML = '10,000';}
 if(document.URL.indexOf("ford-f150.htm") >= 0){ 
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>2018 F150 SuperCab XL. MSRP $1210. Lease for $257/mo w/ $3,351 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Includes $500 Military Rebate. Security deposit waived. <sup>2</sup>2017 MY F150. Not everyone will qualify for financing. Includes all available rebates including $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>2017 Supercrew XLT 4x4. Total savings includes all available rebates including $500 Military Rebate. Expires 12/31/2017. See dealer for details.';
+document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>2018 F150 SuperCab XL. MSRP $41210. Lease for $257/mo w/ $3,351 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Includes $500 Military Rebate. Security deposit waived. <sup>2</sup>2018 MY F150. Not everyone will qualify for financing. Includes all available rebates including $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>2017 Supercrew XLT 4x4. Total savings includes all available rebates including $500 Military Rebate. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 12/31/2017. See dealer for details.';
 }
 
 if(document.URL.indexOf("ford-edge.htm") >= 0){ 
 document.getElementById('BitMoto-FordEdgeLease').innerHTML = '259';
 document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3149';
 document.getElementById('BitMoto-FordEdgeSavings').innerHTML = '4,024';
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>AWD SEL 200A. MSRP $34680. Lease for $241/mo w/ $3,254 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra.  Includes $500 Military Rebate. Security deposit waived. Must qualify through FMCC. <sup>2</sup>AWD SEL 200A. Not everyone will qualify for financing. Includes $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>AWD SEL 200A. Total savings includes all available rebates plus $500 Military Rebate and average dealer discount. Expires 12/31/2017. See dealer for details.';
+document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>AWD SEL 200A. MSRP $34680. Lease for $219/mo w/ $3,233 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Includes $500 Military Rebate. Security deposit waived. Must qualify through FMCC. <sup>2</sup>AWD SEL 200A. Not everyone will qualify for financing. Includes $500 Military Rebate. Must qualify through FMCC. <sup>3</sup>AWD SEL 200A. Total savings includes all available rebates plus $500 Military Rebate and average dealer discount. Expires 12/31/2017. See dealer for details.';
 }
 
 }
