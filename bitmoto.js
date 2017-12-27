@@ -185,22 +185,22 @@ if(document.domain == "www.sloanford.com"){
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 		
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $165/mo w/ $3,620 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra.***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $144/mo w/ $3,620 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $135/mo w/ $2,585 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $114/mo w/ $2,564 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $165/mo w/ $3,740 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $144/mo w/ $3,740 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $209/mo w/ $3,479 DAS. 24 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $178/mo w/ $3,448 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*Lease for $271/mo w/ $3,351 DAS. 36 month lease with 10,500 miles/year. **$9,000 Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*18MY F-150 4x4 SuperCab STX. 101A + 861 + 61S w/2.7L EcoBoost. MSRP $42,210. Lease for $248/mo w/ $3,449 DAS. 36 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $255/mo w/ $3,254 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and doc fee extra.***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $225/mo w/ $3,33 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 	}
 
@@ -288,22 +288,22 @@ if(document.domain == "www.cocciaford.com"){
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $165/mo w/ $3,620 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra.***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $144/mo w/ $3,620 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $135/mo w/ $2,585 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $114/mo w/ $2,564 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $165/mo w/ $3,740 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $144/mo w/ $3,740 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $209/mo w/ $3,479 DAS. 24 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $178/mo w/ $3,448 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*Lease for $271/mo w/ $3,351 DAS. 36 month lease with 10,500 miles/year. **$9,000 Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*18MY F-150 4x4 SuperCab STX. 101A + 861 + 61S w/2.7L EcoBoost. MSRP $42,210. Lease for $248/mo w/ $3,449 DAS. 36 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $255/mo w/ $3,254 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and doc fee extra.***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $225/mo w/ $3,33 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 	}
 
@@ -436,22 +436,22 @@ if(document.domain == "www.carman-ford.com"){
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 		
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $165/mo w/ $3,620 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra.***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $144/mo w/ $3,620 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $135/mo w/ $2,585 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $114/mo w/ $2,564 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $165/mo w/ $3,740 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $144/mo w/ $3,740 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $209/mo w/ $3,479 DAS. 24 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $178/mo w/ $3,448 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*Lease for $271/mo w/ $3,351 DAS. 36 month lease with 10,500 miles/year. **$9,000 Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*18MY F-150 4x4 SuperCab STX. 101A + 861 + 61S w/2.7L EcoBoost. MSRP $42,210. Lease for $248/mo w/ $3,449 DAS. 36 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $255/mo w/ $3,254 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and doc fee extra.***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $225/mo w/ $3,33 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 	}
 	
@@ -484,22 +484,22 @@ if(document.domain == "www.dunphyford.com"){
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 	
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $165/mo w/ $3,620 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra.***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $144/mo w/ $3,620 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $135/mo w/ $2,585 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $114/mo w/ $2,564 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $165/mo w/ $3,740 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $144/mo w/ $3,740 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $209/mo w/ $3,479 DAS. 24 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $178/mo w/ $3,448 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*Lease for $271/mo w/ $3,351 DAS. 36 month lease with 10,500 miles/year. **$9,000 Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and doc fee extra. ***Not everyone will qualify for financing. Expires 12/25/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*18MY F-150 4x4 SuperCab STX. 101A + 861 + 61S w/2.7L EcoBoost. MSRP $42,210. Lease for $248/mo w/ $3,449 DAS. 36 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $255/mo w/ $3,254 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and doc fee extra.***Not everyone will qualify for financing. Expires 12/25/2017. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $225/mo w/ $3,33 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 	}
 
@@ -529,22 +529,22 @@ if(document.domain == "www.haldemanfordallentown.com"){
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 	
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $134/mo w/ $3,599 DAS. 24 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and fees extra. Expires 11/30/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $144/mo w/ $3,620 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY Focus. 4DR SE 200A w Auto. MSRP $20,145. Lease for $118/mo w/ $2,568 DAS. 36 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and fees extra. Expires 11/30/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $114/mo w/ $2,564 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY Escape. FWD SE 200A. MSRP $26,145. Lease for $134/mo w/ $3,719 DAS. 24 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and fees extra. Expires 11/30/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17 MY Escape. FWD SE 200A. MSRP $26,145. Lease for $144/mo w/ $3,740 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $183/mo w/ $3453 DAS. 24 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and fees extra. Expires 11/30/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. FWD Base 100A. MSRP $32,605. Lease for $178/mo w/ $3,448 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and documentation fee due at signing. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY F150. 101A +861 w 2.7L EcoBoost. MSRP $41,090. Lease for $228/mo w/ $3548 DAS. 36 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and fees extra. Expires 11/30/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*18MY F-150 4x4 SuperCab STX. 101A + 861 + 61S w/2.7L EcoBoost. MSRP $42,210. Lease for $248/mo w/ $3,449 DAS. 36 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. All offers include $2,000 Holiday Bonus Certificates that may or may not still be available. Expires 1/2/2018 See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $234/mo w/ $3,233 DAS. 36 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and fees extra. Expires 11/30/2017 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $225/mo w/ $3,33 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Expires 1/2/2018. See dealer for details.';
 		}
 	}
 
