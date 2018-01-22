@@ -3,10 +3,6 @@
 // Outten | Carman | Coccia | Pacifico | Gilboy | Sloan | Dunphy | Miller
 // Haldeman | Premier
 
-// Carman Ford New Castle
-if(document.domain == "www.carman-ford.com"){
-
-}
 
 
 
@@ -35,13 +31,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5HPQ7JJ');
 	
 ga('create', 'UA-91134803-1', 'auto');
-
-}
-
-
-
-// Coccia Lincoln Wilkes-Barre
-if(document.domain == "www.coccialincoln.com"){
 
 }
 
@@ -78,31 +67,10 @@ if (!document.getElementById(cssId))
 }
 
 
-// Gilboy Ford Whitehall
-if(document.domain == "www.gilboyford.com"){
-
-}
-
-
-//Haldeman Ford East Windsor
-if(document.domain == "www.haldemandirect.com"){
-
-ga('create', 'UA-77847500-1', 'auto');
-
-}
-
-
 // Premier Lincoln Brooklyn
 if(document.domain == "www.premierlincolnbrooklyn.com"){
 
 ga('create', 'UA-108569800-1', 'auto');
-
-}
-
-//Miller Ford Lumberton
-if(document.domain == "www.millerford.com"){
-
-ga('create', 'UA-78897207-1', 'auto');
 
 }
 
@@ -333,6 +301,8 @@ if(document.domain == "www.cocciaford.com"){
 // START - Miller Ford Lumberton
 if(document.domain == "www.millerford.com"){
 
+ga('create', 'UA-78897207-1', 'auto');
+
 	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '179'; }
 	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2599'; }
 	
@@ -529,6 +499,9 @@ if(document.domain == "www.dunphyford.com"){
 
 // START - Haldeman Ford East Windsor
 if(document.domain == "www.haldemandirect.com"){
+
+ga('create', 'UA-77847500-1', 'auto');
+
 /*
 	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '179'; }
 	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2999'; }
@@ -573,6 +546,59 @@ if(document.domain == "www.haldemandirect.com"){
 
 }
 // END - Haldeman Ford East Windsor
+
+
+
+// START - Haldeman Ford Hamilton
+if(document.domain == "www.haldemanfordhamilton.com"){
+
+ga('create', 'UA-65112618-1', 'auto');
+
+/*
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '170'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2950'; }
+
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '130'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2699'; }
+
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '245'; }
+	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3660'; }
+
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '214'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3499'; }
+
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '171'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2999'; }
+	
+	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '240'; }
+	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3254'; }
+*/
+	//Disclaimers
+	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
+		
+		if(document.URL.indexOf("ford-fusion.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $179/mo w/ $3,639 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and $249 documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount. Photo for illustration purposes only. Expires 1/31/2018 See dealer for details.';
+		}
+		if(document.URL.indexOf("ford-focus.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $150/mo w/ $2,579 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount. Security deposit waived. Taxes, tags, and $249 documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount.Photo for illustration purposes only.  Expires 1/31/2018. See dealer for details.';
+		}
+		if(document.URL.indexOf("ford-escape.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*18 MY Escape. FWD SE 200A. MSRP $26,600. Lease for $199/mo w/ $2,599 DAS. 36 month lease with 10,500 miles/year. Includes all available rebates and average dealer discount. Security deposit waived.Taxes, tags, and $249 documentation fee due at signing.**Total Savings includes all available rebates and average dealer discount + $750 Renewal/Conquest Bonus Cash. Photo for illustration purposes only. Expires 1/31/2018. See dealer for details.';
+		}
+		if(document.URL.indexOf("ford-explorer.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. 4WD XLT 202A. MSRP $43,145. Lease for $279/mo w/ $4,679 DAS. 39 month lease with 10,500 miles/year. **Includes all available rebates and average dealer discount + $750 Renewal/Conquest Bonus Cash. Security deposit waived. Taxes, tags, and $249 documentation fee due at signing. Photo for illustration purposes only. Expires 1/31/2018 See dealer for details.';
+		}
+		if(document.URL.indexOf("ford-f150.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*18MY F-150 4x4 SuperCab STX 101A + 861 + 61S w/2.7L EcoBoost. MSRP $43,205. Lease for $249/mo w/ $3,289 DAS. 36 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and $249 documentation fee due at signing.Includes all available rebates and average dealer discount. $1,500 Red Carpet Lease Cash + $1,500 XL/XLT Open Bonus Cash + $300 2.7L EcoBoost Bonus Cash. Expires 1/31/2018 See dealer for details.';
+		}
+		if(document.URL.indexOf("ford-edge.htm") >= 0){
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $249/mo w/ $3,229 DAS. 24 month lease with 10,500 miles/year. Includes all available rebates and average dealer discount + $750 Renewal/Conquest Bonus Cash. Security deposit waived.Taxes, tags, and $249 documentation fee due at signing. **Total Savings includes all available rebates and average dealer discount. Photo for illustration purposes only.Expires 1/31/2018. See dealer for details.';
+		}
+	}
+
+
+}
+// END - Haldeman Ford Hamilton
 
 
 
