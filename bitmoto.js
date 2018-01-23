@@ -263,7 +263,7 @@ if(document.domain == "www.cocciaford.com"){
 	
 	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '249'; }
 	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '2500'; }
-*/	if(document.querySelector('#BitMoto-FordF150Savings') !== null)  { document.getElementById('BitMoto-FordF150Savings').innerHTML = '9463'; }
+*/	if(document.querySelector('#BitMoto-FordF150Savings') !== null)  { document.getElementById('BitMoto-FordF150Savings').innerHTML = '9963'; }
 /*
 	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '299'; }
 	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '4799'; }
@@ -683,7 +683,7 @@ document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>4WD 
 
 if(document.querySelector('#BitMoto-FordF150Lease') !== null)  {document.getElementById('BitMoto-FordF150Lease').innerHTML = '249';}
 if(document.querySelector('#BitMoto-FordF150DAS') !== null)  {document.getElementById('BitMoto-FordF150DAS').innerHTML = '2959';}
-if(document.querySelector('#BitMoto-FordF150Savings') !== null)  {document.getElementById('BitMoto-FordF150Savings').innerHTML = '10,000';}
+if(document.querySelector('#BitMoto-FordF150Savings') !== null)  {document.getElementById('BitMoto-FordF150Savings').innerHTML = '9963';}
 if(document.URL.indexOf("ford-f150.htm") >= 0){ 
 document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>2018 F150 SuperCab STX. MSRP $43,205. Lease for $249/mo w/ $3,289 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Includes $500 Military Rebate. Security deposit waived. <sup>2</sup>2018 MY F150. Not everyone will qualify for financing. Includes all available rebates. Must qualify through FMCC. <sup>3</sup>2018 Supercrew XLT. Total savings includes all available rebates and average dealer discount. Expires 1/31/2017. See dealer for details.';
 }
