@@ -826,6 +826,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 };
 
 
+// Change '2017' to '2018'
+if(document.getElementById('bitmoto') !== null) {
+	if(document.URL.indexOf("ford-escape.htm") >= 0 && document.URL.indexOf("ford-f150.htm") >=0){
+		var oldMY = "2017";
+		var newMY = "2018";
+		oldMY.replace(oldMY,newMY);
+	}
+}
+
 
 // START Event Tracking for GA and FB
 
