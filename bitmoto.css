@@ -18,7 +18,7 @@
 
 /* Sales Pages */
 
-#bitmoto.sale section div {display: inline-block;width: 46%;margin: auto;vertical-align: middle; padding:1%;}
+#bitmoto.sale section div {display: inline-block;width: 48%;margin: auto;vertical-align: middle; padding:1% 0 1% 1%;}
 #bitmoto.sale #shop {text-decoration: none;color: white;display: block;padding: 18px 0;margin: auto;text-align: center;font-size: 22px;font-weight: bold;}
 #bitmoto.sale #cta {margin: 32px 0;border-top: 1px solid lightgray;padding: 18px 0 8px;}
 #bitmoto.sale #cta1 {font-weight: bold;font-size: 34px;display: inline-block;width: 48%;text-align: center;}
