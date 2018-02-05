@@ -920,9 +920,44 @@ var devEl = document.querySelector('a[href*="print"]');
 devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
 }
 
-// Carman Ford WL Gore Form
+
+
+// Carman Ford Events
+if(document.domain == "www.carman-ford.com"){
+	
+// Carman Ford - WL Gore Form
 if(document.querySelector('form[action*="/form/confirm.htm?formId=contact-fd&formEventId=625b79f83864446589d2e3f886aecf02&pageAlias=SITEBUILDER_W_L__GORE_EMPLOYEE_OFFER_1&formTrackingName=contact"].btn') !== null) {
 var devEl = document.querySelector('form[action*="/form/confirm.htm?formId=contact-fd&formEventId=625b79f83864446589d2e3f886aecf02&pageAlias=SITEBUILDER_W_L__GORE_EMPLOYEE_OFFER_1&formTrackingName=contact"].btn');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
+}
+
+//Carman Ford - Bank of America
+if(document.querySelector('form[action*="/form/confirm.htm?formId=contact-fd&formEventId=f3e837a1cfd44ba285dada4b8cc702af&pageAlias=SITEBUILDER_BANK_OF_AMERICA_EMPLOYEE_OFFER_1&formTrackingName=contact"].btn') !== null) {
+var devEl = document.querySelector('form[action*="/form/confirm.htm?formId=contact-fd&formEventId=f3e837a1cfd44ba285dada4b8cc702af&pageAlias=SITEBUILDER_BANK_OF_AMERICA_EMPLOYEE_OFFER_1&formTrackingName=contact"].btn');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
+}
+
+//Carman Ford - JP Morgan
+if(document.querySelector('form[action*="/form/confirm.htm?formId=contact-fd&formEventId=8bb5a07a8b5f4b799c17156c9b42ce97&pageAlias=SITEBUILDER_JP_MORGAN_CHASE_EMPLOYEE_OFFER_1&formTrackingName=contact"].btn') !== null) {
+var devEl = document.querySelector('form[action*="/form/confirm.htm?formId=contact-fd&formEventId=8bb5a07a8b5f4b799c17156c9b42ce97&pageAlias=SITEBUILDER_JP_MORGAN_CHASE_EMPLOYEE_OFFER_1&formTrackingName=contact"].btn');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
+}
+
+}
+
+
+// Carman CJD Events
+if(document.domain == "www.carmanchryslerjeepdodge.com"){
+	
+// Carman Ford - Bank of America
+if(document.querySelector('form[action*="/contact-form-confirm.htm?formId=contact_shift&formEventId=0bf4ff6e6c164660ab644f6bb9272b83&pageAlias=SITEBUILDER_BANK_OF_AMERICA_SPECIAL_OFFER_1&formTrackingName=contact"].btn') !== null) {
+var devEl = document.querySelector('form[action*="/contact-form-confirm.htm?formId=contact_shift&formEventId=0bf4ff6e6c164660ab644f6bb9272b83&pageAlias=SITEBUILDER_BANK_OF_AMERICA_SPECIAL_OFFER_1&formTrackingName=contact"].btn');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
+}
+
+//Carman Ford - JP Morgan
+if(document.querySelector('form[action*="/contact-form-confirm.htm?formId=contact_shift&formEventId=c8d94e39524c409c937c2f6b4ba062a7&pageAlias=SITEBUILDER_JP_MORGAN_CHASE___CO_SPECIAL_OFFER_1&formTrackingName=contact"].btn') !== null) {
+var devEl = document.querySelector('form[action*="/contact-form-confirm.htm?formId=contact_shift&formEventId=c8d94e39524c409c937c2f6b4ba062a7&pageAlias=SITEBUILDER_JP_MORGAN_CHASE___CO_SPECIAL_OFFER_1&formTrackingName=contact"].btn');
 devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
 }
 
