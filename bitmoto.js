@@ -301,24 +301,24 @@ if(document.domain == "www.millerford.com"){
 
 ga('create', 'UA-78897207-1', 'auto');
 
-	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '179'; }
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '189'; }
 	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2599'; }
 	
-	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '159'; }
-	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2999'; }
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '199'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2599'; }
 	
-	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '129'; }
-	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2750'; }
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '149'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2229'; }
 	
-	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '239'; }
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '229'; }
 	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '2999'; }
 	
-	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '259'; }
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '269'; }
 	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '2999'; }
-	
+/*
 	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '239'; }
 	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '2999'; }
-	
+*/
 	if(document.URL.indexOf("facebook-explorer.htm") >= 0) {
 	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '309'; }
 	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '2000'; }
@@ -328,22 +328,22 @@ ga('create', 'UA-78897207-1', 'auto');
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 	
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: HR391257 MSRP $26,610. 4dr, 4cyl, auto, PW, PL, PB, PS, air. Total due at signing: $2,999 down plus first month’s payment, $645 acquisition fee, tax, tags, and $289 doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $11,176. TOP: $5,724. $0 security deposit. Includes $3,750 RCL Customer Cash and $1000 RCL Renewal. Tax and tags additional.Offer expires 1/31/18.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JR164543 MSRP $25,365. 4dr, 4cyl, auto, PW, PL, PB, PS, air. Total due at signing: $2,599 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $11,921.55. TOP: $7,164. $0 security deposit. Includes $1000 RCL Renewal, $2,000 RCL Customer Cash. Tax and tags additional. Offer expires 2/28/18.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JL214167. MSRP $21,120. Total due at signing: $1,999 down plus first month’s payment, $645 acquisition fee, tax, tags, and $289 doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV $9,715. TOP $4,364. $0 security deposit. Includes $3,500 RCL Customer Cash. Tax and tags additional. Offer expires 1/31/18.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JL237926 MSRP $19,830. 4dr, 4cyl, auto, PW, PL, PB, PS, air. Total due at signing: $2,299 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $8,725.20. TOP: $5,364. $0 security deposit. Includes $3,500 RCL Customer Cash. Tax and tags additional. Offer expires 2/28/18.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JUA27222. MSRP $24,845. SUV, 4cyl, auto, PW, PL, PB, PS, air. Total due at signing $2,599 down plus first month’s payment, $645 acquisition fee, tax, tags, and $289 doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $11,677. TOP: $6,444. $0 security deposit. Includes $3000 RCL Customer Cash and $750 Competitive Conquest Cash. Tax and tags additional.Offer expires 1/31/18.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JUB02972. MSRP $24,845. SUV, 4cyl, auto, PW, PL, PB, PS, air. Total due at signing: $2,599 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $11,677.15. TOP: $6,804. $0 security deposit. Includes $3,000 RCL Customer Cash, $750 Competitive Conquest Cash. Tax and tags additional. Offer expires 02/28/18.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JGA17484 MSRP $35,015. Total due at signing: $2,999 down plus first month’s payment, $645 acquisition fee, tax, tags, and $289 doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $18,908. TOP: $9,324. $0 security deposit. Includes $2,500 RCL Customer Cash and $750 Competitive Conquest Cash.Tax and tags additional. Offer expires 1/31/18.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JGA62652  MSRP $33,180. SUV V6, auto, PW, PL, PB, PS, air. Total due at signing: $2,999 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 39 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $15,594.60. TOP: $10,491. $0 security deposit. Includes $3,250 RCL Customer Cash, $750 Competitive Conquest Cash. Tax and tags additional. Offer expires 02/28/18.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JFA26186 MSRP $39,885. Total due at signing: $2,999 down plus first month’s payment, $645 acquisition fee, tax, tags, and $289 doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $23,133. TOP: $8,604. $0 security deposit. Includes $1500 RCL Customer Cash. $1500 Bonus Customer Cash. $750 F-150 RCL Renewal. Tax and tags additional. Offer expires 1/31/18.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JKD40448  MSRP $39,460. 4dr, PU, V8, auto, PW, PL, PB, PS, air. Total due at signing: $2,999 down: plus first month’s payment, $645 acquisition fee, tax, tags, and doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $22,866.80. TOP: $8,244. $0 security deposit. Includes $1500 Bonus Customer Cash, $1,500 RCL Customer Cash, $750 F150 RCL Renewal. Tax and tags additional. Offer expires 02/28/18.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JBB02515 MSRP $35,215. Total due at signing: $2,999 down plus first month’s payment, $645 acquisition fee, tax, tags, and $289 doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $15,107. TOP: $8,604. $0 security deposit. Includes $2,750 RCL Customer Cash and $750 Competitive Conquest Cash.Tax and tags additional. Offer expires 1/31/18.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = 'VIN: JBB02515 MSRP $35,215. Total due at signing: $2,999 down plus first month’s payment, $645 acquisition fee, tax, tags, and $289 doc fee. 36 month closed end lease. 10,500 miles per year. 15¢ per mile over. LEV: $15,107. TOP: $8,604. $0 security deposit. Includes $2,750 RCL Customer Cash and $750 Competitive Conquest Cash.Tax and tags additional. Offer expires 2/28/18.';
 		}
 	}
 
