@@ -920,6 +920,12 @@ var devEl = document.querySelector('a[href*="print"]');
 devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
 }
 
+// Carman Ford WL Gore Form
+if(document.querySelector('form[action*="/form/confirm.htm?formId=contact-fd&formEventId=625b79f83864446589d2e3f886aecf02&pageAlias=SITEBUILDER_W_L__GORE_EMPLOYEE_OFFER_1&formTrackingName=contact"].btn') !== null) {
+var devEl = document.querySelector('form[action*="/form/confirm.htm?formId=contact-fd&formEventId=625b79f83864446589d2e3f886aecf02&pageAlias=SITEBUILDER_W_L__GORE_EMPLOYEE_OFFER_1&formTrackingName=contact"].btn');
+devEl.addEventListener("click", function() { ga('send', 'event', 'BitMoto Coupons', 'Click', 'BitMoto'); fbq('track', 'Coupon'); } );
+}
+
 
 // Coccia Lincoln Facebook Black Label Page
 
