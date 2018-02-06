@@ -192,34 +192,34 @@ if(document.domain == "www.sloanford.com"){
 
 // START - Gilboy Ford Whitehall
 if(document.domain == "www.gilboyford.com"){
-/*
-	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '205'; }
-	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2555'; }
-	if(document.querySelector('#BitMoto-FordEscapeBuyFor') !== null)  { document.getElementById('BitMoto-FordEscapeBuyFor').innerHTML = '24,275'; }
+
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '211'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2711'; }
+	if(document.querySelector('#BitMoto-FordEscapeBuyFor') !== null)  { document.getElementById('BitMoto-FordEscapeBuyFor').innerHTML = '24,363'; }
 	
-	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '165'; }
-	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '3625'; }
-	if(document.querySelector('#BitMoto-FordFusionBuyFor') !== null)  { document.getElementById('BitMoto-FordFusionBuyFor').innerHTML = '20,449'; }
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '154'; }
+	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2609'; }
+	if(document.querySelector('#BitMoto-FordFusionBuyFor') !== null)  { document.getElementById('BitMoto-FordFusionBuyFor').innerHTML = '17,949'; }
 	
-	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '145'; }
-	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2255'; }
-	if(document.querySelector('#BitMoto-FordFocusBuyFor') !== null)  { document.getElementById('BitMoto-FordFocusBuyFor').innerHTML = '16,981'; }
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '123'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2563'; }
+	if(document.querySelector('#BitMoto-FordFocusBuyFor') !== null)  { document.getElementById('BitMoto-FordFocusBuyFor').innerHTML = '14,495'; }
 	
 	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '209'; }
-	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '2899'; }
-	if(document.querySelector('#BitMoto-FordF150BuyFor') !== null)  { document.getElementById('BitMoto-FordF150BuyFor').innerHTML = '36,530'; }
+	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3643'; }
+	if(document.querySelector('#BitMoto-FordF150BuyFor') !== null)  { document.getElementById('BitMoto-FordF150BuyFor').innerHTML = '38,251'; }
 	if(document.querySelector('#BitMoto-FordF150Rate') !== null)  { document.getElementById('BitMoto-FordEscapeRate').innerHTML = '0'; }
 	if(document.querySelector('#BitMoto-FordF150Months') !== null)  { document.getElementById('BitMoto-FordF150Months').innerHTML = '72'; }
 	if(document.querySelector('#BitMoto-FordF150Cash') !== null)  { document.getElementById('BitMoto-FordF150Cash').innerHTML = '1750'; }
 	
-	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '258'; }
-	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '4708'; }
-	if(document.querySelector('#BitMoto-FordExplorerBuyFor') !== null)  { document.getElementById('BitMoto-FordExplorerBuyFor').innerHTML = '36,475'; }
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '267'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3968'; }
+	if(document.querySelector('#BitMoto-FordExplorerBuyFor') !== null)  { document.getElementById('BitMoto-FordExplorerBuyFor').innerHTML = '34,907'; }
 	
-	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '228'; }
-	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3208'; }
-	if(document.querySelector('#BitMoto-FordEdgeBuyFor') !== null)  { document.getElementById('BitMoto-FordEdgeBuyFor').innerHTML = '27,731'; }
-*/
+	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '257'; }
+	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '2957'; }
+	if(document.querySelector('#BitMoto-FordEdgeBuyFor') !== null)  { document.getElementById('BitMoto-FordEdgeBuyFor').innerHTML = '28,231'; }
+
 // Disclaimers
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 		
