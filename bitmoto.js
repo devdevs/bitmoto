@@ -961,6 +961,7 @@ var devEl = document.querySelector('form[action*="/contact-form-confirm.htm?form
 devEl.addEventListener("click", function() { ga('send', 'event', 'JP Morgan', 'Click', 'BitMoto'); fbq('track', 'Lead'); } );
 }
 
+}
 
 // Coccia Lincoln Facebook Black Label Page
 
