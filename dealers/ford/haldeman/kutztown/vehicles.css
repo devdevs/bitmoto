@@ -1,0 +1,89 @@
+
+
+#bitmoto.haldeman nav {background:white; border-top:none;}
+#bitmoto.haldeman nav a {color:black;font-weight:normal;font-size:17px;width:24%;display:inline-block; text-decoration:none;padding:1.5% 0;text-align:center;}
+
+#bitmoto.ford.vehicle #details {text-align:left; margin:0.5% 0 0 0;}
+
+#bitmoto.ford.vehicle #details .one {
+    color:black;font-size:12px;font-style:italic; margin:0 0 0 10%;
+    padding:0 0 0 3%; width:20%; display:inline-block; float:right;
+}
+
+#bitmoto.ford.vehicle #details .one span.msrpText {border-bottom:1px solid black; display:inline-block; width:100%;}
+#BitMoto-FordEscapeMSRP {font-size:32px; font-weight:bold;}
+
+#bitmoto.ford.vehicle #details .two-1 {
+    position:relative;background:#069dca; padding:1% 0; display:inline-block;
+    width:30%; margin:0 3% 0 0; text-align:center; font-size:28px;font-weight:bold;
+}
+
+#bitmoto.ford.vehicle #details .two-1 a {color:white;text-decoration:none; font-weight:bold; position:relative; z-index:1;}
+#bitmoto.ford.vehicle #details .two-1:after {
+		position: absolute; content: ""; right: -10%; top:0; height: 100%;
+		width: 100%; background-color: inherit; margin:0 8px;
+		-webkit-transform: skewX(-15deg); -moz-transform: skewX(-15deg);
+		-ms-transform: skewX(-15deg); transform: skewX(-15deg);
+}
+
+#bitmoto.ford.vehicle #details .two-2 {
+    position:relative; background:#069dca; padding:1% 0; display:inline-block;
+    width:30%; margin:0 0 0 2%; text-align:center; font-size:28px; font-weight:bold;
+}
+#bitmoto.ford.vehicle #details .two-2 a {color:white;text-decoration:none;font-weight:bold; position:relative; z-index:1;}
+#bitmoto.ford.vehicle #details .two-2:after {
+		position: absolute; content: ""; right: -10%; top: 0; height: 100%;
+		width: 100%; background-color:#069dca; margin:0 8px;
+		-webkit-transform: skewX(-15deg); -moz-transform: skewX(-15deg);
+		-ms-transform: skewX(-15deg); transform: skewX(-15deg);
+}
+#bitmoto.ford.vehicle #details .two-2:before {
+		position: absolute; content: ""; left: -10%; top: 0; height: 100%;
+		width: 100%; background-color:#069dca; margin:0 8px;
+		-webkit-transform: skewX(-15deg); -moz-transform: skewX(-15deg);
+		-ms-transform: skewX(-15deg); transform: skewX(-15deg);
+}
+
+
+#bitmoto #vehicle {text-align:right; color:black;}
+#bitTitle {font-size:38px; color:white; font-weight:bold;padding:1%; float:left;}
+#bitLease {padding:2% 1% 0 0;}
+.bitORtxt {display:inline-block;width:35%;border-bottom:1px solid #555; text-align:left; font-style:italic;}
+#bitFinance {padding:2% 1% 0 0;}
+#bitSavings {padding:2% 1% 0 0;}
+
+.bitOfferText {font-size:44px; font-weight:bold; color:#069dca; text-shadow:2px 2px #555;}
+
+#bitmoto.vehicle #details a {display: inline; padding:0; width: 99%; margin: auto;}
+#bitmoto.vehicle #details {border:none;}
+
+#bitIntro {text-align:center; padding:2%;}
+
+#firstBlock {background:#069dca; color:white;}
+#firstBlock .firstBlock-1 {width:35%;display:inline-block; vertical-align:top;}
+#firstBlock .firstBlock-2 {width:50%;display:inline-block; padding:1% 2% 1% 2%; margin:0 0 0 5%;}
+#firstBlock .firstBlock-2 h3 {text-align:center;}
+
+#secondBlock {background:white; color:#333; height:auto;}
+#secondBlock .secondBlock-1 {width:55%;display:inline-block; padding:1% 1% 1% 1%; margin:0 0 0 4%;}
+#secondBlock .secondBlock-1 h3 {text-align:center;}
+#secondBlock .secondBlock-2 {width:35%;display:inline-block; vertical-align:top; float:right;}
+
+#bitCTA {background:#069dca;padding:2% 1% 2% 7%; font-size:24px; font-weight:bold; clear:both;}
+#bitCTA a {text-decoration:none; color:white;}
+
+#lastBlock {
+    background-size:cover; display:inline-block; background-repeat:no-repeat;
+    padding:2%; background-position:center;
+}
+#bitBox {float:right;width:35%; background:rgba(255,255,255,0.5); padding:1% 2%; font-size:14px;}
+#bitBox h3 {text-align:center;}
+
+#bitmoto.vehicle #cta {border:none; padding:1% 1% 0 1%; margin:1% 0 0 0;}
+#bitmoto.vehicle #cta2 {background:#069dca; border-radius:8px; width:40%; margin:0 0 0 5%;}
+#bitmoto.vehicle #cta2 a {background:none; width:auto;}
+#bitmoto.vehicle #cta1 {padding:2.5% 0 0 0; float:right;}
+
+#bitPhone-txt {font-weight:300;font-size:19px; color:#666;}
+
+#bitmoto #disclaimer {clear:both;}
