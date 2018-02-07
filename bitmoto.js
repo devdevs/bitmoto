@@ -606,9 +606,10 @@ if(document.domain == "www.haldemanfordallentown.com"){
 if(document.domain == "www.haldemanfordkutztown.com"){
 
 if(document.URL.indexOf("ford-escape.htm") >= 0){ 
-document.getElementById('BitMoto-FordEscapeLease').innerHTML = '179';
-document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2679';
-document.getElementById('BitMoto-FordEscapeCash').innerHTML = '1,500';
+document.getElementById('BitMoto-FordEscapeLease').innerHTML = '199';
+document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2599';
+document.getElementById('BitMoto-FordEscapeCash').innerHTML = '2000';
+document.getElementById('BitMoto-FordEScapeSavings').innerhtml = '3000';
 document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>2018 FWD SE 200A. MSRP $26,600. Lease for $199/mo w/ $2,599 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra.  Includes $750 Renewal or Conquest Rebate. Security deposit waived.  <sup>2</sup>2018 FWD SE 200A. Not everyone will qualify for financing. Includes Lease/Conquest Rebate. Must qualify through FMCC. <sup>3</sup>2017 FWD SE 200A. Includes all available rebates including Lease/Conquest Rebate plus average dealer discount. Expires 1/31/2017 See dealer for details.';
 }
 
