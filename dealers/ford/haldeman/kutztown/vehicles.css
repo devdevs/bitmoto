@@ -69,6 +69,8 @@
 #secondBlock .secondBlock-1 h3 {text-align:center;}
 #secondBlock .secondBlock-2 {width:35%;display:inline-block; vertical-align:top; float:right;}
 
+#bitmoto.ford.vehicle h3 {padding-bottom:2px; margin-bottom:2px;}
+
 #bitCTA {background:#069dca;padding:2% 1% 2% 7%; font-size:24px; font-weight:bold; clear:both;}
 #bitCTA a {text-decoration:none; color:white;}
 
