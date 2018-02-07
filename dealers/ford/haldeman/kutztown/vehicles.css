@@ -87,3 +87,27 @@
 #bitPhone-txt {font-weight:300;font-size:19px; color:#666;}
 
 #bitmoto #disclaimer {clear:both;}
+
+
+
+@media screen and (max-width: 479px) {
+
+    #bitTitle {background:#069dca;}
+    #bitLease {background:none !important; margin:0 !important;}
+    #bitLease .bitORtxt {color:black;}
+    
+    #bitmoto.ford.vehicle #details .one {margin-top:8px;}
+    
+    #bitmoto.ford.vehicle #details .two-1, #bitmoto.ford.vehicle #details .two-2 {width:44%;}
+    #firstBlock .firstBlock-1 {display:none;}
+    #firstBlock .firstBlock-2 {width:96%;padding:0 1% 0 2%;}
+    #secondBlock .secondBlock-1 {width:96%;padding:0 1% 0 1%;}
+    #secondBlock .secondBlock-2 {display:none;}
+    #firstBlock .firstBlock-2, #secondBlock .secondBlock-1 {margin:auto;}
+    
+    #lastBlock {padding:5%;}
+    #bitBox {width:96%; margin:auto; float:none;}
+    
+    #bitmoto.vehicle #cta2 {margin:16px auto;}
+
+}
