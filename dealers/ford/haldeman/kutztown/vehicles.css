@@ -1,7 +1,7 @@
 
 
-#bitmoto.haldeman nav {background:white; border-top:none;}
-#bitmoto.haldeman nav a {color:black;font-weight:normal;font-size:17px;width:24%;display:inline-block; text-decoration:none;padding:1.5% 0;text-align:center;}
+#bitmoto.ford nav {background:white; border-top:none;}
+#bitmoto.ford nav a {color:black;font-weight:normal;font-size:17px;width:24%;display:inline-block; text-decoration:none;padding:1.5% 0;text-align:center;}
 
 #bitmoto.ford.vehicle #details {text-align:left; margin:0.5% 0 0 0;}
 
@@ -54,7 +54,7 @@
 
 .bitOfferText {font-size:44px; font-weight:bold; color:#069dca; text-shadow:2px 2px #555;}
 
-#bitmoto.vehicle #details a {display: inline; padding:0; width: 99%; margin: auto;}
+#bitmoto.ford.vehicle #details a {display: inline; padding:0; width: 99%; margin: auto; background:inherit;}
 #bitmoto.vehicle #details {border:none;}
 
 #bitIntro {text-align:center; padding:2%;}
@@ -79,10 +79,10 @@
 #bitBox {float:right;width:35%; background:rgba(255,255,255,0.5); padding:1% 2%; font-size:14px;}
 #bitBox h3 {text-align:center;}
 
-#bitmoto.vehicle #cta {border:none; padding:1% 1% 0 1%; margin:1% 0 0 0;}
-#bitmoto.vehicle #cta2 {background:#069dca; border-radius:8px; width:40%; margin:0 0 0 5%;}
-#bitmoto.vehicle #cta2 a {background:none; width:auto;}
-#bitmoto.vehicle #cta1 {padding:2.5% 0 0 0; float:right;}
+#bitmoto.ford.vehicle #cta {border:none; padding:1% 1% 0 1%; margin:1% 0 0 0;}
+#bitmoto.ford.vehicle #cta2 {background:#069dca; border-radius:8px; width:40%; margin:0 0 0 5%;}
+#bitmoto.ford.vehicle #cta2 a {background:none; width:auto;}
+#bitmoto.ford.vehicle #cta1 {padding:2.5% 0 0 0; float:right;}
 
 #bitPhone-txt {font-weight:300;font-size:19px; color:#666;}
 
@@ -108,6 +108,6 @@
     #lastBlock {padding:5%;}
     #bitBox {width:96%; margin:auto; float:none;}
     
-    #bitmoto.vehicle #cta2 {margin:16px auto;}
+    #bitmoto.ford.vehicle #cta2 {margin:16px auto;}
 
 }
