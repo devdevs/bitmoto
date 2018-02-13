@@ -196,53 +196,53 @@ if(document.domain == "www.sloanford.com"){
 // START - Gilboy Ford Whitehall
 if(document.domain == "www.gilboyford.com"){
 
-	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '211'; }
-	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2711'; }
-	if(document.querySelector('#BitMoto-FordEscapeBuyFor') !== null)  { document.getElementById('BitMoto-FordEscapeBuyFor').innerHTML = '24,363'; }
+	if(document.querySelector('#BitMoto-FordEscapeLease') !== null)  { document.getElementById('BitMoto-FordEscapeLease').innerHTML = '189'; }
+	if(document.querySelector('#BitMoto-FordEscapeDAS') !== null)  { document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2689'; }
+	if(document.querySelector('#BitMoto-FordEscapeBuyFor') !== null)  { document.getElementById('BitMoto-FordEscapeBuyFor').innerHTML = '23,613'; }
 	
-	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '154'; }
+	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '133'; }
 	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2609'; }
 	if(document.querySelector('#BitMoto-FordFusionBuyFor') !== null)  { document.getElementById('BitMoto-FordFusionBuyFor').innerHTML = '17,949'; }
 	
-	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '123'; }
-	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2563'; }
-	if(document.querySelector('#BitMoto-FordFocusBuyFor') !== null)  { document.getElementById('BitMoto-FordFocusBuyFor').innerHTML = '14,495'; }
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '101'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2566'; }
+	if(document.querySelector('#BitMoto-FordFocusBuyFor') !== null)  { document.getElementById('BitMoto-FordFocusBuyFor').innerHTML = '13,745'; }
 	
-	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '209'; }
-	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3643'; }
-	if(document.querySelector('#BitMoto-FordF150BuyFor') !== null)  { document.getElementById('BitMoto-FordF150BuyFor').innerHTML = '38,251'; }
-	if(document.querySelector('#BitMoto-FordF150Rate') !== null)  { document.getElementById('BitMoto-FordEscapeRate').innerHTML = '0'; }
+	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '177'; }
+	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '3611'; }
+	if(document.querySelector('#BitMoto-FordF150BuyFor') !== null)  { document.getElementById('BitMoto-FordF150BuyFor').innerHTML = '37,501'; }
+	if(document.querySelector('#BitMoto-FordF150Rate') !== null)  { document.getElementById('BitMoto-FordF150Rate').innerHTML = '0'; }
 	if(document.querySelector('#BitMoto-FordF150Months') !== null)  { document.getElementById('BitMoto-FordF150Months').innerHTML = '72'; }
 	if(document.querySelector('#BitMoto-FordF150Cash') !== null)  { document.getElementById('BitMoto-FordF150Cash').innerHTML = '1750'; }
 	
-	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '267'; }
-	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3968'; }
-	if(document.querySelector('#BitMoto-FordExplorerBuyFor') !== null)  { document.getElementById('BitMoto-FordExplorerBuyFor').innerHTML = '34,907'; }
+	if(document.querySelector('#BitMoto-FordExplorerLease') !== null)  { document.getElementById('BitMoto-FordExplorerLease').innerHTML = '236'; }
+	if(document.querySelector('#BitMoto-FordExplorerDAS') !== null)  { document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3936'; }
+	if(document.querySelector('#BitMoto-FordExplorerBuyFor') !== null)  { document.getElementById('BitMoto-FordExplorerBuyFor').innerHTML = '34,157'; }
 	
-	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '257'; }
-	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '2957'; }
-	if(document.querySelector('#BitMoto-FordEdgeBuyFor') !== null)  { document.getElementById('BitMoto-FordEdgeBuyFor').innerHTML = '28,231'; }
+	if(document.querySelector('#BitMoto-FordEdgeLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '235'; }
+	if(document.querySelector('#BitMoto-FordEdgeDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '2935'; }
+	if(document.querySelector('#BitMoto-FordEdgeBuyFor') !== null)  { document.getElementById('BitMoto-FordEdgeBuyFor').innerHTML = '27,481'; }
 
 // Disclaimers
 	if(document.querySelector('#BitMoto-ExtraDisclaimer') !== null)  {
 		
 		if(document.URL.indexOf("ford-fusion.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Fusion. FWD SE 200A. MSRP $25,710. Lease for $179/mo w/ $2,634 DAS. 36 month lease with 10,500 miles/year. Includes Engine Cash and Dealer Cash. **Not everyone will qualify for financing. Must qualify thru FMCC. ***Total Cash includes all available rebates including engine cash and dealer cash. Security Deposit Waived. Taxes, tags, and doc fees due at signing. Photo for illustration purposes only. Expires 2/28/2018 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*2017 Fusion SE. Stock #RE1727. Lease for $133/mo w/ $2,588 DAS. 36 month lease with 10,500 miles/year. **Price includes all available rebates plus average dealer discount. Taxes & fees extra. Security deposit waived. Expires 2/28/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $150/mo w/ $2,579 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates. Security deposit waived. Taxes, tags, and doc fee due at signing. **Total Cash includes all available rebates. Security Deposit Waived. Taxes, tags, and doc fees due at signing. Photo for illustration purposes only. Expires 2/28/2018. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*2017 MY Focus SE. Stock # RE1725. Lease for $101/mo w/ $2,566 DAS. 36 month lease with 10,500 miles/year. **Price includes all available rebates plus average dealer discount. Taxes & fees extra. Security deposit waived. Expires 2/28/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*18 MY Escape. FWD SE 200A. MSRP $26,600. Lease for $199/mo w/ $2,599 DAS. 36 month lease with 10,500 miles/year. Includes $750 Renewal/Conquest Rebate. **Not everyone will qualify for financing. Must qualify thru FMCC. ***Total Cash includes all available rebates and $1,000 Renewal/Conquest Bonus Cash. Security Deposit Waived. Taxes, tags, and doc fees due at signing. Photo for illustration purposes only. Expires 2/28/2018. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*2018 MY Escape 4WD SE. Stock #189548. Lease for $189/mo w/ $2,689 DAS. 36 month lease with 10,500 miles/year. Includes $3,750 in total rebates including $750 Conquest/Lease Renewal Cash. **Price includes $3000 in rebates including $1,000 Conquest/Lease Renewal Bonus Cash. Taxes & fees extra. Security deposit waived. Expires 2/28/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-explorer.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Explorer. 4WD XLT 200A. MSRP $36,870. Lease for $289/mo w/ $1,979 DAS. 39 month lease with 10,500 miles/year. Includes $750 Renewal/Conquest Rebate. **Not everyone will qualify for financing. Must qualify thru FMCC.  ***Total Cash includes all available rebates and $1,000 Renewal/Conquest Bonus Cash. Security deposit waived. Taxes, tags, and doc fee due at signing. Photo for illustration purposes only.Expires 2/28/2018 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*2018 MY Explorer 4WD XLT. Stock #185507. Lease for $236/mo w/ $3,936 DAS. 24 month lease with 10,500 miles/year. Includes $4,000 in total rebates including $750 Conquest/Lease Renewal Cash. **Price includes $3,000 in rebates including $1,000 Conquest/Lease Renewal Bonus Cash. Taxes & fees extra. Security deposit waived. Expires 2/28/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-f150.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*18MY F-150 4x4 SuperCab STX 101A + 861 + 61S w/2.7L EcoBoost. MSRP $44,745. Lease for $209/mo w/ $2,899 DAS. 24 month lease with 10,500 miles/year. Security deposit waived. Taxes, tags, and doc fee due at signing. **Not everyone will qualify for financing. Must qualify thru FMCC. ***Total Cash includes all available rebates including Fast Cash Certificates + $500 RCL Cash + $1,500 XL/XLT Open Bonus Cash + $300 2.7L EcoBoost Bonus Cash + $1000 101A Crew OBC. Photo for illustration purposes only. Expires 2/28/2018 See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*2018 MY F150 SuperCrew XL.  Stock #187047P. Lease for $177/mo w/ $3,611 DAS. 24 month lease with 10,500 miles/year. Includes $4,550 in total rebates including $750 F150 RCL Renewal Cash. **Price includes $4,800 in rebates including $750 FMCC Bonus Cash. Taxes & fees extra. Security deposit waived. Expires 2/28/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-edge.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Edge. AWD SEL 200A. MSRP $34,680. Lease for $249/mo w/ $3,229 DAS. 24 month lease with 10,500 miles/year. Includes $750 Renewal/Conquest Bonus Cash. Security deposit waived. Taxes, tags, and doc fee due at signing. **Not everyone will qualify for financing. Must qualify thru FMCC. ***Total Cash includes all available rebates and $1000 Renewal/Conquest Cash. Security Deposit Waived. Taxes, tags, and doc fees due at signing. Photo for illustration purposes only. Expires 2/28/2018. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*2017 MY Edge AWD SEL. Stock # 178021. MSRP $34,180. Lease for $235/mo w/ $2,935 DAS. 36 month lease with 10,500 miles/year. Includes $5,250 in total rebates including $750 Conquest/Lease Renewal Cash. **Price includes $4,500 in rebates including $1,000 Conquest/Lease Renewal Bonus Cash. Taxes & fees extra. Security deposit waived. Expires 2/28/2018. See dealer for details.';
 		}
 	}
 
