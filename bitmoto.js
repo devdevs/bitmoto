@@ -258,10 +258,10 @@ if(document.domain == "www.cocciaford.com"){
 	
 	if(document.querySelector('#BitMoto-FordFusionLease') !== null)  { document.getElementById('BitMoto-FordFusionLease').innerHTML = '199'; }
 	if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  { document.getElementById('BitMoto-FordFusionDAS').innerHTML = '2500'; }
-/*	
-	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '109'; }
-	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2500'; }
-*/
+	
+	if(document.querySelector('#BitMoto-FordFocusLease') !== null)  { document.getElementById('BitMoto-FordFocusLease').innerHTML = '129'; }
+	if(document.querySelector('#BitMoto-FordFocusDAS') !== null)  { document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2558'; }
+
 	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '219'; }
 	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '2500'; }
 	if(document.querySelector('#BitMoto-FordF150Savings') !== null)  { document.getElementById('BitMoto-FordF150Savings').innerHTML = '9963'; }
@@ -279,7 +279,7 @@ if(document.domain == "www.cocciaford.com"){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*Taxes, Tags, And Doc Fee Extra. Security deposit waived. All factory rebates applied. ** Lease payments based on 24 month lease 21,000 allowable miles. $645 Bank Fee, and $2,500 down payment (cash or trade) due at delivery. Sale ends 02/28/2018.';
 		}
 		if(document.URL.indexOf("ford-focus.htm") >= 0){
-			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $150/mo w/ $2,579 DAS. 36 month lease with 10,500 miles/year. **Includes all available rebates. Security deposit waived. Taxes, tags, and doc fee due at signing. **Total Cash includes all available rebates. Security Deposit Waived. Taxes, tags, and doc fees due at signing. Photo for illustration purposes only. Expires 2/28/2018. See dealer for details.';
+			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*17MY Focus. 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $129/mo w/ $2,558 DAS. 36 month lease with 10,500 miles/year. Photo for illustration purposes only. Expires 2/28/2018. See dealer for details.';
 		}
 		if(document.URL.indexOf("ford-escape.htm") >= 0){
 			document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '*Taxes, Tags, And Doc Fee Extra. Security deposit waived. All factory rebates applied. ** Lease payments based on 24 month lease 21,000 allowable miles. $645 Bank Fee, and $2,500 down payment (cash or trade) due at delivery. Sale ends 02/28/2018.';
