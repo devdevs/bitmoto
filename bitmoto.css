@@ -61,6 +61,12 @@
 #bitmoto.service #services a {text-decoration:none;}
 #bitmoto.service .service-row a {text-decoration:none;}
 
+#bitmoto.sub-service section {width:99%;margin:18px auto;border-top:1px lightgray solid;padding:14px 0}
+#bitmoto.sub-service section div {display:inline-block;width:48%; margin: auto;vertical-align:middle}
+#bitmoto.sub-service section p, #bitmoto.sub-service section h2, #bitmoto.sub-service section h3, #bitmoto.sub-service h2 {padding: 0 2%}
+#bitmoto.sub-service section img {width:95%;margin:auto;padding:2%}
+#bitmoto.sub-service .cta a {display:inline-block;width:48%;text-align:center;}
+
 
 /* Ford Pages */
 
