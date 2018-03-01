@@ -98,9 +98,9 @@ ga('create', 'UA-108569800-1', 'auto');
 	if(document.querySelector('#BitMoto-FordFocusRate') !== null)  { document.getElementById('BitMoto-FordFocusRate').innerHTML = '0'; }
 	if(document.querySelector('#BitMoto-FordFocusCash') !== null)  {
 		document.getElementById('BitMoto-FordFocusCash').innerHTML = '';
-		if(document.getElementsByClassName('Line3')[0] !== null) {
-			document.getElementsByClassName('Line3')[0].style.display = "none";
-		}
+		if(document.querySelector('.Line3')[0] !== null) {
+			document.querySelector('.Line3')[0].style.display = "none";
+		};
 	}
 	
 	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '199'; }
