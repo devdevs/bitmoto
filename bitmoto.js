@@ -124,12 +124,12 @@ ga('create', 'UA-108569800-1', 'auto');
 	if(document.querySelector('#BitMoto-FordEdgeRate') !== null)  { document.getElementById('BitMoto-FordEdgeRate').innerHTML = '0'; }
 	if(document.querySelector('#BitMoto-FordEdgeCash') !== null)  { document.getElementById('BitMoto-FordEdgeCash').innerHTML = '3750'; }
 
-/*	if(document.querySelector('#BitMoto-FordEcoSportLease') !== null)  { document.getElementById('BitMoto-FordEdgeLease').innerHTML = '217'; }
-	if(document.querySelector('#BitMoto-FordEcoSportDAS') !== null)  { document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3229'; }
-	if(document.querySelector('#BitMoto-FordEcoSportMonths') !== null)  { document.getElementById('BitMoto-FordEdgeMonths').innerHTML = '60'; }
-*/	if(document.querySelector('#BitMoto-FordEcoSportMSRP') !== null)  { document.getElementById('BitMoto-FordEdgeMSRP').innerHTML = '19,495'; }
-/*	if(document.querySelector('#BitMoto-FordEcoSportRate') !== null)  { document.getElementById('BitMoto-FordEdgeRate').innerHTML = '0'; }
-	if(document.querySelector('#BitMoto-FordEcoSportCash') !== null)  { document.getElementById('BitMoto-FordEdgeCash').innerHTML = '3750'; }
+/*	if(document.querySelector('#BitMoto-FordEcoSportLease') !== null)  { document.getElementById('BitMoto-FordEcoSportLease').innerHTML = '217'; }
+	if(document.querySelector('#BitMoto-FordEcoSportDAS') !== null)  { document.getElementById('BitMoto-FordEcoSportDAS').innerHTML = '3229'; }
+	if(document.querySelector('#BitMoto-FordEcoSportMonths') !== null)  { document.getElementById('BitMoto-FordEcoSportMonths').innerHTML = '60'; }
+*/	if(document.querySelector('#BitMoto-FordEcoSportMSRP') !== null)  { document.getElementById('BitMoto-FordEcoSportMSRP').innerHTML = '19,495'; }
+/*	if(document.querySelector('#BitMoto-FordEcoSportRate') !== null)  { document.getElementById('BitMoto-FordEcoSportRate').innerHTML = '0'; }
+	if(document.querySelector('#BitMoto-FordEcoSportCash') !== null)  { document.getElementById('BitMoto-FordEcoSportCash').innerHTML = '3750'; }
 */
 
 if(document.getElementById('BitMoto-FordDisclaimerDate') !== null)  {
