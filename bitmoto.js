@@ -127,12 +127,12 @@ ga('create', 'UA-108569800-1', 'auto');
 /*	if(document.querySelector('#BitMoto-FordEcoSportLease') !== null)  { document.getElementById('BitMoto-FordEcoSportLease').innerHTML = '217'; }
 	if(document.querySelector('#BitMoto-FordEcoSportDAS') !== null)  { document.getElementById('BitMoto-FordEcoSportDAS').innerHTML = '3229'; }
 	if(document.querySelector('#BitMoto-FordEcoSportMonths') !== null)  { document.getElementById('BitMoto-FordEcoSportMonths').innerHTML = '60'; }
-*/	if(document.querySelector('#BitMoto-FordEcoSportMSRP') !== null)  { document.getElementById('BitMoto-FordEcoSportMSRP').innerHTML = '19,495'; }
-/*	if(document.querySelector('#BitMoto-FordEcoSportRate') !== null)  { document.getElementById('BitMoto-FordEcoSportRate').innerHTML = '0'; }
+	if(document.querySelector('#BitMoto-FordEcoSportMSRP') !== null)  { document.getElementById('BitMoto-FordEcoSportMSRP').innerHTML = '19,495'; }
+	if(document.querySelector('#BitMoto-FordEcoSportRate') !== null)  { document.getElementById('BitMoto-FordEcoSportRate').innerHTML = '0'; }
 	if(document.querySelector('#BitMoto-FordEcoSportCash') !== null)  { document.getElementById('BitMoto-FordEcoSportCash').innerHTML = '3750'; }
 */
 
-
+/*
 if(document.getElementById('BitMoto-FordCurrentSaleSmallBanner') !== null)  {
 //https://storage.googleapis.com/bitmoto/dealers/ford/ford/WellBeatAnyPrice.jpg
 document.getElementById('BitMoto-FordCurrentSaleSmallBanner').src = 'https://storage.googleapis.com/bitmoto/dealers/ford/ford/sales/2018/ford-presidents-day-mini-banner.jpg';
@@ -142,6 +142,7 @@ if(document.getElementById('BitMoto-FordCurrentSaleURL') !== null)  {
 // Use # if no available sales page
 document.getElementById('BitMoto-FordCurrentSaleURL').href = '/presidents-day-sale.htm';
 }
+*/
 
 // END - Ford Vehicles
 
