@@ -132,9 +132,6 @@ ga('create', 'UA-108569800-1', 'auto');
 	if(document.querySelector('#BitMoto-FordEcoSportCash') !== null)  { document.getElementById('BitMoto-FordEcoSportCash').innerHTML = '3750'; }
 */
 
-if(document.getElementById('BitMoto-FordDisclaimerDate') !== null)  {
-document.getElementById('BitMoto-FordDisclaimerDate').innerHTML = '2/28/18';
-}
 
 if(document.getElementById('BitMoto-FordCurrentSaleSmallBanner') !== null)  {
 //https://storage.googleapis.com/bitmoto/dealers/ford/ford/WellBeatAnyPrice.jpg
@@ -618,7 +615,6 @@ document.getElementById('BitMoto-FordEscapeLease').innerHTML = '199';
 document.getElementById('BitMoto-FordEscapeDAS').innerHTML = '2599';
 document.getElementById('BitMoto-FordEscapeCash').innerHTML = '2000';
 document.getElementById('BitMoto-FordEScapeSavings').innerhtml = '3000';
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>2018 FWD SE 200A. MSRP $26,600. Lease for $199/mo w/ $2,599 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra.  Includes $750 Renewal or Conquest Rebate. Security deposit waived.  <sup>2</sup>2018 FWD SE 200A. Not everyone will qualify for financing. Includes Lease/Conquest Rebate. Must qualify through FMCC. <sup>3</sup>2017 FWD SE 200A. Includes all available rebates including Lease/Conquest Rebate plus average dealer discount. Expires 1/31/2017 See dealer for details.';
 }
 
 if(document.querySelector('#BitMoto-FordFusionLease') !== null)  {document.getElementById('BitMoto-FordFusionLease').innerHTML = '179';}
@@ -626,36 +622,25 @@ if(document.querySelector('#BitMoto-FordFusionDAS') !== null)  {document.getElem
 if(document.querySelector('#BitMoto-FordFusionCash') !== null)  {document.getElementById('BitMoto-FordFusionCash').innerHTML = '2,000';}
 if(document.querySelector('#BitMoto-FordFusionSavings') !== null)  {document.getElementById('BitMoto-FordFusionSavings').innerHTML = '6,431';}
 if(document.querySelector('#BitMoto-FordFusionYear') !== null)  {document.getElementById('BitMoto-FordFusionYear').innerHTML = '2017';}
-if(document.URL.indexOf("ford-fusion.htm") >= 0){ 
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>FWD SE 200A. MSRP $25710. Lease for $179/mo w/ $3,639 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra.  Includes 2.0L/2.7L Engine Cash Rebate. Security deposit waived. <sup>2</sup>Not everyone will qualify for financing. Includes all available rebates including 2.0L/2.7L Engine Cash Rebate. Must qualify through FMCC. <sup>3</sup>FWD SE. Total savings includes all available rebates plus 2.0L/2.7L Engine Cash. Expires 1/31/2017 See dealer for details.';
-}
 
 if(document.URL.indexOf("ford-focus.htm") >= 0){ 
 document.getElementById('BitMoto-FordFocusLease').innerHTML = '139';
 document.getElementById('BitMoto-FordFocusDAS').innerHTML = '2449';
 document.getElementById('BitMoto-FordFocusCash').innerHTML = '2,000';
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>2017 4DR SE 200A w/AUTO. MSRP $20,145. Lease for $121/mo w/ $2,585 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Security deposit waived. <sup>2</sup>2017 4DR SE 200A w/AUTO. Not everyone will qualify for financing. Must qualify through FMCC.  <sup>3</sup>2017 4DR SE 200A w/AUTO. Total savings includes all available rebates plus average dealer discount. Expires 1/31/2017. See dealer for details.';
-}
 
 if(document.URL.indexOf("ford-explorer.htm") >= 0){ 
 document.getElementById('BitMoto-FordExplorerLease').innerHTML = '229';
 document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3352';
 //document.getElementById('BitMoto-FordExplorerCash').innerHTML = '1,000';
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>4WD XLT 202A. MSRP $43,145. Lease for $279/mo w/ $4,679 DAS. 39 month lease with 10,500 miles/year. Taxes & fees extra.  Includes $750 Lease/Conquest Rebate. Security deposit waived. <sup>2</sup>4WD XLT 202A. Not everyone will qualify for financing. Includes Lease Renewal/Conquest Rebate. Must qualify through FMCC. <sup>3</sup>4WD XLT 202A. Total savings includes all available rebates including Lease Renewal/Conquest Rebate plus average dealer discount. Expires 1/31/2017 See dealer for details.';
-}
 
 if(document.querySelector('#BitMoto-FordF150Lease') !== null)  {document.getElementById('BitMoto-FordF150Lease').innerHTML = '249';}
 if(document.querySelector('#BitMoto-FordF150DAS') !== null)  {document.getElementById('BitMoto-FordF150DAS').innerHTML = '2959';}
 if(document.querySelector('#BitMoto-FordF150Savings') !== null)  {document.getElementById('BitMoto-FordF150Savings').innerHTML = '9963';}
-if(document.URL.indexOf("ford-f150.htm") >= 0){ 
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>2018 F150 SuperCab STX. MSRP $43,205. Lease for $249/mo w/ $3,289 DAS. 36 month lease with 10,500 miles/year. Taxes & fees extra. Includes $500 Military Rebate. Security deposit waived. <sup>2</sup>2018 MY F150. Not everyone will qualify for financing. Includes all available rebates. Must qualify through FMCC. <sup>3</sup>2018 Supercrew XLT. Total savings includes all available rebates and average dealer discount. Expires 1/31/2017. See dealer for details.';
-}
 
 if(document.URL.indexOf("ford-edge.htm") >= 0){ 
 document.getElementById('BitMoto-FordEdgeLease').innerHTML = '259';
 document.getElementById('BitMoto-FordEdgeDAS').innerHTML = '3149';
 document.getElementById('BitMoto-FordEdgeSavings').innerHTML = '4,024';
-document.getElementById('BitMoto-ExtraDisclaimer').innerHTML = '<sup>1</sup>2017 AWD SEL 200A. MSRP $34680. Lease for $249/mo w/ $3,229 DAS. 24 month lease with 10,500 miles/year. Taxes & fees extra.  Includes $750 Lease Renewal/Conquest Rebate. Security deposit waived. Must qualify through FMCC. <sup>2</sup>2017 AWD SEL 200A. Not everyone will qualify for financing. Includes Lease Renewal/Conquest Rebate. Must qualify through FMCC. <sup>3</sup>2017 AWD SEL 200A. Total savings includes all available rebates plus Lease Renewal/Conquest Rebate and average dealer discount. Expires 1/31/2017. See dealer for details.';
 }
 
 }
