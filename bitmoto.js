@@ -1,8 +1,7 @@
-// Devs JS for Bitmoto Clients
+// Devs JS for Bitmoto
 
-// Outten | Carman | Coccia | Pacifico | Gilboy | Sloan | Dunphy | Miller
-// Haldeman | Premier
-
+// Out | Carm | Cocc | Pacif | Gil | Sloan | Dunph
+// Hald | Premier | Mill
 
 
 
@@ -96,12 +95,6 @@ ga('create', 'UA-108569800-1', 'auto');
 	if(document.querySelector('#BitMoto-FordFocusMonths') !== null)  { document.getElementById('BitMoto-FordFocusMonths').innerHTML = '60'; }
 	if(document.querySelector('#BitMoto-FordFocusMSRP') !== null)  { document.getElementById('BitMoto-FordFocusMSRP').innerHTML = '16,775'; }
 	if(document.querySelector('#BitMoto-FordFocusRate') !== null)  { document.getElementById('BitMoto-FordFocusRate').innerHTML = '0'; }
-	if(document.querySelector('#BitMoto-FordFocusCash') !== null)  {
-		document.getElementById('BitMoto-FordFocusCash').innerHTML = '';
-		if(document.querySelector('.Line3')[0] !== null) {
-			document.querySelector('.Line3')[0].style.display = "none";
-		};
-	}
 	
 	if(document.querySelector('#BitMoto-FordF150Lease') !== null)  { document.getElementById('BitMoto-FordF150Lease').innerHTML = '199'; }
 	if(document.querySelector('#BitMoto-FordF150DAS') !== null)  { document.getElementById('BitMoto-FordF150DAS').innerHTML = '2880'; }
