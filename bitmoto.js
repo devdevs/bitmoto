@@ -601,7 +601,7 @@ if(document.domain == "www.haldemanfordallentown.com"){
 
 
 // START - Haldeman Ford Kutztown Vehicles
-
+/*
 if(document.domain == "www.haldemanfordkutztown.com"){
 
 if(document.URL.indexOf("ford-escape.htm") >= 0){ 
@@ -625,7 +625,6 @@ document.getElementById('BitMoto-FordFocusCash').innerHTML = '2,000';
 if(document.URL.indexOf("ford-explorer.htm") >= 0){ 
 document.getElementById('BitMoto-FordExplorerLease').innerHTML = '229';
 document.getElementById('BitMoto-FordExplorerDAS').innerHTML = '3352';
-//document.getElementById('BitMoto-FordExplorerCash').innerHTML = '1,000';
 
 if(document.querySelector('#BitMoto-FordF150Lease') !== null)  {document.getElementById('BitMoto-FordF150Lease').innerHTML = '249';}
 if(document.querySelector('#BitMoto-FordF150DAS') !== null)  {document.getElementById('BitMoto-FordF150DAS').innerHTML = '2959';}
@@ -638,7 +637,7 @@ document.getElementById('BitMoto-FordEdgeSavings').innerHTML = '4,024';
 }
 
 }
-
+*/
 // START - Haldeman Ford Kutztown
 if(document.domain == "www.haldemanfordkutztown.com"){
 
