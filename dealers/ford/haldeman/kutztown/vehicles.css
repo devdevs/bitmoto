@@ -11,7 +11,7 @@
 }
 
 #bitmoto.ford.vehicle #details .one span.msrpText {border-bottom:1px solid black; display:inline-block; width:100%;}
-#BitMoto-FordEscapeMSRP {font-size:32px; font-weight:bold;}
+#BitMoto-FordEscapeMSRP {font-size:32px; font-weight:bold; line-height:1;}
 
 #bitmoto.ford.vehicle #details .two-1 {
     position:relative;background:#069dca; padding:1% 0; display:inline-block;
@@ -46,9 +46,9 @@
 
 
 #bitmoto #vehicle {text-align:right; color:black;}
-#bitTitle {font-size:38px; color:white; font-weight:bold;padding:1%; float:left;}
-#bitLease {padding:2% 1% 0 0;}
-.bitORtxt {display:inline-block;width:35%;border-bottom:1px solid #555; text-align:left; font-style:italic;}
+#bitTitle {font-size:38px; color:white; font-weight:bold; padding:1%; float:left; text-shadow: 2px 2px #555;}
+#bitLease {padding:1% 1% 0 0;}
+.bitORtxt {display:inline-block;width:35%;border-bottom:1px solid #555; text-align:left; font-style:italic; margin:2px 0 8px 0;}
 #bitFinance {padding:2% 1% 0 0;}
 #bitSavings {padding:2% 1% 0 0;}
 
