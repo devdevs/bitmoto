@@ -98,6 +98,20 @@
   margin: 14px 0;
 }
 
+#bitmoto.rebate .half {
+  width:47%;
+  dispay:inline-block;
+  padding:1%;
+  vertical-align:top;
+}
+
+#bitmoto.rebate .third {
+  width:31%;
+  dispay:inline-block;
+  padding:1%;
+  vertical-align:top;
+}
+
 
 #bitmoto.rebate.student h3 {
   text-align:center;
