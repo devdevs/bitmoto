@@ -100,14 +100,14 @@
 
 #bitmoto.rebate .half {
   width:47%;
-  dispay:inline-block;
+  display:inline-block;
   padding:1%;
   vertical-align:top;
 }
 
 #bitmoto.rebate .third {
   width:31%;
-  dispay:inline-block;
+  display:inline-block;
   padding:1%;
   vertical-align:top;
 }
