@@ -120,6 +120,35 @@
 #bitmoto #military {padding:8px;}
 
 
+/* Subaru - Custom Specials Pages */
+
+#bitmoto.subaru.customSpecials nav {text-align:center;}
+#bitmoto.subaru.customSpecials nav a {
+    display:inline-block; background:#333; padding:8px 1%; color:white; font-size:19px;
+    width:15%; margin:2px 1%; cursor:pointer; text-decoration:none;
+}
+#bitmoto.subaru.customSpecials nav a:hover {background:#999; color:#111;}
+
+#bitmoto.subaru.customSpecials section {background:#d6d6d5; padding:2%; margin:2% auto;}
+#bitmoto.subaru.customSpecials section img {display:inline-block; width:50%; vertical-align:top;}
+#bitmoto.subaru.customSpecials #ctas {display:inline-block; width:45%; vertical-align:top; padding:1%; text-align:center;}
+#bitmoto.subaru.customSpecials section div {background:#EBEBEB;}
+
+#bitmoto.subaru.customSpecials #ctas a {
+    color:white; background:#333; border:#333 solid 4px; padding:2%; display:inline-block;
+    width:96%;margin:4px auto; cursor:pointer; text-decoration:none; font-weight:bold;font-size:21px;
+}
+#bitmoto.subaru.customSpecials #ctas a:hover {background:white; border-color:#333; color:#333;}
+#bitmoto.subaru.customSpecials #ctas a:first-of-type {background:#20609F; border-color:#20609F;}
+#bitmoto.subaru.customSpecials #ctas a:first-of-type:hover {background:white; border-color:#20609F;}
+
+#bitmoto.subaru.customSpecials .bm-vehicle-pricing {background:#ffffff; width:96%; padding:2%; margin:2% auto; text-align:center;}
+#bitmoto.subaru.customSpecials .bm-vehicle-pricing p {line-height:19px; margin:16px;}
+#bitmoto.subaru.customSpecials .bm-disclaimer {font-size:12px; color:#222; text-align:center;}
+
+#bitmoto.subaru.customSpecials .bitmoBig {font-size:36px;line-height:38px;color:#20609F;font-weight:bold;}
+
+
 /* Fiat Sales Pages */
 
 #bitmoto.fiat nav {width:100%;background-color:#941711;text-align:center;font-weight:bold;border-top:3px #999 solid;font-size:20px;min-width: 420px;}
