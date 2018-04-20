@@ -122,7 +122,7 @@
 
 /* Subaru - Custom Specials Pages */
 
-#bitmoto.subaru.customSpecials nav {text-align:center;}
+#bitmoto.subaru.customSpecials nav {text-align:center;background-color:white;border-top-width: 0;}
 #bitmoto.subaru.customSpecials nav a {
     display:inline-block; background:#333; padding:8px 1%; color:white; font-size:19px;
     width:15%; margin:2px 1%; cursor:pointer; text-decoration:none;
@@ -142,7 +142,7 @@
 #bitmoto.subaru.customSpecials #ctas a:first-of-type {background:#20609F; border-color:#20609F;}
 #bitmoto.subaru.customSpecials #ctas a:first-of-type:hover {background:white; border-color:#20609F;}
 
-#bitmoto.subaru.customSpecials .bm-vehicle-pricing {background:#ffffff; width:96%; padding:2%; margin:2% auto; text-align:center;}
+#bitmoto.subaru.customSpecials .bm-vehicle-pricing {background:#ffffff; width:100%; padding:2% 0; margin:2% auto; text-align:center;}
 #bitmoto.subaru.customSpecials .bm-vehicle-pricing p {line-height:19px; margin:16px;}
 #bitmoto.subaru.customSpecials .bm-disclaimer {font-size:12px; color:#222; text-align:center;}
 
