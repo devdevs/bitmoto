@@ -247,6 +247,10 @@
 #bitmoto.lincoln nav, #bitmoto.lincoln #shop, #bitmoto.lincoln .shop, #bitmoto.lincoln #cta2 {background:#222;}
 
 
+/* CycleMax */
+#bitmoto.cyclemax nav a {color:white;}
+#bitmoto.cyclemax #cta a {color:black;}
+
 
 /* Mobile Responsiveness */
 
