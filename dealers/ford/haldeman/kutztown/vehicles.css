@@ -84,7 +84,7 @@
 #bitmoto.ford.vehicle #cta {border:none; padding:1% 1% 0 1%; margin:1% 0 0 0;}
 #bitmoto.ford.vehicle #cta2 {background:#069dca; border-radius:8px; width:40%; margin:0 0 0 5%;}
 #bitmoto.ford.vehicle #cta2 a {background:none; width:auto;}
-#bitmoto.ford.vehicle #cta1 {padding:2.5% 0 0 0; float:right;}
+#bitmoto.ford.vehicle #cta1 {float:right;}
 
 #bitPhone-txt {font-weight:300;font-size:19px; color:#666;}
 
