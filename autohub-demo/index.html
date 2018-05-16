@@ -42,8 +42,64 @@ header nav a {
     padding: 4px 1.5%;
 }
 
+header nav a.mute {
+    background: rgba(255,255,255,0.1);
+    color: rgba(0,0,0,0.5);
+    cursor: default;
+}
+
+header nav ul a.mute {
+    background: initial;
+    color: rgba(0,0,0,0.2);
+}
+
+header nav ul {
+    display: none;
+    list-style-type: none;
+    margin: 28px 0 0 0;
+    text-align: left;
+    padding: 16px 8px 16px 10%;
+    position: absolute;
+    background: orange;
+    left: 0;
+    width: 100%;
+}
+
+
+header nav ul li {
+    margin: 16px ;
+}
+
+header nav ul a:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.dropdown {
+    padding: 10px 0 50px 0;
+}
+
+.dropdown:hover ul {
+    display: inline-block;
+}
+
 img {
     max-width:100%;
+}
+
+#slider {
+    background: #097FAB;
+    text-align: center;
+}
+
+#featured div {
+    display: inline-block;
+    text-align: center;
+    width:24%;
+    vertical-align: top;
+}
+
+#featured h3, #featured p {
+    margin:0;
 }
 
 </style>
@@ -62,19 +118,51 @@ img {
 </div>
 <hr>
 <nav>
-<a href="#">New Inventory</a>
-<a href="#">Used Inventory</a>
-<a href="#">Finance & Trade</a>
-<a href="#">Service & Parts</a>
+<span class="dropdown">
+<a style="cursor: default;" title="Click one of the vehicle links below">New Inventory</a>
+<ul>
+<li><a class="mute">New Vehicle Inventory</a></li>
+<li><a href="#" class="mute">New Vehicle Specials</a></li>
+<li><a href="#" class="mute">Ford Model Lineup</a></li>
+<li><a href="/ford-escape">Ford Escape</a></li>
+<li><a href="/ford-f150">Ford F-150</a></li>
+</ul>
+</span>
+<a class="mute" title="Not Clickable">Used Inventory</a>
+<a class="mute" title="Not Clickable">Finance & Trade</a>
+<a class="mute" title="Not Clickable">Service & Parts</a>
 <a href="#">Specials & Offers</a>
-<a href="#">Our Dealer</a>
+<a class="mute" title="Not Clickable">Our Dealer</a>
 </nav>
 </header>
 <section id="slider">
 <img src="https://pictures.dealer.com/h/haldemankutztownfordfd/1415/ab2df4ba57f1341bafd0eca2e8c98a12x.jpg?impolicy=resize_crop&w=1620&h=540" alt="" title="">
 </section>
+<section id="featured">
+<div>
+<img src="https://secureassets.clickmotive.com/forddig/Ford/F-150/2018/BP3TT-FULL-EXT/Image[|Ford|F-150|2018|1|1.|802A.W1R.145.G1.LSC.88R.CAR.50N.91S.52L.SS5.64D.61C.53A.68R.CCAB.54C.89B.99G.LEA.AWD.RPT.63T.66R.96W.924.435.55B.43V.17A.47E.67T.50S.17B.76R.91V.763.58D.]/EXT/1/vehicle.png?w=640&rc=1">
+<h3>2018 Ford F-150</h3>
+<p>$28,777</p>
+</div>
+<div>
+<img src="https://secureassets.clickmotive.com/forddig/Ford/F-150/2018/BP3TT-FULL-EXT/Image[|Ford|F-150|2018|1|1.|802A.W1R.145.G1.LSC.88R.CAR.50N.91S.52L.SS5.64D.61C.53A.68R.CCAB.54C.89B.99G.LEA.AWD.RPT.63T.66R.96W.924.435.55B.43V.17A.47E.67T.50S.17B.76R.91V.763.58D.]/EXT/1/vehicle.png?w=640&rc=1">
+<h3>2018 Ford F-150</h3>
+<p>$28,777</p>
+</div>
+<div>
+<img src="https://secureassets.clickmotive.com/forddig/Ford/F-150/2018/BP3TT-FULL-EXT/Image[|Ford|F-150|2018|1|1.|802A.W1R.145.G1.LSC.88R.CAR.50N.91S.52L.SS5.64D.61C.53A.68R.CCAB.54C.89B.99G.LEA.AWD.RPT.63T.66R.96W.924.435.55B.43V.17A.47E.67T.50S.17B.76R.91V.763.58D.]/EXT/1/vehicle.png?w=640&rc=1">
+<h3>2018 Ford F-150</h3>
+<p>$28,777</p>
+</div>
+<div>
+<img src="https://secureassets.clickmotive.com/forddig/Ford/F-150/2018/BP3TT-FULL-EXT/Image[|Ford|F-150|2018|1|1.|802A.W1R.145.G1.LSC.88R.CAR.50N.91S.52L.SS5.64D.61C.53A.68R.CCAB.54C.89B.99G.LEA.AWD.RPT.63T.66R.96W.924.435.55B.43V.17A.47E.67T.50S.17B.76R.91V.763.58D.]/EXT/1/vehicle.png?w=640&rc=1">
+<h3>2018 Ford F-150</h3>
+<p>$28,777</p>
+</div>
+</section>
 
+<footer>
 
-<footer></footer>
+</footer>
 </body>
 </html>
