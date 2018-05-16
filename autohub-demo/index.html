@@ -2,6 +2,8 @@
 <html>
 <head>
 
+<script async src="https://storage.googleapis.com/autohub-demo.bitmoto.net/functions.js"></script>
+
 <style>
 body {
     margin: 0;
@@ -74,6 +76,10 @@ header nav ul a:hover {
     background: rgba(255,255,255,0.1);
 }
 
+header address {
+    margin: 4px auto;
+}
+
 .dropdown {
     padding: 10px 0 50px 0;
 }
@@ -91,9 +97,14 @@ img {
     text-align: center;
 }
 
+#featured {
+    text-align: center;
+}
+
 #featured div {
     display: inline-block;
-    text-align: center;
+    margin: 0 2px;
+    padding: 2px 0 26px;
     width:24%;
     vertical-align: top;
 }
@@ -102,10 +113,14 @@ img {
     margin:0;
 }
 
+#featured1:hover, #featured2:hover, #featured3:hover, #featured4:hover {
+    background: rgba(0,0,0,0.1);
+}
+
 footer {
     background: #444;
     color: white;
-    margin: 32px auto 0;
+    margin: 0 auto 0;
     padding: 9px;
 }
 
@@ -145,6 +160,8 @@ footer {
     padding: 6px 0 6px 8%;
 }
 
+
+
 </style>
 
 </head>
@@ -178,26 +195,27 @@ footer {
 <a class="mute" title="Not Clickable">Our Dealer</a>
 </nav>
 </header>
+
 <section id="slider">
 <img src="https://pictures.dealer.com/h/haldemankutztownfordfd/1415/ab2df4ba57f1341bafd0eca2e8c98a12x.jpg?impolicy=resize_crop&w=1620&h=540" alt="" title="">
 </section>
 <section id="featured">
-<div>
+<div id="featured1">
 <img src="https://secureassets.clickmotive.com/forddig/Ford/F-150/2018/BP3TT-FULL-EXT/Image[|Ford|F-150|2018|1|1.|802A.W1R.145.G1.LSC.88R.CAR.50N.91S.52L.SS5.64D.61C.53A.68R.CCAB.54C.89B.99G.LEA.AWD.RPT.63T.66R.96W.924.435.55B.43V.17A.47E.67T.50S.17B.76R.91V.763.58D.]/EXT/1/vehicle.png?w=640&rc=1">
 <h3>2018 Ford F-150</h3>
 <p>$28,777</p>
 </div>
-<div>
+<div id="featured1">
 <img src="https://secureassets.clickmotive.com/forddig/Ford/F-150/2018/BP3TT-FULL-EXT/Image[|Ford|F-150|2018|1|1.|802A.W1R.145.G1.LSC.88R.CAR.50N.91S.52L.SS5.64D.61C.53A.68R.CCAB.54C.89B.99G.LEA.AWD.RPT.63T.66R.96W.924.435.55B.43V.17A.47E.67T.50S.17B.76R.91V.763.58D.]/EXT/1/vehicle.png?w=640&rc=1">
 <h3>2018 Ford F-150</h3>
 <p>$28,777</p>
 </div>
-<div>
+<div id="featured1">
 <img src="https://secureassets.clickmotive.com/forddig/Ford/F-150/2018/BP3TT-FULL-EXT/Image[|Ford|F-150|2018|1|1.|802A.W1R.145.G1.LSC.88R.CAR.50N.91S.52L.SS5.64D.61C.53A.68R.CCAB.54C.89B.99G.LEA.AWD.RPT.63T.66R.96W.924.435.55B.43V.17A.47E.67T.50S.17B.76R.91V.763.58D.]/EXT/1/vehicle.png?w=640&rc=1">
 <h3>2018 Ford F-150</h3>
 <p>$28,777</p>
 </div>
-<div>
+<div id="featured1">
 <img src="https://secureassets.clickmotive.com/forddig/Ford/F-150/2018/BP3TT-FULL-EXT/Image[|Ford|F-150|2018|1|1.|802A.W1R.145.G1.LSC.88R.CAR.50N.91S.52L.SS5.64D.61C.53A.68R.CCAB.54C.89B.99G.LEA.AWD.RPT.63T.66R.96W.924.435.55B.43V.17A.47E.67T.50S.17B.76R.91V.763.58D.]/EXT/1/vehicle.png?w=640&rc=1">
 <h3>2018 Ford F-150</h3>
 <p>$28,777</p>
@@ -225,6 +243,161 @@ footer {
 </div>
 </footer>
 <div id="bottomBar">AutoHub Demo - Copyright &copy; 2018 BitMoto.</div>
+
+<hr style="clear:both;">
+
+
+
+
+<style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
