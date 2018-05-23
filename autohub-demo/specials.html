@@ -2,10 +2,9 @@
 <html>
 <head>
 
-<link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/autohub-demo.bitmoto.net/slider.css">
 <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/autohub-demo.bitmoto.net/style.css">
 <script async src="https://storage.googleapis.com/autohub-demo.bitmoto.net/functions.js"></script>
-<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 
@@ -161,7 +160,20 @@
 
 <hr style="clear:both;">
 
+<script>
+// Smooth Scroll using JQuery
+jQuery(function($) { 
+$('a[href^="#"]').live('click',function(event){
+    event.preventDefault();
+    var target_offset = $(this.hash).offset() ? $(this.hash).offset().top : 0;
+    //change this number to create the additional off set        
+    var customoffset = 45;
+    $('html, body').animate({scrollTop:target_offset - customoffset}, 500);
+})
+}(jQuery));
+</script>
 
-<script async src="https://storage.googleapis.com/dev-smg/global.js"></script>
+
+
 </body>
 </html>
