@@ -76,7 +76,7 @@
 
 #lastBlock {
     background-size:cover; display:inline-block; background-repeat:no-repeat;
-    padding:2%; background-position:center; width:100%;
+    padding:2%; background-position:center; width:96%;
 }
 #bitBox {float:right;width:35%; background:rgba(255,255,255,0.5); padding:1% 2%; font-size:14px;}
 #bitBox h3 {text-align:center;}
