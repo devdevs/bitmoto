@@ -48,6 +48,7 @@
 #bitmoto.vehicle #cta a {display: inline-block;color: white;padding: 4%;border-radius: 8px; text-decoration:none; width:98%;}
 #bitmoto.vehicle .Line3 {font-size:19px;}
 #bitmoto.vehicle .Line3 #BitMoto-FordEscapeCashText {font-size:17px;}
+#bitmoto.vehicle div#vehicle {max-width: 100%;}
 
 
 /* Service & Parts Pages */
