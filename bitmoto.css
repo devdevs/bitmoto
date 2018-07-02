@@ -123,6 +123,16 @@
 #bitmoto #military {padding:8px;}
 
 
+/* Why Service Pages */
+
+@media screen and (max-width: 420px) {
+
+  #bitmoto.why-service .section-text, #bitmoto.why-service .section-img {
+    width: 99%; margin: auto;
+  }
+  
+}
+
 /* Subaru - Custom Specials Pages */
 
 #bitmoto.subaru.customSpecials nav {text-align:center;background-color:white;border-top-width: 0;}
