@@ -1,5 +1,5 @@
 /**
- * Created by Blake on 12/26/2014.
+ * Created by Blake on 12/26/2014. --> Improved by Devin :)
  */
 // var blogNumber is declared on page
 //var blogNumber = 1; // Haldeman Ford Auto Blog
