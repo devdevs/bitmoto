@@ -5,8 +5,9 @@ var key = "AIzaSyBtj9Bs0ue2TA6PIMbIh5lfFPnPhn-w058";
 var spreadsheet = "1txaR1PBvsV4yQmCS3LhevWJm6SuLAUFf4iC7_uxiq0g";
 // END - INITIATE SHEETS API
 
+var mYear;
 var model;
-trimName;
+var trimName;
 var trimRow;
 
 var Range = model+"!A"+trimRow;
