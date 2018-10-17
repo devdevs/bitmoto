@@ -27,7 +27,6 @@ if(document.getElementById('bit-2018-fusion-se') !== null)  {
         $.each(data.values, function(index,value) {
             
             document.getElementById('BitMoto-leaseOffer').innerHTML = value[2];
-            document.getElementById('BitMoto-termLength').innerHTML = value[5];
             
             document.getElementById('BitMoto-APR').innerHTML = value[4];
             document.getElementById('BitMoto-termLength').innerHTML = value[5];
