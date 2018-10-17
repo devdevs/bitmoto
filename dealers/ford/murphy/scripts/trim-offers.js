@@ -219,7 +219,7 @@ function trimOffer() {
             //document.getElementById('BitMoto-claimButton-2018ExplorerAWDXLT').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
-                document.querySelector('#bit-2018-explorer-awdse #BitMoto-Offer3').style.display = "none";
+                document.querySelector('#bit-2018-explorer-awdxlt #BitMoto-Offer3').style.display = "none";
             }
             
         });
