@@ -26,15 +26,16 @@ if(document.getElementById('bit-2018-fusion-se') !== null)  {
     jQuery.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
             
-            document.getElementById('BitMoto-leaseOffer').innerHTML = value[2];
+            document.getElementById('BitMoto-leaseOffer-2018FusionSE').innerHTML = value[2];
+            document.getElementByID('BitMoto-DAS-2018FusionSE').innerHTML = value[3];
             
-            //document.getElementById('BitMoto-APR').innerHTML = value[4];
-            //document.getElementById('BitMoto-termLength').innerHTML = value[5];
+            //document.getElementById('BitMoto-APR-2018FusionSE').innerHTML = value[4];
+            //document.getElementById('BitMoto-termLength-2018FusionSE').innerHTML = value[5];
             
-            //document.getElementById('BitMoto-buyFor').innerHTML = value[7];
+            //document.getElementById('BitMoto-buyFor-2018FusionSE').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton').href = value[9];
+            //document.getElementById('BitMoto-claimButton-2018FusionSE').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2018FusionSE').href = value[9];
             
         });
     });
