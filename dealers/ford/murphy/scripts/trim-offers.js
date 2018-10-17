@@ -26,10 +26,10 @@ function trimOffer() {
             document.getElementById('BitMoto-leaseOffer-2018FusionSE').innerHTML = value[2];
             document.getElementById('BitMoto-DAS-2018FusionSE').innerHTML = value[3];
             
-            //document.getElementById('BitMoto-APR-2018FusionSE').innerHTML = value[4];
-            //document.getElementById('BitMoto-termLength-2018FusionSE').innerHTML = value[5];
+            document.getElementById('BitMoto-APR-2018FusionSE').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018FusionSE').innerHTML = value[5];
             
-            //document.getElementById('BitMoto-buyFor-2018FusionSE').innerHTML = value[7];
+            document.getElementById('BitMoto-buyFor-2018FusionSE').innerHTML = value[7];
             
             //document.getElementById('BitMoto-claimButton-2018FusionSE').innerHTML = value[8];
             //document.getElementById('BitMoto-claimButton-2018FusionSE').href = value[9];
@@ -53,13 +53,13 @@ function trimOffer() {
             document.getElementById('BitMoto-leaseOffer-2019FusionFWDSE').innerHTML = value[2];
             document.getElementById('BitMoto-DAS-2019FusionFWDSE').innerHTML = value[3];
             
-            //document.getElementById('BitMoto-APR-2018FusionSE').innerHTML = value[4];
-            //document.getElementById('BitMoto-termLength-2018FusionSE').innerHTML = value[5];
+            document.getElementById('BitMoto-APR-2019FusionFWDSE').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2019FusionFWDSE').innerHTML = value[5];
             
-            //document.getElementById('BitMoto-buyFor-2018FusionSE').innerHTML = value[7];
+            document.getElementById('BitMoto-buyFor-2019FusionFWDSE').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018FusionSE').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018FusionSE').href = value[9];
+            //document.getElementById('BitMoto-claimButton-2019FusionFWDSE').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2019FusionFWDSE').href = value[9];
             
         });
     });
