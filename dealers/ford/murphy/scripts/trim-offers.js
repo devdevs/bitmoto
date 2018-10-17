@@ -19,11 +19,11 @@ if(document.getElementById('bit-2018-fusion-se') !== null)  {
     var bitmoSheet = "Fusion";
     var bitmoRow = "3";
     var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
-    var bitmoURL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
-    console.log(bitmoURL);
+    console.log(URL);
     
-    $.getJSON(bitmoURL, function(data) {
+    $.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
             
             document.getElementById('BitMoto-leaseOffer').innerHTML = value[2];
