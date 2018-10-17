@@ -65,6 +65,34 @@ function trimOffer() {
     });
       
   }
+    
+  if(document.getElementById('bit-2019-fusion-hybridse') !== null)  {
+    
+    var bitmoSheet = "Fusion";
+    var bitmoRow = "4";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    console.log(URL);
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2019FusionHybridSE').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2019FusionHybridSE').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2019FusionHybridSE').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2019FusionHybridSE').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2019FusionHybridSE').innerHTML = value[7];
+            
+            //document.getElementById('BitMoto-claimButton-2019FusionHybridSE').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2019FusionHybridSE').href = value[9];
+            
+        });
+    });
+      
+  }
 
     
 }
