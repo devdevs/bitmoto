@@ -2,7 +2,7 @@
 
 // START - INITIATE SHEETS API
 var key = "AIzaSyBtj9Bs0ue2TA6PIMbIh5lfFPnPhn-w058";
-var spreadsheet = "1txaR1PBvsV4yQmCS3LhevWJm6SuLAUFf4iC7_uxiq0g";
+var spreadsheet = spreadsheet;
 // END - INITIATE SHEETS API
 
 var mYear;
@@ -10,32 +10,41 @@ var model;
 var trimName;
 var trimRow;
 
-var Range = model+"!A"+trimRow;
-var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+dealerRange+"?key="+key;
 
+var year = 0;   var trim = 1;   var leaseOffer = 2;    var DAS = 3;    var APR = 4;
+var termLength = 5; var plusCash = 6; var buyFor = 7; var claimOfferText = 8;   var claimOfferLink  = 9;
+var disclaimer = 10;
 
-
-var trim = 0;   var leaseOffer = 1;   var DAS = 2;    var APR = 3;    var termLength = 4;
-var buyFor = 5; var claimOfferText = 6; var claimOfferLink = 7;
 
 function trimOffer() {
+    
+if(document.querySelector('.bit-2018-fusion-se') !== null)  {
+    
+    var bitSheet = "Fusion";
+    var bitRow = "3";
+    var bitRange = bitSheet+"!A"+bitRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitRange+"?key="+key;
     
     $.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
             
-            document.getElementById('fusion-s-leaseOffer').innerHTML = value[1];
-            document.getElementById('fusion-s-DAS').innerHTML = value[2];
+            document.getElementById('BitMoto-leaseOffer').innerHTML = value[2];
+            document.getElementById('BitMoto-termLength').innerHTML = value[5];
             
-            document.getElementById('fusion-s-APR').innerHTML = value[3];
-            document.getElementById('fusion-s-termLength').innerHTML = value[4];
+            document.getElementById('BitMoto-APR').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength').innerHTML = value[55];
             
-            document.getElementById('fusion-s-buyFor').innerHTML = value[5];
+            document.getElementById('BitMoto-buyFor').innerHTML = value[7];
             
-            document.getElementById('fusion-s-claimOfferText').innerHTML = value[6];
-            document.getElementById('fusion-s-claimOfferLink').innerHTML = value[7];
+            document.getElementById('BitMoto-claimButton').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton').href = value[9];
             
         });
     });
+
 }
+    
+}
+
 
 trimOffer();
