@@ -1,5 +1,4 @@
 
-
 // START - INITIATE SHEETS API
 var key = "AIzaSyBtj9Bs0ue2TA6PIMbIh5lfFPnPhn-w058";
 var spreadsheet = spreadsheet;
@@ -10,13 +9,12 @@ var model;
 var trimName;
 var trimRow;
 
-
 var year = 0;   var trim = 1;   var leaseOffer = 2;    var DAS = 3;    var APR = 4;
 var termLength = 5; var plusCash = 6; var buyFor = 7; var claimOfferText = 8;   var claimOfferLink  = 9;
 var disclaimer = 10;
 
-
 console.log(spreadsheet);
+
 
 function trimOffer() {
 // sample URL =
