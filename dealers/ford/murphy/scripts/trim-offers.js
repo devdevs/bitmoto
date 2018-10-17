@@ -108,7 +108,7 @@ function trimOffer() {
   if(document.getElementById('bit-2018-escape-fwdse') !== null)  {
     
     var bitmoSheet = "Escape";
-    var bitmoRow = "3";
+    var bitmoRow = "2";
     var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
