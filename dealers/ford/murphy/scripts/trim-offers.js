@@ -35,7 +35,7 @@ function trimOffer() {
             //document.getElementById('BitMoto-claimButton-2018FusionSE').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
-                document.querySelector(#bit-2019-fusion-se #BitMoto-Offer3).style.display = "none";
+                document.querySelector('#bit-2019-fusion-se #BitMoto-Offer3').style.display = "none";
             }
             
         });
@@ -66,7 +66,7 @@ function trimOffer() {
             //document.getElementById('BitMoto-claimButton-2019FusionFWDSE').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
-                document.querySelector(#bit-2019-fusion-fwdse #BitMoto-Offer3).style.display = "none";
+                document.querySelector('#bit-2019-fusion-fwdse #BitMoto-Offer3').style.display = "none";
             }
             
         });
@@ -98,7 +98,7 @@ function trimOffer() {
             //document.getElementById('BitMoto-claimButton-2019FusionHybridSE').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
-                document.querySelector(#bit-2019-fusion-hybridse #BitMoto-Offer3).style.display = "none";
+                document.querySelector('#bit-2019-fusion-hybridse #BitMoto-Offer3').style.display = "none";
             }
             
         });
