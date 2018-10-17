@@ -49,8 +49,6 @@ function trimOffer() {
     var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
-    console.log(URL);
-    
     jQuery.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
             
@@ -80,8 +78,6 @@ function trimOffer() {
     var bitmoRow = "5";
     var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
-    
-    console.log(URL);
     
     jQuery.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
