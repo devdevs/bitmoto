@@ -29,6 +29,8 @@ if(document.getElementById('bit-2018-fusion-se') !== null)  {
     var bitRange = bitSheet+"!A"+bitRow+":K"+bitRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitRange+"?key="+key;
     
+    console.log(URL);
+    
     $.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
             
