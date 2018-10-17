@@ -16,9 +16,12 @@ var termLength = 5; var plusCash = 6; var buyFor = 7; var claimOfferText = 8;   
 var disclaimer = 10;
 
 
+
+
 function trimOffer() {
     
-if(document.querySelector('.bit-2018-fusion-se') !== null)  {
+    
+if(document.getElementById('bit-2018-fusion-se') !== null)  {
     
     var bitSheet = "Fusion";
     var bitRow = "3";
@@ -43,6 +46,7 @@ if(document.querySelector('.bit-2018-fusion-se') !== null)  {
     });
 
 }
+
     
 }
 
