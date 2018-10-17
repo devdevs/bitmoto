@@ -39,6 +39,7 @@ if(document.getElementById('bit-2018-fusion-se') !== null)  {
             
         });
     });
+}
     
   if(document.getElementById('bit-2019-fusion-fwdse') !== null)  {
     
@@ -65,8 +66,8 @@ if(document.getElementById('bit-2018-fusion-se') !== null)  {
             
         });
     });
-
-}
+      
+  }
 
     
 }
