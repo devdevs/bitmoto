@@ -23,7 +23,7 @@ if(document.getElementById('bit-2018-fusion-se') !== null)  {
     
     console.log(URL);
     
-    $.getJSON(URL, function(data) {
+    jQuery.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
             
             document.getElementById('BitMoto-leaseOffer').innerHTML = value[2];
