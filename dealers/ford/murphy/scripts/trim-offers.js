@@ -166,6 +166,68 @@ function trimOffer() {
   }
 // END - Escape Offers
 
+// START - Explorer Offers
+  if(document.getElementById('bit-2018-explorer-fwdxlt') !== null)  {
+    
+    var bitmoSheet = "Explorer";
+    var bitmoRow = "2";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018ExplorerFWDXLT').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018ExplorerFWDXLT').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018ExplorerFWDXLT').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018ExplorerFWDXLT').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018ExplorerFWDXLT').innerHTML = value[7];
+            
+            //document.getElementById('BitMoto-claimButton-2018ExplorerFWDXLT').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2018ExplorerFWDXLT').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-explorer-fwdxlt #BitMoto-Offer3').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+  
+  if(document.getElementById('bit-2018-explorer-awdxlt') !== null)  {
+    
+    var bitmoSheet = "Explorer";
+    var bitmoRow = "3";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018ExplorerAWDXLT').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018ExplorerAWDXLT').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018ExplorerAWDXLT').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018ExplorerAWDXLT').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018ExplorerAWDXLT').innerHTML = value[7];
+            
+            //document.getElementById('BitMoto-claimButton-2018ExplorerAWDXLT').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2018ExplorerAWDXLT').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-explorer-awdse #BitMoto-Offer3').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+// END - Explorer Offers
+
     
 }
 
