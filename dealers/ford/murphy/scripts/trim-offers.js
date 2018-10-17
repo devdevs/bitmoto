@@ -228,6 +228,160 @@ function trimOffer() {
   }
 // END - Explorer Offers
 
+// START - EcoSport Offers
+  if(document.getElementById('bit-2018-ecosport-s') !== null)  {
+    
+    var bitmoSheet = "EcoSport";
+    var bitmoRow = "2";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018EcoSportS').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018EcoSportS').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018EcoSportS').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018EcoSportS').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018EcoSportS').innerHTML = value[7];
+            
+            //document.getElementById('BitMoto-claimButton-2018EcoSportS').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2018EcoSportS').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-ecosport-s #BitMoto-Offer3').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+  
+  if(document.getElementById('bit-2018-ecosport-se') !== null)  {
+    
+    var bitmoSheet = "EcoSport";
+    var bitmoRow = "3";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018EcoSportSE').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018EcoSportSE').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018EcoSportSE').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018EcoSportSE').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018EcoSportSE').innerHTML = value[7];
+            
+            //document.getElementById('BitMoto-claimButton-2018ExplorerAWDXLT').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2018ExplorerAWDXLT').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-ecosport-se #BitMoto-Offer3').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+// END - EcoSport Offers
+
+// START - F150 Offers
+  if(document.getElementById('bit-2018-f150-c') !== null)  {
+    
+    var bitmoSheet = "F-150";
+    var bitmoRow = "2";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018F1504x4SuperCabSTX').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018F1504x4SuperCabSTX').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018F1504x4SuperCabSTX').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018F1504x4SuperCabSTX').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018F1504x4SuperCabSTX').innerHTML = value[7];
+            
+            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCabSTX').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCabSTX').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-f150-4x4supercabstx #BitMoto-Offer3').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+  
+  if(document.getElementById('bit-2018-f150-4x4supercrewstx') !== null)  {
+    
+    var bitmoSheet = "F-150";
+    var bitmoRow = "3";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018F1504x4SuperCrewSTX').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018F1504x4SuperCrewSTX').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018F1504x4SuperCrewSTX').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018F1504x4SuperCrewSTX').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018F1504x4SuperCrewSTX').innerHTML = value[7];
+            
+            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCrewSTX').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCrewSTX').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-f150-4x4supercrewstx #BitMoto-Offer3').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+  
+  if(document.getElementById('bit-2018-f150-4x4supercrewxltwnav') !== null)  {
+    
+    var bitmoSheet = "F-150";
+    var bitmoRow = "4";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018F1504x4SuperCrewXLTwNav').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018F1504x4SuperCrewXLTwNav').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018F1504x4SuperCrewXLTwNav').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018F1504x4SuperCrewXLTwNav').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018F1504x4SuperCrewXLTwNav').innerHTML = value[7];
+            
+            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCrewXLTwNav').innerHTML = value[8];
+            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCrewXLTwNav').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-f150-4x4supercrewxltwnav #BitMoto-Offer3').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+// END - F150 Offers
+
     
 }
 
