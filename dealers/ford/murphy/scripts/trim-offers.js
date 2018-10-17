@@ -18,7 +18,7 @@ if(document.getElementById('bit-2018-fusion-se') !== null)  {
     
     var bitmoSheet = "Fusion";
     var bitmoRow = "3";
-    var bitmoRange = bitSheet+"!A"+bitRow+":K"+bitRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
     var bitmoURL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     console.log(bitmoURL);
