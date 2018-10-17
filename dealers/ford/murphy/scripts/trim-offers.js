@@ -69,7 +69,7 @@ function trimOffer() {
   if(document.getElementById('bit-2019-fusion-hybridse') !== null)  {
     
     var bitmoSheet = "Fusion";
-    var bitmoRow = "4";
+    var bitmoRow = "5";
     var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
