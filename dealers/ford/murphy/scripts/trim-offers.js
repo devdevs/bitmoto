@@ -16,7 +16,7 @@ var termLength = 5; var plusCash = 6; var buyFor = 7; var claimOfferText = 8;   
 var disclaimer = 10;
 
 
-
+console.log(spreadsheet);
 
 function trimOffer() {
     
