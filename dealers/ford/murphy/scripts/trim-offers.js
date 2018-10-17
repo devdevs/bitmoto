@@ -291,7 +291,7 @@ function trimOffer() {
 // END - EcoSport Offers
 
 // START - F150 Offers
-  if(document.getElementById('bit-2018-f150-c') !== null)  {
+  if(document.getElementById('bit-2018-f150-4x4supercabstx') !== null)  {
     
     var bitmoSheet = "F-150";
     var bitmoRow = "2";
