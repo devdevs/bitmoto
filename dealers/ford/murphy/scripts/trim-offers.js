@@ -19,13 +19,14 @@ var disclaimer = 10;
 console.log(spreadsheet);
 
 function trimOffer() {
-    
+// sample URL =
+// https://sheets.googleapis.com/v4/spreadsheets/1ifxFfj99eGi017xJVKlh99XWLH4SDChl2oefqh2hbeg/values/Fusion!A3:K3?key=AIzaSyBtj9Bs0ue2TA6PIMbIh5lfFPnPhn-w058
     
 if(document.getElementById('bit-2018-fusion-se') !== null)  {
     
     var bitSheet = "Fusion";
     var bitRow = "3";
-    var bitRange = bitSheet+"!A"+bitRow;
+    var bitRange = bitSheet+"!A"+bitRow+":K"+bitRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitRange+"?key="+key;
     
     $.getJSON(URL, function(data) {
