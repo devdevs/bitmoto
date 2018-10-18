@@ -32,8 +32,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018FusionSE').innerHTML = value[7];
             
-            document.getElementsByClassName('BitMoto-claimButton-2018FusionSE').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018FusionSE').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018FusionSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018FusionSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018FusionSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018FusionSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018FusionSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018FusionSE').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2019-fusion-se #BitMoto-Offer3').style.display = "none";
