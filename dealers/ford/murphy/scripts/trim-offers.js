@@ -103,8 +103,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2019FusionHybridSE').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2019FusionHybridSE').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2019FusionHybridSE').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2019FusionHybridSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2019FusionHybridSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2019FusionHybridSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2019FusionHybridSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2019FusionHybridSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2019FusionHybridSE').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2019-fusion-hybridse #BitMoto-Offer3').style.display = "none";
