@@ -141,8 +141,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018EscapeFWDSE').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018EscapeFWDSE').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018EscapeFWDSE').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018EscapeFWDSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EscapeFWDSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EscapeFWDSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EscapeFWDSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EscapeFWDSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EscapeFWDSE').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-escape-fwdse #BitMoto-Offer3').style.display = "none";
@@ -171,8 +177,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018EscapeAWDSE').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018EscapeAWDSE').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018EscapeAWDSE').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018EscapeAWDSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EscapeAWDSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EscapeAWDSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EscapeAWDSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EscapeAWDSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EscapeAWDSE').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-escape-awdse #BitMoto-Offer3').style.display = "none";
@@ -203,8 +215,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018ExplorerFWDXLT').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018ExplorerFWDXLT').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018ExplorerFWDXLT').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018ExplorerFWDXLT').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018ExplorerFWDXLT').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018ExplorerFWDXLT').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018ExplorerFWDXLT').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018ExplorerFWDXLT').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018ExplorerFWDXLT').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-explorer-fwdxlt #BitMoto-Offer3').style.display = "none";
@@ -233,8 +251,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018ExplorerAWDXLT').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018ExplorerAWDXLT').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018ExplorerAWDXLT').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018ExplorerAWDXLT').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018ExplorerAWDXLT').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018ExplorerAWDXLT').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018ExplorerAWDXLT').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018ExplorerAWDXLT').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018ExplorerAWDXLT').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-explorer-awdxlt #BitMoto-Offer3').style.display = "none";
@@ -265,8 +289,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018EcoSportS').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018EcoSportS').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018EcoSportS').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018EcoSportS').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EcoSportS').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EcoSportS').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EcoSportS').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EcoSportS').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EcoSportS').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-ecosport-s #BitMoto-Offer3').style.display = "none";
@@ -295,8 +325,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018EcoSportSE').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018ExplorerAWDXLT').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018ExplorerAWDXLT').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018EcoSportSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EcoSportSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EcoSportSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EcoSportSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EcoSportSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EcoSportSE').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-ecosport-se #BitMoto-Offer3').style.display = "none";
@@ -327,8 +363,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018F1504x4SuperCabSTX').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCabSTX').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCabSTX').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018F1504x4SuperCabSTX').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018F1504x4SuperCabSTX').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018F1504x4SuperCabSTX').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018F1504x4SuperCabSTX').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018F1504x4SuperCabSTX').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018F1504x4SuperCabSTX').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-f150-4x4supercabstx #BitMoto-Offer3').style.display = "none";
@@ -357,8 +399,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018F1504x4SuperCrewSTX').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCrewSTX').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCrewSTX').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018F1504x4SuperCrewSTX').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018F1504x4SuperCrewSTX').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018F1504x4SuperCrewSTX').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018F1504x4SuperCrewSTX').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018F1504x4SuperCrewSTX').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018F1504x4SuperCrewSTX').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-f150-4x4supercrewstx #BitMoto-Offer3').style.display = "none";
@@ -387,8 +435,14 @@ function trimOffer() {
             
             document.getElementById('BitMoto-buyFor-2018F1504x4SuperCrewXLTwNav').innerHTML = value[7];
             
-            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCrewXLTwNav').innerHTML = value[8];
-            //document.getElementById('BitMoto-claimButton-2018F1504x4SuperCrewXLTwNav').href = value[9];
+            document.getElementById('BitMoto-claimButton1-2018F1504x4SuperCrewXLTwNav').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018F1504x4SuperCrewXLTwNav').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018F1504x4SuperCrewXLTwNav').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018F1504x4SuperCrewXLTwNav').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018F1504x4SuperCrewXLTwNav').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018F1504x4SuperCrewXLTwNav').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-f150-4x4supercrewxltwnav #BitMoto-Offer3').style.display = "none";
