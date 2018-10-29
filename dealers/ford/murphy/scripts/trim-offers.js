@@ -44,6 +44,12 @@ function trimOffer() {
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2019-fusion-se #BitMoto-Offer3').style.display = "none";
             }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#BitMoto-Offer1 span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#BitMoto-Offer1 sup').style.display = "none";
+            }
             
         });
     });
