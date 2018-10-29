@@ -174,6 +174,12 @@ function trimOffer() {
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-escape-fwdse #BitMoto-Offer3').style.display = "none";
             }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-escape-fwdse .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-escape-fwdse #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-escape-fwdse .BitMoto-Offer>sup').style.display = "none";
+            }
             
         });
     });
@@ -209,6 +215,12 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-escape-awdse #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-escape-awdse .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-escape-awdse #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-escape-awdse .BitMoto-Offer>sup').style.display = "none";
             }
             
         });
@@ -248,6 +260,12 @@ function trimOffer() {
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-explorer-fwdxlt #BitMoto-Offer3').style.display = "none";
             }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-explorer-fwdxlt .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-explorer-fwdxlt #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-explorer-fwdxlt .BitMoto-Offer>sup').style.display = "none";
+            }
             
         });
     });
@@ -283,6 +301,12 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-explorer-awdxlt #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-explorer-awdxlt .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-explorer-awdxlt #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-explorer-awdxlt .BitMoto-Offer>sup').style.display = "none";
             }
             
         });
@@ -322,6 +346,12 @@ function trimOffer() {
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-ecosport-s #BitMoto-Offer3').style.display = "none";
             }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-ecosport-s .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-ecosport-s #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-ecosport-s .BitMoto-Offer>sup').style.display = "none";
+            }
             
         });
     });
@@ -357,6 +387,12 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-ecosport-se #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-ecosport-se .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-ecosport-se #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-ecosport-se .BitMoto-Offer>sup').style.display = "none";
             }
             
         });
@@ -396,6 +432,12 @@ function trimOffer() {
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-f150-4x4supercabstx #BitMoto-Offer3').style.display = "none";
             }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-f150-4x4supercabstx .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-f150-4x4supercabstx #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-f150-4x4supercabstx .BitMoto-Offer>sup').style.display = "none";
+            }
             
         });
     });
@@ -432,6 +474,12 @@ function trimOffer() {
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-f150-4x4supercrewstx #BitMoto-Offer3').style.display = "none";
             }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-f150-4x4supercrewstx .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-f150-4x4supercrewstx #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-f150-4x4supercrewstx .BitMoto-Offer>sup').style.display = "none";
+            }
             
         });
     });
@@ -467,6 +515,12 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-f150-4x4supercrewxltwnav #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-f150-4x4supercrewxltwnav .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-f150-4x4supercrewxltwnav #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-f150-4x4supercrewxltwnav .BitMoto-Offer>sup').style.display = "none";
             }
             
         });
