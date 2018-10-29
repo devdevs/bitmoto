@@ -7,7 +7,8 @@ var year = 0;   var trim = 1;   var leaseOffer = 2;    var DAS = 3;    var APR =
 var termLength = 5; var plusCash = 6; var buyFor = 7; var claimOfferText = 8;   var claimOfferLink  = 9;
 var disclaimer = 10;
 
-
+// TEMP CSS EDIT
+document.querySelector('#BitMoto-Offer1 span:nth-of-type(3)').style.display = "none";
 
 function trimOffer() {
 // sample URL =
@@ -45,11 +46,11 @@ function trimOffer() {
                 document.querySelector('#bit-2019-fusion-se #BitMoto-Offer3').style.display = "none";
             }
           
-            if(value[DAS] === "" || value[DAS] === undefined) {
-                document.querySelector('#BitMoto-Offer1 span:nth-of-type(3)').style.display = "none";
-                document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
-                document.querySelector('#BitMoto-Offer1 sup').style.display = "none";
-            }
+            //if(value[DAS] === "" || value[DAS] === undefined) {
+                //document.querySelector('#BitMoto-Offer1 span:nth-of-type(3)').style.display = "none";
+                //document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
+                //document.querySelector('#BitMoto-Offer1 sup').style.display = "none";
+            //}
             
         });
     });
