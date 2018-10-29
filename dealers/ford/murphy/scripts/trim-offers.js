@@ -8,9 +8,9 @@ var termLength = 5; var plusCash = 6; var buyFor = 7; var claimOfferText = 8;   
 var disclaimer = 10;
 
 // TEMP CSS EDIT
-document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
-document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
-document.querySelector('.BitMoto-Offer sup').style.display = "none";
+//document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+//document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
+//document.querySelector('.BitMoto-Offer sup').style.display = "none";
 
 function trimOffer() {
 // sample URL =
@@ -51,7 +51,7 @@ function trimOffer() {
             if(value[DAS] === "" || value[DAS] === undefined) {
                 document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
                 document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
-                document.querySelector('.BitMoto-Offer sup').style.display = "none";
+                document.querySelector('.BitMoto-Offer>sup').style.display = "none";
             }
             
         });
@@ -92,7 +92,7 @@ function trimOffer() {
             if(value[DAS] === "" || value[DAS] === undefined) {
                 document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
                 document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
-                document.querySelector('.BitMoto-Offer sup').style.display = "none";
+                document.querySelector('.BitMoto-Offer>sup').style.display = "none";
             }
             
         });
@@ -134,7 +134,7 @@ function trimOffer() {
             if(value[DAS] === "" || value[DAS] === undefined) {
                 document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
                 document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
-                document.querySelector('.BitMoto-Offer sup').style.display = "none";
+                document.querySelector('.BitMoto-Offer>sup').style.display = "none";
             }
             
         });
