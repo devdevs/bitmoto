@@ -10,7 +10,7 @@ var disclaimer = 10;
 // TEMP CSS EDIT
 document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
 document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
-document.querySelector('#BitMoto-Offer1 sup').style.display = "none";
+document.querySelector('.BitMoto-Offer sup').style.display = "none";
 
 function trimOffer() {
 // sample URL =
@@ -48,11 +48,11 @@ function trimOffer() {
                 document.querySelector('#bit-2019-fusion-se #BitMoto-Offer3').style.display = "none";
             }
           
-            //if(value[DAS] === "" || value[DAS] === undefined) {
-                //document.querySelector('#BitMoto-Offer1 span:nth-of-type(3)').style.display = "none";
-                //document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
-                //document.querySelector('#BitMoto-Offer1 sup').style.display = "none";
-            //}
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('.BitMoto-Offer sup').style.display = "none";
+            }
             
         });
     });
@@ -87,6 +87,12 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2019-fusion-fwdse #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('.BitMoto-Offer sup').style.display = "none";
             }
             
         });
@@ -123,6 +129,12 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2019-fusion-hybridse #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('.BitMoto-Offer sup').style.display = "none";
             }
             
         });
