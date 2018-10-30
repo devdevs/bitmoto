@@ -45,13 +45,13 @@ function trimOffer() {
             document.getElementById('BitMoto-claimButton3-2018FusionSE').href = value[9];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
-                document.querySelector('#bit-2019-fusion-se #BitMoto-Offer3').style.display = "none";
+                document.querySelector('#bit-2018-fusion-se #BitMoto-Offer3').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
-                document.querySelector('#bit-2019-fusion-se .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
-                document.querySelector('#bit-2019-fusion-se #BitMoto-PaymentTerm').style.display = "none";
-                document.querySelector('#bit-2019-fusion-se .BitMoto-Offer>sup').style.display = "none";
+                document.querySelector('#bit-2018-fusion-se .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-fusion-se #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-fusion-se .BitMoto-Offer>sup').style.display = "none";
             }
             
         });
