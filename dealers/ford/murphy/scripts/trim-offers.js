@@ -529,6 +529,50 @@ function trimOffer() {
   }
 // END - F150 Offers
 
+// START - Taurus Offers
+  if(document.getElementById('bit-2018-f150-4x4supercabstx') !== null)  {
+    
+    var bitmoSheet = "Taurus";
+    var bitmoRow = "2";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018TaurusSEL').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018TaurusSEL').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018TaurusSEL').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018TaurusSEL').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018TaurusSEL').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018TaurusSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018TaurusSEL').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018TaurusSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018TaurusSEL').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018TaurusSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018TaurusSEL').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-taurus-sel #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-taurus-sel .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-taurus-sel #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-taurus-sel .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+  
+// END - Taurus Offers
     
 }
 
