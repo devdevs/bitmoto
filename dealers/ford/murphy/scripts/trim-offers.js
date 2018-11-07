@@ -269,6 +269,51 @@ function trimOffer() {
       
   }
 // END - Edge Offers
+  
+// START - Focus Offers
+  if(document.getElementById('bit-2018-focus-se') !== null)  {
+    
+    var bitmoSheet = "Focus";
+    var bitmoRow = "3";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018FocusSE').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018FocusSE').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018FocusSE').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018FocusSE').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018FocusSE').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018FocusSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018FocusSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018FocusSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018FocusSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018FocusSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018FocusSE').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-focus-se #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-focus-se .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-focus-se #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-focus-se .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+  
+// END - Focus Offers
  
 // START - Escape Offers
   if(document.getElementById('bit-2018-escape-fwdse') !== null)  {
@@ -657,7 +702,7 @@ function trimOffer() {
 // END - F150 Offers
 
 // START - Taurus Offers
-  if(document.getElementById('bit-2018-f150-4x4supercabstx') !== null)  {
+  if(document.getElementById('bit-2018-taurus-sel') !== null)  {
     
     var bitmoSheet = "Taurus";
     var bitmoRow = "2";
