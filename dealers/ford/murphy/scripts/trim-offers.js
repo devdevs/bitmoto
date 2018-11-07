@@ -142,6 +142,133 @@ function trimOffer() {
       
   }
 // END - Fusion Offers
+  
+// START - Edge Offers
+  if(document.getElementById('bit-2018-edge-awdse') !== null)  {
+    
+    var bitmoSheet = "Edge";
+    var bitmoRow = "2";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018EdgeAWDSE').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018EdgeAWDSE').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018EdgeAWDSE').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018EdgeAWDSE').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018EdgeAWDSE').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018EdgeAWDSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EdgeAWDSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EdgeAWDSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EdgeAWDSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EdgeAWDSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EdgeAWDSE').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-edge-awdse #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-edge-awdse .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-edge-awdse #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-edge-awdse .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+  }
+    
+  if(document.getElementById('bit-2018-edge-awdsel') !== null)  {
+    
+    var bitmoSheet = "Edge";
+    var bitmoRow = "3";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018EdgeAWDSEL').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018EdgeAWDSEL').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018EdgeAWDSEL').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018EdgeAWDSEL').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018EdgeAWDSEL').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018EdgeAWDSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EdgeAWDSEL').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EdgeAWDSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EdgeAWDSEL').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EdgeAWDSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EdgeAWDSEL').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-edge-awdsel #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-edge-awdsel .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-edge-awdsel #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-edge-awdsel .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+    
+  if(document.getElementById('bit-2018-edge-awdselwleather') !== null)  {
+    
+    var bitmoSheet = "Edge";
+    var bitmoRow = "4";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018EdgeAWDSELwLeather').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018EdgeAWDSELwLeather').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018EdgeAWDSELwLeather').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018EdgeAWDSELwLeather').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018EdgeAWDSELwLeather').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018EdgeAWDSELwLeather').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EdgeAWDSELwLeather').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EdgeAWDSELwLeather').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EdgeAWDSELwLeather').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EdgeAWDSELwLeather').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EdgeAWDSELwLeather').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-edge-awdselwleather #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-edge-awdselwleather .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-edge-awdselwleather #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-edge-awdselwleather .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+// END - Edge Offers
  
 // START - Escape Offers
   if(document.getElementById('bit-2018-escape-fwdse') !== null)  {
