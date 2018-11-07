@@ -32,6 +32,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018FusionSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018FusionSE').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018FusionSE').innerHTML = value[7];
             
@@ -46,6 +47,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-fusion-se #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-fusion-se #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -73,6 +78,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2019FusionFWDSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2019FusionFWDSE').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2019FusionFWDSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2019FusionFWDSE').innerHTML = value[7];
             
@@ -87,6 +93,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2019-fusion-fwdse #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2019-fusion-fwdse #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -115,6 +125,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2019FusionHybridSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2019FusionHybridSE').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2019FusionHybridSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2019FusionHybridSE').innerHTML = value[7];
             
@@ -129,6 +140,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2019-fusion-hybridse #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2019-fusion-hybridse #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
