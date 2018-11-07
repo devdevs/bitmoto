@@ -573,6 +573,96 @@ function trimOffer() {
   }
   
 // END - Taurus Offers
+  
+// START - Mustang Offers
+  if(document.getElementById('bit-2018-mustang-ecoboost') !== null)  {
+    
+    var bitmoSheet = "Mustang";
+    var bitmoRow = "2";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018MustangEcoBoost').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018MustangEcoBoost').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018MustangEcoBoost').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018MustangEcoBoost').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018MustangEcoBoost').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018MustangEcoBoost').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018MustangEcoBoost').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018MustangEcoBoost').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018MustangEcoBoost').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018MustangEcoBoost').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018MustangEcoBoost').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-mustang-ecoboost #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-mustang-ecoboost .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-mustang-ecoboost #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-mustang-ecoboost .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+  
+// END - Mustang Offers
+  
+// START - Fiesta Offers
+  if(document.getElementById('bit-2018-fiesta-se') !== null)  {
+    
+    var bitmoSheet = "Fiesta";
+    var bitmoRow = "2";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018FiestaSE').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018FiestaSE').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018FiestaSE').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018FiestaSE').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018FiestaSE').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018FiestaSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018FiestaSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018FiestaSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018FiestaSE').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018FiestaSE').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018FiestaSE').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-fiesta-se #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-fiesta-se .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-fiesta-se #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-fiesta-se .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+  
+// END - Fiesta Offers
     
 }
 
