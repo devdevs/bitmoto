@@ -412,6 +412,126 @@ function trimOffer() {
             
         });
     });
+    
+  if(document.getElementById('bit-2018-escape-fwdsel') !== null)  {
+    
+    var bitmoSheet = "Escape";
+    var bitmoRow = "4";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018EscapeFWDSEL').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018EscapeFWDSEL').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018EscapeFWDSEL').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018EscapeFWDSEL').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018EscapeFWDSEL').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018EscapeFWDSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EscapeFWDSEL').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EscapeFWDSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EscapeFWDSEL').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EscapeFWDSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EscapeFWDSEL').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-escape-fwdsel #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-escape-fwdsel .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-escape-fwdsel #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-escape-fwdsel .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+    
+  if(document.getElementById('bit-2018-escape-awdsel') !== null)  {
+    
+    var bitmoSheet = "Escape";
+    var bitmoRow = "5";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018EscapeAWDSEL').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018EscapeAWDSEL').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018EscapeAWDSEL').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018EscapeAWDSEL').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018EscapeAWDSEL').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018EscapeAWDSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EscapeAWDSEL').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EscapeAWDSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EscapeAWDSEL').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EscapeAWDSEL').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EscapeAWDSEL').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-escape-awdsel #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-escape-awdsel .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-escape-awdsel #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-escape-awdsel .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+    
+  if(document.getElementById('bit-2018-escape-titanium4wd') !== null)  {
+    
+    var bitmoSheet = "Escape";
+    var bitmoRow = "6";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-2018EscapeTitanium4WD').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-2018EscapeTitanium4WD').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-2018EscapeTitanium4WD').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-2018EscapeTitanium4WD').innerHTML = value[5];
+            
+            document.getElementById('BitMoto-buyFor-2018EscapeTitanium4WD').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-2018EscapeTitanium4WD').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-2018EscapeTitanium4WD').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-2018EscapeTitanium4WD').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-2018EscapeTitanium4WD').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-2018EscapeTitanium4WD').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-2018EscapeTitanium4WD').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-2018-escape-titanium4wd #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-2018-escape-titanium4wd .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-2018-escape-titanium4wd #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-2018-escape-titanium4wd .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
       
   }
 // END - Escape Offers
