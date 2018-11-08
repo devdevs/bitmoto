@@ -174,6 +174,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EdgeAWDSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EdgeAWDSE').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EdgeAWDSE').innerHTML = value[7];
             
@@ -188,6 +189,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-edge-awdse #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-edge-awdse #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -215,6 +220,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EdgeAWDSEL').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EdgeAWDSEL').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EdgeAWDSEL').innerHTML = value[7];
             
@@ -229,6 +235,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-edge-awdsel #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-edge-awdsel #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -257,6 +267,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EdgeAWDSELwLeather').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EdgeAWDSELwLeather').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EdgeAWDSELwLeather').innerHTML = value[7];
             
@@ -271,6 +282,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-edge-awdselwleather #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-edge-awdselwleather #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -301,6 +316,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018FocusSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018FocusSE').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018FocusSE').innerHTML = value[7];
             
@@ -315,6 +331,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-focus-se #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-focus-se #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -346,6 +366,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeFWDSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeFWDSE').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeFWDSE').innerHTML = value[7];
             
@@ -360,6 +381,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-escape-fwdse #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-escape-fwdse #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -387,6 +412,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeAWDSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeAWDSE').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeAWDSE').innerHTML = value[7];
             
@@ -401,6 +427,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-escape-awdse #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-escape-awdse #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -428,6 +458,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeFWDSEL').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeFWDSEL').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeFWDSEL').innerHTML = value[7];
             
@@ -442,6 +473,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-escape-fwdsel #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-escape-fwdsel #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -469,6 +504,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeAWDSEL').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeAWDSEL').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeAWDSEL').innerHTML = value[7];
             
@@ -483,6 +519,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-escape-awdsel #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-escape-awdsel #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -510,6 +550,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeTitanium4WD').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeTitanium4WD').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeTitanium4WD').innerHTML = value[7];
             
@@ -524,6 +565,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-escape-titanium4wd #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-escape-titanium4wd #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -554,6 +599,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018ExplorerFWDXLT').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018ExplorerFWDXLT').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018ExplorerFWDXLT').innerHTML = value[7];
             
@@ -568,6 +614,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-explorer-fwdxlt #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-explorer-fwdxlt #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -596,6 +646,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018ExplorerAWDXLT').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018ExplorerAWDXLT').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018ExplorerAWDXLT').innerHTML = value[7];
             
@@ -610,6 +661,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-explorer-awdxlt #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-explorer-awdxlt #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -640,6 +695,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EcoSportS').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EcoSportS').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EcoSportS').innerHTML = value[7];
             
@@ -654,6 +710,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-ecosport-s #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-ecosport-s #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -682,6 +742,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EcoSportSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EcoSportSE').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EcoSportSE').innerHTML = value[7];
             
@@ -696,6 +757,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-ecosport-se #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-ecosport-se #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -726,6 +791,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018F1504x4SuperCabSTX').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018F1504x4SuperCabSTX').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018F1504x4SuperCabSTX').innerHTML = value[7];
             
@@ -740,6 +806,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-f150-4x4supercabstx #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-f150-4x4supercabstx #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -768,6 +838,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018F1504x4SuperCrewSTX').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018F1504x4SuperCrewSTX').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018F1504x4SuperCrewSTX').innerHTML = value[7];
             
@@ -782,6 +853,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-f150-4x4supercrewstx #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-f150-4x4supercrewstx #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -810,6 +885,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018F1504x4SuperCrewXLTwNav').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018F1504x4SuperCrewXLTwNav').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018F1504x4SuperCrewXLTwNav').innerHTML = value[7];
             
@@ -824,6 +900,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-f150-4x4supercrewxltwnav #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-f150-4x4supercrewxltwnav #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -854,6 +934,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018TaurusSEL').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018TaurusSEL').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018TaurusSEL').innerHTML = value[7];
             
@@ -868,6 +949,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-taurus-sel #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-taurus-sel #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -899,6 +984,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018MustangEcoBoost').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018MustangEcoBoost').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018MustangEcoBoost').innerHTML = value[7];
             
@@ -913,6 +999,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-mustang-ecoboost #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-mustang-ecoboost #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
@@ -944,6 +1034,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018FiestaSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018FiestaSE').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018FiestaSE').innerHTML = value[7];
             
@@ -958,6 +1049,10 @@ function trimOffer() {
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-fiesta-se #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-2018-fiesta-se #BitMoto-plusCash').style.display = "none";
             }
           
             if(value[DAS] === "" || value[DAS] === undefined) {
