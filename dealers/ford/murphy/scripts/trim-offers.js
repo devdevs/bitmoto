@@ -677,6 +677,56 @@ function trimOffer() {
     });
       
   }
+  
+if(document.getElementById('bit-explorer-trim3') !== null)  {
+    
+    var bitmoSheet = "Explorer";
+    var bitmoRow = "4";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-Year-Explorer-Trim3').innerHTML = value[0];
+            document.getElementById('BitMoto-Trim-Explorer-Trim3').innerHTML = value[1];
+          
+            document.getElementById('BitMoto-leaseOffer-Explorer-Trim3').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-Explorer-Trim3').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-Explorer-Trim3').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-Explorer-Trim3').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-Explorer-Trim3').innerHTML = value[6];
+            
+            document.getElementById('BitMoto-buyFor-Explorer-Trim3').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-Explorer-Trim3').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-Explorer-Trim3').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-Explorer-Trim3').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-Explorer-Trim3').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-Explorer-Trim3').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-Explorer-Trim3').href = value[9];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-explorer-trim3 #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-explorer-trim3 #BitMoto-plusCash').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-explorer-trim3 .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-explorer-trim3 #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-explorer-trim3 .BitMoto-Offer>sup').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
 // END - Explorer Offers
 
 // START - EcoSport Offers
