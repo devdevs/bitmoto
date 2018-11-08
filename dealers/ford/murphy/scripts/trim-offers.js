@@ -370,7 +370,6 @@ function trimOffer() {
             
         });
     });
-      
   }
   
   if(document.getElementById('bit-2018-escape-awdse') !== null)  {
@@ -412,6 +411,7 @@ function trimOffer() {
             
         });
     });
+  }
     
   if(document.getElementById('bit-2018-escape-fwdsel') !== null)  {
     
@@ -452,6 +452,7 @@ function trimOffer() {
             
         });
     });
+  }
     
   if(document.getElementById('bit-2018-escape-awdsel') !== null)  {
     
@@ -492,7 +493,8 @@ function trimOffer() {
             
         });
     });
-    
+  }
+ 
   if(document.getElementById('bit-2018-escape-titanium4wd') !== null)  {
     
     var bitmoSheet = "Escape";
