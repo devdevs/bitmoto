@@ -174,7 +174,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EdgeAWDSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EdgeAWDSE').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EdgeAWDSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EdgeAWDSE').innerHTML = value[7];
             
@@ -220,7 +220,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EdgeAWDSEL').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EdgeAWDSEL').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EdgeAWDSEL').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EdgeAWDSEL').innerHTML = value[7];
             
@@ -267,7 +267,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EdgeAWDSELwLeather').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EdgeAWDSELwLeather').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EdgeAWDSELwLeather').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EdgeAWDSELwLeather').innerHTML = value[7];
             
@@ -316,7 +316,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018FocusSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018FocusSE').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018FocusSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018FocusSE').innerHTML = value[7];
             
@@ -366,7 +366,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeFWDSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeFWDSE').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EscapeFWDSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeFWDSE').innerHTML = value[7];
             
@@ -412,7 +412,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeAWDSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeAWDSE').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EscapeAWDSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeAWDSE').innerHTML = value[7];
             
@@ -458,7 +458,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeFWDSEL').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeFWDSEL').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EscapeFWDSEL').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeFWDSEL').innerHTML = value[7];
             
@@ -504,7 +504,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeAWDSEL').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeAWDSEL').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EscapeAWDSEL').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeAWDSEL').innerHTML = value[7];
             
@@ -550,7 +550,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EscapeTitanium4WD').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EscapeTitanium4WD').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EscapeTitanium4WD').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EscapeTitanium4WD').innerHTML = value[7];
             
@@ -599,7 +599,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018ExplorerFWDXLT').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018ExplorerFWDXLT').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018ExplorerFWDXLT').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018ExplorerFWDXLT').innerHTML = value[7];
             
@@ -646,7 +646,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018ExplorerAWDXLT').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018ExplorerAWDXLT').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018ExplorerAWDXLT').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018ExplorerAWDXLT').innerHTML = value[7];
             
@@ -695,7 +695,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EcoSportS').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EcoSportS').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EcoSportS').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EcoSportS').innerHTML = value[7];
             
@@ -742,7 +742,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018EcoSportSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018EcoSportSE').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018EcoSportSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018EcoSportSE').innerHTML = value[7];
             
@@ -791,7 +791,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018F1504x4SuperCabSTX').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018F1504x4SuperCabSTX').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018F1504x4SuperCabSTX').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018F1504x4SuperCabSTX').innerHTML = value[7];
             
@@ -838,7 +838,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018F1504x4SuperCrewSTX').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018F1504x4SuperCrewSTX').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018F1504x4SuperCrewSTX').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018F1504x4SuperCrewSTX').innerHTML = value[7];
             
@@ -885,7 +885,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018F1504x4SuperCrewXLTwNav').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018F1504x4SuperCrewXLTwNav').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018F1504x4SuperCrewXLTwNav').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018F1504x4SuperCrewXLTwNav').innerHTML = value[7];
             
@@ -934,7 +934,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018TaurusSEL').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018TaurusSEL').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018TaurusSEL').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018TaurusSEL').innerHTML = value[7];
             
@@ -984,7 +984,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018MustangEcoBoost').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018MustangEcoBoost').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018MustangEcoBoost').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018MustangEcoBoost').innerHTML = value[7];
             
@@ -1034,7 +1034,7 @@ function trimOffer() {
             
             document.getElementById('BitMoto-APR-2018FiestaSE').innerHTML = value[4];
             document.getElementById('BitMoto-termLength-2018FiestaSE').innerHTML = value[5];
-            document.getElementById('BitMoto-plusCash-2018FusionSE').innerHTML = value[6];
+            document.getElementById('BitMoto-plusCash-2018FiestaSE').innerHTML = value[6];
             
             document.getElementById('BitMoto-buyFor-2018FiestaSE').innerHTML = value[7];
             
