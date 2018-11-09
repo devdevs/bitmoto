@@ -61,7 +61,7 @@ function trimOffer() {
                 document.querySelector('#bit-2018-fusion-se .BitMoto-Offer>sup').style.display = "none";
             }
           
-            if(value[show] === 0) {
+            if(value[show] === 'FALSE') {
                 document.getElementById('bit-2018-fusion-se').style.display = "none";
             }
             
@@ -113,7 +113,7 @@ function trimOffer() {
                 document.querySelector('#bit-2019-fusion-fwdse .BitMoto-Offer>sup').style.display = "none";
             }
           
-            if(value[show] === 0) {
+            if(value[show] === 'FALSE') {
                 document.getElementById('bit-2018-fusion-fwdse').style.display = "none";
             }
             
@@ -166,7 +166,7 @@ function trimOffer() {
                 document.querySelector('#bit-2019-fusion-hybridse .BitMoto-Offer>sup').style.display = "none";
             }
           
-            if(value[show] === 0) {
+            if(value[show] === 'FALSE') {
                 document.getElementById('bit-2019-fusion-hybridse').style.display = "none";
             }
             
@@ -219,7 +219,7 @@ if(document.getElementById('bit-fusion-trim4') !== null)  {
                 document.querySelector('#bit-fusion-trim4 .BitMoto-Offer>sup').style.display = "none";
             }
           
-            if(value[show] === 0) {
+            if(value[show] === 'FALSE') {
                 document.getElementById('bit-fusion-trim4').style.display = "none";
             }
             
