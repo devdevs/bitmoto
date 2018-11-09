@@ -114,7 +114,7 @@ function trimOffer() {
             }
           
             if(value[show] === 'FALSE') {
-                document.getElementById('bit-2018-fusion-fwdse').style.display = "none";
+                document.getElementById('bit-2019-fusion-fwdse').style.display = "none";
             }
             
         });
