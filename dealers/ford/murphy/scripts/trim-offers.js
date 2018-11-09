@@ -21,7 +21,7 @@ function trimOffer() {
     
     var bitmoSheet = "Fusion";
     var bitmoRow = "3";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -73,7 +73,7 @@ function trimOffer() {
     
     var bitmoSheet = "Fusion";
     var bitmoRow = "4";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -126,7 +126,7 @@ function trimOffer() {
     
     var bitmoSheet = "Fusion";
     var bitmoRow = "5";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -179,7 +179,7 @@ if(document.getElementById('bit-fusion-trim4') !== null)  {
     
     var bitmoSheet = "Fusion";
     var bitmoRow = "6";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
