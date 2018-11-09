@@ -5,7 +5,7 @@ var key = "AIzaSyBtj9Bs0ue2TA6PIMbIh5lfFPnPhn-w058";
 
 var year = 0;   var trim = 1;   var leaseOffer = 2;    var DAS = 3;    var APR = 4;
 var termLength = 5; var plusCash = 6; var buyFor = 7; var claimOfferText = 8;   var claimOfferLink  = 9;
-var disclaimer = 10;
+var disclaimer = 10;  var show = 11; var leaseTerm = 12;  var offer3Text = 13;
 
 // TEMP CSS EDIT
 //document.querySelector('.BitMoto-Offer span:nth-of-type(3)').style.display = "none";
@@ -44,6 +44,8 @@ function trimOffer() {
           
             document.getElementById('BitMoto-claimButton3-2018FusionSE').innerHTML = value[8];
             document.getElementById('BitMoto-claimButton3-2018FusionSE').href = value[9];
+          
+            document.getElementById('BitMoto-disclaimer-Fusion-Trim1').innerHTML = value[10];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-2018-fusion-se #BitMoto-Offer3').style.display = "none";
