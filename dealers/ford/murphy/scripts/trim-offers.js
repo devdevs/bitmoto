@@ -26,6 +26,9 @@ function trimOffer() {
     
     jQuery.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
+          
+            document.getElementById('BitMoto-Year-Fusion-Trim1').innerHTML = value[0];
+            document.getElementById('BitMoto-Trim-Fusion-Trim1').innerHTML = value[1];
             
             document.getElementById('BitMoto-leaseOffer-Fusion-Trim1').innerHTML = value[2];
             document.getElementById('BitMoto-DAS-Fusion-Trim1').innerHTML = value[3];
@@ -82,6 +85,9 @@ function trimOffer() {
     
     jQuery.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
+          
+            document.getElementById('BitMoto-Year-Fusion-Trim2').innerHTML = value[0];
+            document.getElementById('BitMoto-Trim-Fusion-Trim2').innerHTML = value[1];
             
             document.getElementById('BitMoto-leaseOffer-Fusion-Trim2').innerHTML = value[2];
             document.getElementById('BitMoto-DAS-Fusion-Trim2').innerHTML = value[3];
@@ -138,6 +144,9 @@ function trimOffer() {
     
     jQuery.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
+          
+            document.getElementById('BitMoto-Year-Fusion-Trim3').innerHTML = value[0];
+            document.getElementById('BitMoto-Trim-Fusion-Trim3').innerHTML = value[1];
             
             document.getElementById('BitMoto-leaseOffer-Fusion-Trim3').innerHTML = value[2];
             document.getElementById('BitMoto-DAS-Fusion-Trim3').innerHTML = value[3];
@@ -195,6 +204,9 @@ function trimOffer() {
     
     jQuery.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
+          
+            document.getElementById('BitMoto-Year-Fusion-Trim4').innerHTML = value[0];
+            document.getElementById('BitMoto-Trim-Fusion-Trim4').innerHTML = value[1];
             
             document.getElementById('BitMoto-leaseOffer-Fusion-Trim4').innerHTML = value[2];
             document.getElementById('BitMoto-DAS-Fusion-Trim4').innerHTML = value[3];
@@ -252,6 +264,9 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     jQuery.getJSON(URL, function(data) {
         $.each(data.values, function(index,value) {
+          
+            document.getElementById('BitMoto-Year-Fusion-Trim5').innerHTML = value[0];
+            document.getElementById('BitMoto-Trim-Fusion-Trim5').innerHTML = value[1];
             
             document.getElementById('BitMoto-leaseOffer-Fusion-Trim5').innerHTML = value[2];
             document.getElementById('BitMoto-DAS-Fusion-Trim5').innerHTML = value[3];
