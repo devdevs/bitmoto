@@ -60,6 +60,10 @@ function trimOffer() {
                 document.querySelector('#bit-2018-fusion-se #BitMoto-PaymentTerm').style.display = "none";
                 document.querySelector('#bit-2018-fusion-se .BitMoto-Offer>sup').style.display = "none";
             }
+          
+            if(value[show] === 0) {
+                document.getElementById('bit-2018-fusion-se').style.display = "none";
+            }
             
         });
     });
@@ -107,6 +111,10 @@ function trimOffer() {
                 document.querySelector('#bit-2019-fusion-fwdse .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
                 document.querySelector('#bit-2019-fusion-fwdse #BitMoto-PaymentTerm').style.display = "none";
                 document.querySelector('#bit-2019-fusion-fwdse .BitMoto-Offer>sup').style.display = "none";
+            }
+          
+            if(value[show] === 0) {
+                document.getElementById('bit-2018-fusion-fwdse').style.display = "none";
             }
             
         });
@@ -156,6 +164,63 @@ function trimOffer() {
                 document.querySelector('#bit-2019-fusion-hybridse .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
                 document.querySelector('#bit-2019-fusion-hybridse #BitMoto-PaymentTerm').style.display = "none";
                 document.querySelector('#bit-2019-fusion-hybridse .BitMoto-Offer>sup').style.display = "none";
+            }
+          
+            if(value[show] === 0) {
+                document.getElementById('bit-2019-fusion-hybridse').style.display = "none";
+            }
+            
+        });
+    });
+      
+  }
+  
+if(document.getElementById('bit-fusion-trim4') !== null)  {
+    
+    var bitmoSheet = "Fusion";
+    var bitmoRow = "6";
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
+    
+    jQuery.getJSON(URL, function(data) {
+        $.each(data.values, function(index,value) {
+            
+            document.getElementById('BitMoto-leaseOffer-Fusion-Trim4').innerHTML = value[2];
+            document.getElementById('BitMoto-DAS-Fusion-Trim4').innerHTML = value[3];
+            
+            document.getElementById('BitMoto-APR-Fusion-Trim4').innerHTML = value[4];
+            document.getElementById('BitMoto-termLength-Fusion-Trim4').innerHTML = value[5];
+            document.getElementById('BitMoto-plusCash-Fusion-Trim4').innerHTML = value[6];
+            
+            document.getElementById('BitMoto-buyFor-Fusion-Trim4').innerHTML = value[7];
+            
+            document.getElementById('BitMoto-claimButton1-Fusion-Trim4').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton1-Fusion-Trim4').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton2-Fusion-Trim4').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton2-Fusion-Trim4').href = value[9];
+          
+            document.getElementById('BitMoto-claimButton3-Fusion-Trim4').innerHTML = value[8];
+            document.getElementById('BitMoto-claimButton3-Fusion-Trim4').href = value[9];
+          
+            document.getElementById('BitMoto-disclaimer-Fusion-Trim4').innerHTML = value[10];
+            
+            if(value[buyFor] === "" || value[buyFor] === undefined) {
+                document.querySelector('#bit-fusion-trim4 #BitMoto-Offer3').style.display = "none";
+            }
+          
+            if(value[plusCash] === "" || value[plusCash] === undefined) {
+                document.querySelector('#bit-fusion-trim4 #BitMoto-plusCash').style.display = "none";
+            }
+          
+            if(value[DAS] === "" || value[DAS] === undefined) {
+                document.querySelector('#bit-fusion-trim4 .BitMoto-Offer span:nth-of-type(3)').style.display = "none";
+                document.querySelector('#bit-fusion-trim4 #BitMoto-PaymentTerm').style.display = "none";
+                document.querySelector('#bit-fusion-trim4 .BitMoto-Offer>sup').style.display = "none";
+            }
+          
+            if(value[show] === 0) {
+                document.getElementById('bit-fusion-trim4').style.display = "none";
             }
             
         });
