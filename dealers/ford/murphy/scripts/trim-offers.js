@@ -1378,9 +1378,9 @@ if(document.getElementById('bit-explorer-trim3') !== null)  {
           
             document.getElementById('BitMoto-disclaimer-Explorer-Trim3').innerHTML = value[10];
           
-            document.getElementById('BitMoto-LeaseTerm-Explorer-Trim3').innerHTML = value[12];
+            //document.getElementById('BitMoto-LeaseTerm-Explorer-Trim3').innerHTML = value[12];
           
-            document.getElementById('BitMoto-offer3Text-Explorer-Trim3').innerHTML = value[13];
+            //document.getElementById('BitMoto-offer3Text-Explorer-Trim3').innerHTML = value[13];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-explorer-trim3 #BitMoto-Offer3').style.display = "none";
@@ -1438,9 +1438,9 @@ if(document.getElementById('bit-explorer-trim3') !== null)  {
           
             document.getElementById('BitMoto-disclaimer-Explorer-Trim4').innerHTML = value[10];
           
-            document.getElementById('BitMoto-LeaseTerm-Explorer-Trim4').innerHTML = value[12];
+            //document.getElementById('BitMoto-LeaseTerm-Explorer-Trim4').innerHTML = value[12];
           
-            document.getElementById('BitMoto-offer3Text-Explorer-Trim4').innerHTML = value[13];
+            //document.getElementById('BitMoto-offer3Text-Explorer-Trim4').innerHTML = value[13];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-explorer-trim4 #BitMoto-Offer3').style.display = "none";
@@ -1498,9 +1498,9 @@ if(document.getElementById('bit-explorer-trim5') !== null)  {
           
             document.getElementById('BitMoto-disclaimer-Explorer-Trim5').innerHTML = value[10];
           
-            document.getElementById('BitMoto-LeaseTerm-Explorer-Trim5').innerHTML = value[12];
+            //document.getElementById('BitMoto-LeaseTerm-Explorer-Trim5').innerHTML = value[12];
           
-            document.getElementById('BitMoto-offer3Text-Explorer-Trim5').innerHTML = value[13];
+            //document.getElementById('BitMoto-offer3Text-Explorer-Trim5').innerHTML = value[13];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-explorer-trim5 #BitMoto-Offer3').style.display = "none";
