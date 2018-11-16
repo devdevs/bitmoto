@@ -321,7 +321,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Edge";
     var bitmoRow = "2";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -380,7 +380,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Edge";
     var bitmoRow = "3";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -440,7 +440,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Edge";
     var bitmoRow = "4";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -501,7 +501,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Edge";
     var bitmoRow = "5";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -562,7 +562,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Edge";
     var bitmoRow = "6";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -624,7 +624,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Focus";
     var bitmoRow = "2";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -685,7 +685,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Focus";
     var bitmoRow = "3";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -746,7 +746,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Focus";
     var bitmoRow = "4";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -807,7 +807,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Focus";
     var bitmoRow = "5";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -868,7 +868,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Focus";
     var bitmoRow = "6";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -931,7 +931,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Escape";
     var bitmoRow = "2";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -990,7 +990,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Escape";
     var bitmoRow = "3";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -1049,7 +1049,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Escape";
     var bitmoRow = "4";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -1108,7 +1108,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Escape";
     var bitmoRow = "5";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -1167,7 +1167,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Escape";
     var bitmoRow = "6";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -1229,7 +1229,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Explorer";
     var bitmoRow = "2";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -1289,7 +1289,7 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
     
     var bitmoSheet = "Explorer";
     var bitmoRow = "3";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -1349,7 +1349,7 @@ if(document.getElementById('bit-explorer-trim3') !== null)  {
     
     var bitmoSheet = "Explorer";
     var bitmoRow = "4";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -1409,7 +1409,7 @@ if(document.getElementById('bit-explorer-trim3') !== null)  {
     
     var bitmoSheet = "Explorer";
     var bitmoRow = "5";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
@@ -1469,7 +1469,7 @@ if(document.getElementById('bit-explorer-trim5') !== null)  {
     
     var bitmoSheet = "Explorer";
     var bitmoRow = "6";
-    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":K"+bitmoRow;
+    var bitmoRange = bitmoSheet+"!A"+bitmoRow+":N"+bitmoRow;
     var URL = "https://sheets.googleapis.com/v4/spreadsheets/"+spreadsheet+"/values/"+bitmoRange+"?key="+key;
     
     jQuery.getJSON(URL, function(data) {
