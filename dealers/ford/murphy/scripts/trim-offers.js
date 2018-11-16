@@ -350,9 +350,9 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
           
             document.getElementById('BitMoto-disclaimer-Edge-Trim1').innerHTML = value[10];
           
-            document.getElementById('BitMoto-LeaseTerm-Edge-Trim1').innerHTML = value[12];
+            //document.getElementById('BitMoto-LeaseTerm-Edge-Trim1').innerHTML = value[12];
           
-            document.getElementById('BitMoto-offer3Text-Edge-Trim1').innerHTML = value[13];
+            //document.getElementById('BitMoto-offer3Text-Edge-Trim1').innerHTML = value[13];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-edge-trim1 #BitMoto-Offer3').style.display = "none";
@@ -409,9 +409,9 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
           
             document.getElementById('BitMoto-disclaimer-Edge-Trim2').innerHTML = value[10];
           
-            document.getElementById('BitMoto-LeaseTerm-Edge-Trim2').innerHTML = value[12];
+            //document.getElementById('BitMoto-LeaseTerm-Edge-Trim2').innerHTML = value[12];
           
-            document.getElementById('BitMoto-offer3Text-Edge-Trim2').innerHTML = value[13];
+            //document.getElementById('BitMoto-offer3Text-Edge-Trim2').innerHTML = value[13];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-edge-trim2 #BitMoto-Offer3').style.display = "none";
@@ -469,9 +469,9 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
           
             document.getElementById('BitMoto-disclaimer-Edge-Trim3').innerHTML = value[10];
           
-            document.getElementById('BitMoto-LeaseTerm-Edge-Trim3').innerHTML = value[12];
+            //document.getElementById('BitMoto-LeaseTerm-Edge-Trim3').innerHTML = value[12];
           
-            document.getElementById('BitMoto-offer3Text-Edge-Trim3').innerHTML = value[13];
+            //document.getElementById('BitMoto-offer3Text-Edge-Trim3').innerHTML = value[13];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-edge-trim3 #BitMoto-Offer3').style.display = "none";
@@ -530,9 +530,9 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
           
             document.getElementById('BitMoto-disclaimer-Edge-Trim4').innerHTML = value[10];
           
-            document.getElementById('BitMoto-LeaseTerm-Edge-Trim4').innerHTML = value[12];
+            //document.getElementById('BitMoto-LeaseTerm-Edge-Trim4').innerHTML = value[12];
           
-            document.getElementById('BitMoto-offer3Text-Edge-Trim4').innerHTML = value[13];
+            //document.getElementById('BitMoto-offer3Text-Edge-Trim4').innerHTML = value[13];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-edge-trim4 #BitMoto-Offer3').style.display = "none";
@@ -591,9 +591,9 @@ if(document.getElementById('bit-fusion-trim5') !== null)  {
           
             document.getElementById('BitMoto-disclaimer-Edge-Trim5').innerHTML = value[10];
           
-            document.getElementById('BitMoto-LeaseTerm-Edge-Trim5').innerHTML = value[12];
+            //document.getElementById('BitMoto-LeaseTerm-Edge-Trim5').innerHTML = value[12];
           
-            document.getElementById('BitMoto-offer3Text-Edge-Trim5').innerHTML = value[13];
+            //document.getElementById('BitMoto-offer3Text-Edge-Trim5').innerHTML = value[13];
             
             if(value[buyFor] === "" || value[buyFor] === undefined) {
                 document.querySelector('#bit-edge-trim5 #BitMoto-Offer3').style.display = "none";
